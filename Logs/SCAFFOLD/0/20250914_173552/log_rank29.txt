@@ -1,0 +1,133 @@
+2025-09-14 17:35:52,896:INFO: Process 29 is initializing the server
+2025-09-14 17:35:52,931:INFO: Process 29: Server is successfully initialized
+2025-09-14 17:36:29,813:INFO: Process 29: Clients are successfully initialized
+2025-09-14 17:36:29,813:INFO: 
+Process 29: Communication Round 1
+2025-09-14 17:36:44,007:INFO: Process 29: client_update has completed
+2025-09-14 17:36:44,565:INFO: Process 29: server_update has completed
+2025-09-14 17:37:11,200:INFO: 
+Process 29: Communication Round 2
+2025-09-14 17:37:25,172:INFO: Process 29: client_update has completed
+2025-09-14 17:37:25,292:INFO: Process 29: server_update has completed
+2025-09-14 17:37:51,680:INFO: 
+Process 29: Communication Round 3
+2025-09-14 17:38:05,187:INFO: Process 29: client_update has completed
+2025-09-14 17:38:05,600:INFO: Process 29: server_update has completed
+2025-09-14 17:38:31,506:INFO: 
+Process 29: Communication Round 4
+2025-09-14 17:38:45,524:INFO: Process 29: client_update has completed
+2025-09-14 17:38:45,845:INFO: Process 29: server_update has completed
+2025-09-14 17:39:11,865:INFO: 
+Process 29: Communication Round 5
+2025-09-14 17:39:25,586:INFO: Process 29: client_update has completed
+2025-09-14 17:39:26,253:INFO: Process 29: server_update has completed
+2025-09-14 17:39:52,039:INFO: 
+Process 29: Communication Round 6
+2025-09-14 17:40:04,864:INFO: Process 29: client_update has completed
+2025-09-14 17:40:07,110:INFO: Process 29: server_update has completed
+2025-09-14 17:40:33,163:INFO: 
+Process 29: Communication Round 7
+2025-09-14 17:40:46,879:INFO: Process 29: client_update has completed
+2025-09-14 17:40:47,296:INFO: Process 29: server_update has completed
+2025-09-14 17:41:13,024:INFO: 
+Process 29: Communication Round 8
+2025-09-14 17:41:26,533:INFO: Process 29: client_update has completed
+2025-09-14 17:41:27,917:INFO: Process 29: server_update has completed
+2025-09-14 17:41:53,014:INFO: 
+Process 29: Communication Round 9
+2025-09-14 17:42:06,323:INFO: Process 29: client_update has completed
+2025-09-14 17:42:07,813:INFO: Process 29: server_update has completed
+2025-09-14 17:42:33,285:INFO: 
+Process 29: Communication Round 10
+2025-09-14 17:42:46,600:INFO: Process 29: client_update has completed
+2025-09-14 17:42:47,613:INFO: Process 29: server_update has completed
+2025-09-14 17:43:13,635:INFO: 
+Process 29: Communication Round 11
+2025-09-14 17:43:26,847:INFO: Process 29: client_update has completed
+2025-09-14 17:43:27,758:INFO: Process 29: server_update has completed
+2025-09-14 17:43:53,618:INFO: 
+Process 29: Communication Round 12
+2025-09-14 17:44:07,147:INFO: Process 29: client_update has completed
+2025-09-14 17:44:07,568:INFO: Process 29: server_update has completed
+2025-09-14 17:44:33,660:INFO: 
+Process 29: Communication Round 13
+2025-09-14 17:44:46,567:INFO: Process 29: client_update has completed
+2025-09-14 17:44:47,538:INFO: Process 29: server_update has completed
+2025-09-14 17:45:15,611:INFO: 
+Process 29: Communication Round 14
+2025-09-14 17:45:29,772:INFO: Process 29: client_update has completed
+2025-09-14 17:45:30,601:INFO: Process 29: server_update has completed
+2025-09-14 17:45:56,692:INFO: 
+Process 29: Communication Round 15
+2025-09-14 17:46:10,367:INFO: Process 29: client_update has completed
+2025-09-14 17:46:10,546:INFO: Process 29: server_update has completed
+2025-09-14 17:46:36,162:INFO: 
+Process 29: Communication Round 16
+2025-09-14 17:46:48,750:INFO: Process 29: client_update has completed
+2025-09-14 17:46:50,709:INFO: Process 29: server_update has completed
+2025-09-14 17:47:16,003:INFO: 
+Process 29: Communication Round 17
+2025-09-14 17:47:29,193:INFO: Process 29: client_update has completed
+2025-09-14 17:47:30,617:INFO: Process 29: server_update has completed
+2025-09-14 17:47:56,098:INFO: 
+Process 29: Communication Round 18
+2025-09-14 17:48:09,443:INFO: Process 29: client_update has completed
+2025-09-14 17:48:11,217:INFO: Process 29: server_update has completed
+2025-09-14 17:48:37,246:INFO: 
+Process 29: Communication Round 19
+2025-09-14 17:48:50,055:INFO: Process 29: client_update has completed
+2025-09-14 17:48:50,941:INFO: Process 29: server_update has completed
+2025-09-14 17:49:16,381:INFO: 
+Process 29: Communication Round 20
+2025-09-14 17:49:29,150:INFO: Process 29: client_update has completed
+2025-09-14 17:49:30,988:INFO: Process 29: server_update has completed
+2025-09-14 17:49:56,251:INFO: 
+Process 29: Communication Round 21
+2025-09-14 17:50:09,398:INFO: Process 29: client_update has completed
+2025-09-14 17:50:10,694:INFO: Process 29: server_update has completed
+2025-09-14 17:50:35,878:INFO: 
+Process 29: Communication Round 22
+2025-09-14 17:50:48,654:INFO: Process 29: client_update has completed
+2025-09-14 17:50:50,068:INFO: Process 29: server_update has completed
+2025-09-14 17:51:15,670:INFO: 
+Process 29: Communication Round 23
+2025-09-14 17:51:28,918:INFO: Process 29: client_update has completed
+2025-09-14 17:51:29,873:INFO: Process 29: server_update has completed
+2025-09-14 17:51:55,304:INFO: 
+Process 29: Communication Round 24
+2025-09-14 17:52:08,597:INFO: Process 29: client_update has completed
+2025-09-14 17:52:10,114:INFO: Process 29: server_update has completed
+2025-09-14 17:52:35,911:INFO: 
+Process 29: Communication Round 25
+2025-09-14 17:52:49,244:INFO: Process 29: client_update has completed
+2025-09-14 17:52:50,031:INFO: Process 29: server_update has completed
+2025-09-14 17:53:15,651:INFO: 
+Process 29: Communication Round 26
+2025-09-14 17:53:28,708:INFO: Process 29: client_update has completed
+2025-09-14 17:53:29,642:INFO: Process 29: server_update has completed
+2025-09-14 17:53:55,107:INFO: 
+Process 29: Communication Round 27
+2025-09-14 17:54:08,214:INFO: Process 29: client_update has completed
+2025-09-14 17:54:09,121:INFO: Process 29: server_update has completed
+2025-09-14 17:54:34,614:INFO: 
+Process 29: Communication Round 28
+2025-09-14 17:54:48,270:INFO: Process 29: client_update has completed
+2025-09-14 17:54:48,620:INFO: Process 29: server_update has completed
+2025-09-14 17:55:09,497:INFO: 
+Process 29: Communication Round 29
+2025-09-14 17:55:23,230:INFO: Process 29: client_update has completed
+2025-09-14 17:55:31,269:INFO: Process 29: server_update has completed
+2025-09-14 17:55:56,529:INFO: 
+Process 29: Communication Round 30
+2025-09-14 17:56:09,671:INFO: Process 29: client_update has completed
+2025-09-14 17:56:11,523:INFO: Process 29: server_update has completed
+2025-09-14 17:56:37,350:INFO: 
+Process 29: Communication Round 31
+2025-09-14 17:56:51,203:INFO: Process 29: client_update has completed
+2025-09-14 17:56:51,367:INFO: Process 29: server_update has completed
+2025-09-14 17:57:17,621:INFO: 
+Process 29: Communication Round 32
+2025-09-14 17:57:32,155:INFO: Process 29: client_update has completed
+2025-09-14 17:57:32,641:INFO: Process 29: server_update has completed
+2025-09-14 17:57:57,584:INFO: 
+Process 29: Communication Round 33

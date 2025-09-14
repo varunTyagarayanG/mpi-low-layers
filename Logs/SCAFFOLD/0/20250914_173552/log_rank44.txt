@@ -1,0 +1,133 @@
+2025-09-14 17:35:52,895:INFO: Process 44 is initializing the server
+2025-09-14 17:35:52,931:INFO: Process 44: Server is successfully initialized
+2025-09-14 17:36:30,053:INFO: Process 44: Clients are successfully initialized
+2025-09-14 17:36:30,054:INFO: 
+Process 44: Communication Round 1
+2025-09-14 17:36:43,943:INFO: Process 44: client_update has completed
+2025-09-14 17:36:44,533:INFO: Process 44: server_update has completed
+2025-09-14 17:37:10,548:INFO: 
+Process 44: Communication Round 2
+2025-09-14 17:37:23,740:INFO: Process 44: client_update has completed
+2025-09-14 17:37:25,290:INFO: Process 44: server_update has completed
+2025-09-14 17:37:51,371:INFO: 
+Process 44: Communication Round 3
+2025-09-14 17:38:04,582:INFO: Process 44: client_update has completed
+2025-09-14 17:38:05,604:INFO: Process 44: server_update has completed
+2025-09-14 17:38:31,579:INFO: 
+Process 44: Communication Round 4
+2025-09-14 17:38:45,035:INFO: Process 44: client_update has completed
+2025-09-14 17:38:45,877:INFO: Process 44: server_update has completed
+2025-09-14 17:39:12,052:INFO: 
+Process 44: Communication Round 5
+2025-09-14 17:39:25,136:INFO: Process 44: client_update has completed
+2025-09-14 17:39:26,269:INFO: Process 44: server_update has completed
+2025-09-14 17:39:52,516:INFO: 
+Process 44: Communication Round 6
+2025-09-14 17:40:05,816:INFO: Process 44: client_update has completed
+2025-09-14 17:40:07,113:INFO: Process 44: server_update has completed
+2025-09-14 17:40:33,110:INFO: 
+Process 44: Communication Round 7
+2025-09-14 17:40:46,484:INFO: Process 44: client_update has completed
+2025-09-14 17:40:47,330:INFO: Process 44: server_update has completed
+2025-09-14 17:41:13,270:INFO: 
+Process 44: Communication Round 8
+2025-09-14 17:41:26,716:INFO: Process 44: client_update has completed
+2025-09-14 17:41:27,910:INFO: Process 44: server_update has completed
+2025-09-14 17:41:53,757:INFO: 
+Process 44: Communication Round 9
+2025-09-14 17:42:06,718:INFO: Process 44: client_update has completed
+2025-09-14 17:42:07,813:INFO: Process 44: server_update has completed
+2025-09-14 17:42:33,476:INFO: 
+Process 44: Communication Round 10
+2025-09-14 17:42:46,858:INFO: Process 44: client_update has completed
+2025-09-14 17:42:47,629:INFO: Process 44: server_update has completed
+2025-09-14 17:43:13,353:INFO: 
+Process 44: Communication Round 11
+2025-09-14 17:43:26,904:INFO: Process 44: client_update has completed
+2025-09-14 17:43:27,758:INFO: Process 44: server_update has completed
+2025-09-14 17:43:53,599:INFO: 
+Process 44: Communication Round 12
+2025-09-14 17:44:07,266:INFO: Process 44: client_update has completed
+2025-09-14 17:44:07,600:INFO: Process 44: server_update has completed
+2025-09-14 17:44:33,046:INFO: 
+Process 44: Communication Round 13
+2025-09-14 17:44:46,629:INFO: Process 44: client_update has completed
+2025-09-14 17:44:47,539:INFO: Process 44: server_update has completed
+2025-09-14 17:45:15,902:INFO: 
+Process 44: Communication Round 14
+2025-09-14 17:45:30,465:INFO: Process 44: client_update has completed
+2025-09-14 17:45:30,605:INFO: Process 44: server_update has completed
+2025-09-14 17:45:56,272:INFO: 
+Process 44: Communication Round 15
+2025-09-14 17:46:09,888:INFO: Process 44: client_update has completed
+2025-09-14 17:46:10,544:INFO: Process 44: server_update has completed
+2025-09-14 17:46:36,056:INFO: 
+Process 44: Communication Round 16
+2025-09-14 17:46:49,552:INFO: Process 44: client_update has completed
+2025-09-14 17:46:50,706:INFO: Process 44: server_update has completed
+2025-09-14 17:47:16,524:INFO: 
+Process 44: Communication Round 17
+2025-09-14 17:47:29,995:INFO: Process 44: client_update has completed
+2025-09-14 17:47:30,620:INFO: Process 44: server_update has completed
+2025-09-14 17:47:57,008:INFO: 
+Process 44: Communication Round 18
+2025-09-14 17:48:10,275:INFO: Process 44: client_update has completed
+2025-09-14 17:48:11,249:INFO: Process 44: server_update has completed
+2025-09-14 17:48:37,177:INFO: 
+Process 44: Communication Round 19
+2025-09-14 17:48:50,328:INFO: Process 44: client_update has completed
+2025-09-14 17:48:50,933:INFO: Process 44: server_update has completed
+2025-09-14 17:49:16,708:INFO: 
+Process 44: Communication Round 20
+2025-09-14 17:49:29,893:INFO: Process 44: client_update has completed
+2025-09-14 17:49:30,991:INFO: Process 44: server_update has completed
+2025-09-14 17:49:56,916:INFO: 
+Process 44: Communication Round 21
+2025-09-14 17:50:10,606:INFO: Process 44: client_update has completed
+2025-09-14 17:50:10,709:INFO: Process 44: server_update has completed
+2025-09-14 17:50:36,224:INFO: 
+Process 44: Communication Round 22
+2025-09-14 17:50:49,396:INFO: Process 44: client_update has completed
+2025-09-14 17:50:50,073:INFO: Process 44: server_update has completed
+2025-09-14 17:51:15,068:INFO: 
+Process 44: Communication Round 23
+2025-09-14 17:51:28,135:INFO: Process 44: client_update has completed
+2025-09-14 17:51:29,903:INFO: Process 44: server_update has completed
+2025-09-14 17:51:55,188:INFO: 
+Process 44: Communication Round 24
+2025-09-14 17:52:08,106:INFO: Process 44: client_update has completed
+2025-09-14 17:52:10,119:INFO: Process 44: server_update has completed
+2025-09-14 17:52:35,739:INFO: 
+Process 44: Communication Round 25
+2025-09-14 17:52:49,021:INFO: Process 44: client_update has completed
+2025-09-14 17:52:49,997:INFO: Process 44: server_update has completed
+2025-09-14 17:53:16,204:INFO: 
+Process 44: Communication Round 26
+2025-09-14 17:53:29,456:INFO: Process 44: client_update has completed
+2025-09-14 17:53:29,649:INFO: Process 44: server_update has completed
+2025-09-14 17:53:55,188:INFO: 
+Process 44: Communication Round 27
+2025-09-14 17:54:08,891:INFO: Process 44: client_update has completed
+2025-09-14 17:54:09,121:INFO: Process 44: server_update has completed
+2025-09-14 17:54:34,927:INFO: 
+Process 44: Communication Round 28
+2025-09-14 17:54:48,315:INFO: Process 44: client_update has completed
+2025-09-14 17:54:48,601:INFO: Process 44: server_update has completed
+2025-09-14 17:55:16,577:INFO: 
+Process 44: Communication Round 29
+2025-09-14 17:55:29,696:INFO: Process 44: client_update has completed
+2025-09-14 17:55:31,285:INFO: Process 44: server_update has completed
+2025-09-14 17:55:56,716:INFO: 
+Process 44: Communication Round 30
+2025-09-14 17:56:09,887:INFO: Process 44: client_update has completed
+2025-09-14 17:56:11,521:INFO: Process 44: server_update has completed
+2025-09-14 17:56:37,232:INFO: 
+Process 44: Communication Round 31
+2025-09-14 17:56:51,091:INFO: Process 44: client_update has completed
+2025-09-14 17:56:51,369:INFO: Process 44: server_update has completed
+2025-09-14 17:57:17,415:INFO: 
+Process 44: Communication Round 32
+2025-09-14 17:57:31,803:INFO: Process 44: client_update has completed
+2025-09-14 17:57:32,653:INFO: Process 44: server_update has completed
+2025-09-14 17:57:58,442:INFO: 
+Process 44: Communication Round 33
