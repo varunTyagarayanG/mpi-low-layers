@@ -1,0 +1,404 @@
+2025-09-10 15:15:16,650:INFO: Process 16 is initializing the server
+2025-09-10 15:15:16,669:INFO: Process 16: Server is successfully initialized
+2025-09-10 15:15:27,729:INFO: Process 16: Clients are successfully initialized
+2025-09-10 15:15:27,754:INFO: 
+Process 16: Communication Round 1
+2025-09-10 15:15:35,197:INFO: Process 16: client_update has completed
+2025-09-10 15:15:36,571:INFO: Process 16: server_update has completed
+2025-09-10 15:15:54,417:INFO: 
+Process 16: Communication Round 2
+2025-09-10 15:16:02,676:INFO: Process 16: client_update has completed
+2025-09-10 15:16:02,819:INFO: Process 16: server_update has completed
+2025-09-10 15:16:20,621:INFO: 
+Process 16: Communication Round 3
+2025-09-10 15:16:28,725:INFO: Process 16: client_update has completed
+2025-09-10 15:16:29,112:INFO: Process 16: server_update has completed
+2025-09-10 15:16:46,936:INFO: 
+Process 16: Communication Round 4
+2025-09-10 15:16:54,348:INFO: Process 16: client_update has completed
+2025-09-10 15:16:55,791:INFO: Process 16: server_update has completed
+2025-09-10 15:17:13,678:INFO: 
+Process 16: Communication Round 5
+2025-09-10 15:17:21,868:INFO: Process 16: client_update has completed
+2025-09-10 15:17:21,880:INFO: Process 16: server_update has completed
+2025-09-10 15:17:39,961:INFO: 
+Process 16: Communication Round 6
+2025-09-10 15:17:49,302:INFO: Process 16: client_update has completed
+2025-09-10 15:17:49,876:INFO: Process 16: server_update has completed
+2025-09-10 15:18:08,381:INFO: 
+Process 16: Communication Round 7
+2025-09-10 15:18:16,854:INFO: Process 16: client_update has completed
+2025-09-10 15:18:17,037:INFO: Process 16: server_update has completed
+2025-09-10 15:18:35,181:INFO: 
+Process 16: Communication Round 8
+2025-09-10 15:18:42,495:INFO: Process 16: client_update has completed
+2025-09-10 15:18:43,655:INFO: Process 16: server_update has completed
+2025-09-10 15:19:01,681:INFO: 
+Process 16: Communication Round 9
+2025-09-10 15:19:10,130:INFO: Process 16: client_update has completed
+2025-09-10 15:19:10,157:INFO: Process 16: server_update has completed
+2025-09-10 15:19:28,229:INFO: 
+Process 16: Communication Round 10
+2025-09-10 15:19:36,496:INFO: Process 16: client_update has completed
+2025-09-10 15:19:36,535:INFO: Process 16: server_update has completed
+2025-09-10 15:19:54,310:INFO: 
+Process 16: Communication Round 11
+2025-09-10 15:20:02,517:INFO: Process 16: client_update has completed
+2025-09-10 15:20:02,559:INFO: Process 16: server_update has completed
+2025-09-10 15:20:20,858:INFO: 
+Process 16: Communication Round 12
+2025-09-10 15:20:29,255:INFO: Process 16: client_update has completed
+2025-09-10 15:20:29,770:INFO: Process 16: server_update has completed
+2025-09-10 15:20:47,486:INFO: 
+Process 16: Communication Round 13
+2025-09-10 15:20:54,806:INFO: Process 16: client_update has completed
+2025-09-10 15:20:56,007:INFO: Process 16: server_update has completed
+2025-09-10 15:21:13,818:INFO: 
+Process 16: Communication Round 14
+2025-09-10 15:21:22,198:INFO: Process 16: client_update has completed
+2025-09-10 15:21:22,411:INFO: Process 16: server_update has completed
+2025-09-10 15:21:40,683:INFO: 
+Process 16: Communication Round 15
+2025-09-10 15:21:48,721:INFO: Process 16: client_update has completed
+2025-09-10 15:21:48,910:INFO: Process 16: server_update has completed
+2025-09-10 15:22:06,662:INFO: 
+Process 16: Communication Round 16
+2025-09-10 15:22:15,076:INFO: Process 16: client_update has completed
+2025-09-10 15:22:15,221:INFO: Process 16: server_update has completed
+2025-09-10 15:22:33,270:INFO: 
+Process 16: Communication Round 17
+2025-09-10 15:22:41,359:INFO: Process 16: client_update has completed
+2025-09-10 15:22:41,535:INFO: Process 16: server_update has completed
+2025-09-10 15:22:59,590:INFO: 
+Process 16: Communication Round 18
+2025-09-10 15:23:06,822:INFO: Process 16: client_update has completed
+2025-09-10 15:23:07,920:INFO: Process 16: server_update has completed
+2025-09-10 15:23:25,802:INFO: 
+Process 16: Communication Round 19
+2025-09-10 15:23:33,154:INFO: Process 16: client_update has completed
+2025-09-10 15:23:34,357:INFO: Process 16: server_update has completed
+2025-09-10 15:23:52,222:INFO: 
+Process 16: Communication Round 20
+2025-09-10 15:24:01,055:INFO: Process 16: client_update has completed
+2025-09-10 15:24:01,191:INFO: Process 16: server_update has completed
+2025-09-10 15:24:18,350:INFO: 
+Process 16: Communication Round 21
+2025-09-10 15:24:25,224:INFO: Process 16: client_update has completed
+2025-09-10 15:24:26,841:INFO: Process 16: server_update has completed
+2025-09-10 15:24:44,586:INFO: 
+Process 16: Communication Round 22
+2025-09-10 15:24:52,897:INFO: Process 16: client_update has completed
+2025-09-10 15:24:53,048:INFO: Process 16: server_update has completed
+2025-09-10 15:25:10,727:INFO: 
+Process 16: Communication Round 23
+2025-09-10 15:25:18,249:INFO: Process 16: client_update has completed
+2025-09-10 15:25:19,141:INFO: Process 16: server_update has completed
+2025-09-10 15:25:36,722:INFO: 
+Process 16: Communication Round 24
+2025-09-10 15:25:44,458:INFO: Process 16: client_update has completed
+2025-09-10 15:25:45,159:INFO: Process 16: server_update has completed
+2025-09-10 15:26:02,606:INFO: 
+Process 16: Communication Round 25
+2025-09-10 15:26:10,861:INFO: Process 16: client_update has completed
+2025-09-10 15:26:11,035:INFO: Process 16: server_update has completed
+2025-09-10 15:26:28,678:INFO: 
+Process 16: Communication Round 26
+2025-09-10 15:26:35,724:INFO: Process 16: client_update has completed
+2025-09-10 15:26:36,927:INFO: Process 16: server_update has completed
+2025-09-10 15:26:54,658:INFO: 
+Process 16: Communication Round 27
+2025-09-10 15:27:01,706:INFO: Process 16: client_update has completed
+2025-09-10 15:27:03,237:INFO: Process 16: server_update has completed
+2025-09-10 15:27:21,230:INFO: 
+Process 16: Communication Round 28
+2025-09-10 15:27:28,738:INFO: Process 16: client_update has completed
+2025-09-10 15:27:29,595:INFO: Process 16: server_update has completed
+2025-09-10 15:27:48,478:INFO: 
+Process 16: Communication Round 29
+2025-09-10 15:27:57,251:INFO: Process 16: client_update has completed
+2025-09-10 15:27:57,269:INFO: Process 16: server_update has completed
+2025-09-10 15:28:15,138:INFO: 
+Process 16: Communication Round 30
+2025-09-10 15:28:23,175:INFO: Process 16: client_update has completed
+2025-09-10 15:28:23,221:INFO: Process 16: server_update has completed
+2025-09-10 15:28:41,078:INFO: 
+Process 16: Communication Round 31
+2025-09-10 15:28:48,664:INFO: Process 16: client_update has completed
+2025-09-10 15:28:49,115:INFO: Process 16: server_update has completed
+2025-09-10 15:29:07,010:INFO: 
+Process 16: Communication Round 32
+2025-09-10 15:29:14,518:INFO: Process 16: client_update has completed
+2025-09-10 15:29:15,360:INFO: Process 16: server_update has completed
+2025-09-10 15:29:32,746:INFO: 
+Process 16: Communication Round 33
+2025-09-10 15:29:39,949:INFO: Process 16: client_update has completed
+2025-09-10 15:29:41,327:INFO: Process 16: server_update has completed
+2025-09-10 15:29:59,366:INFO: 
+Process 16: Communication Round 34
+2025-09-10 15:30:07,095:INFO: Process 16: client_update has completed
+2025-09-10 15:30:07,351:INFO: Process 16: server_update has completed
+2025-09-10 15:30:25,240:INFO: 
+Process 16: Communication Round 35
+2025-09-10 15:30:32,255:INFO: Process 16: client_update has completed
+2025-09-10 15:30:33,579:INFO: Process 16: server_update has completed
+2025-09-10 15:30:51,430:INFO: 
+Process 16: Communication Round 36
+2025-09-10 15:30:59,603:INFO: Process 16: client_update has completed
+2025-09-10 15:30:59,772:INFO: Process 16: server_update has completed
+2025-09-10 15:31:17,780:INFO: 
+Process 16: Communication Round 37
+2025-09-10 15:31:26,507:INFO: Process 16: client_update has completed
+2025-09-10 15:31:26,555:INFO: Process 16: server_update has completed
+2025-09-10 15:31:44,330:INFO: 
+Process 16: Communication Round 38
+2025-09-10 15:31:52,648:INFO: Process 16: client_update has completed
+2025-09-10 15:31:52,731:INFO: Process 16: server_update has completed
+2025-09-10 15:32:11,016:INFO: 
+Process 16: Communication Round 39
+2025-09-10 15:32:19,040:INFO: Process 16: client_update has completed
+2025-09-10 15:32:19,081:INFO: Process 16: server_update has completed
+2025-09-10 15:32:36,950:INFO: 
+Process 16: Communication Round 40
+2025-09-10 15:32:44,885:INFO: Process 16: client_update has completed
+2025-09-10 15:32:45,335:INFO: Process 16: server_update has completed
+2025-09-10 15:33:03,341:INFO: 
+Process 16: Communication Round 41
+2025-09-10 15:33:11,701:INFO: Process 16: client_update has completed
+2025-09-10 15:33:12,109:INFO: Process 16: server_update has completed
+2025-09-10 15:33:30,166:INFO: 
+Process 16: Communication Round 42
+2025-09-10 15:33:38,500:INFO: Process 16: client_update has completed
+2025-09-10 15:33:39,119:INFO: Process 16: server_update has completed
+2025-09-10 15:33:57,289:INFO: 
+Process 16: Communication Round 43
+2025-09-10 15:34:05,504:INFO: Process 16: client_update has completed
+2025-09-10 15:34:05,543:INFO: Process 16: server_update has completed
+2025-09-10 15:34:23,435:INFO: 
+Process 16: Communication Round 44
+2025-09-10 15:34:31,824:INFO: Process 16: client_update has completed
+2025-09-10 15:34:31,891:INFO: Process 16: server_update has completed
+2025-09-10 15:34:49,835:INFO: 
+Process 16: Communication Round 45
+2025-09-10 15:34:58,276:INFO: Process 16: client_update has completed
+2025-09-10 15:34:58,319:INFO: Process 16: server_update has completed
+2025-09-10 15:35:16,302:INFO: 
+Process 16: Communication Round 46
+2025-09-10 15:35:23,906:INFO: Process 16: client_update has completed
+2025-09-10 15:35:24,815:INFO: Process 16: server_update has completed
+2025-09-10 15:35:42,750:INFO: 
+Process 16: Communication Round 47
+2025-09-10 15:35:49,903:INFO: Process 16: client_update has completed
+2025-09-10 15:35:51,347:INFO: Process 16: server_update has completed
+2025-09-10 15:36:09,226:INFO: 
+Process 16: Communication Round 48
+2025-09-10 15:36:16,536:INFO: Process 16: client_update has completed
+2025-09-10 15:36:17,601:INFO: Process 16: server_update has completed
+2025-09-10 15:36:35,338:INFO: 
+Process 16: Communication Round 49
+2025-09-10 15:36:42,382:INFO: Process 16: client_update has completed
+2025-09-10 15:36:43,991:INFO: Process 16: server_update has completed
+2025-09-10 15:37:01,859:INFO: 
+Process 16: Communication Round 50
+2025-09-10 15:37:09,924:INFO: Process 16: client_update has completed
+2025-09-10 15:37:10,332:INFO: Process 16: server_update has completed
+2025-09-10 15:37:28,197:INFO: 
+Process 16: Communication Round 51
+2025-09-10 15:37:36,197:INFO: Process 16: client_update has completed
+2025-09-10 15:37:36,463:INFO: Process 16: server_update has completed
+2025-09-10 15:37:55,854:INFO: 
+Process 16: Communication Round 52
+2025-09-10 15:38:03,895:INFO: Process 16: client_update has completed
+2025-09-10 15:38:04,551:INFO: Process 16: server_update has completed
+2025-09-10 15:38:22,259:INFO: 
+Process 16: Communication Round 53
+2025-09-10 15:38:29,293:INFO: Process 16: client_update has completed
+2025-09-10 15:38:30,591:INFO: Process 16: server_update has completed
+2025-09-10 15:38:48,254:INFO: 
+Process 16: Communication Round 54
+2025-09-10 15:38:56,186:INFO: Process 16: client_update has completed
+2025-09-10 15:38:56,915:INFO: Process 16: server_update has completed
+2025-09-10 15:39:14,578:INFO: 
+Process 16: Communication Round 55
+2025-09-10 15:39:22,501:INFO: Process 16: client_update has completed
+2025-09-10 15:39:22,743:INFO: Process 16: server_update has completed
+2025-09-10 15:39:40,190:INFO: 
+Process 16: Communication Round 56
+2025-09-10 15:39:48,328:INFO: Process 16: client_update has completed
+2025-09-10 15:39:48,655:INFO: Process 16: server_update has completed
+2025-09-10 15:40:06,291:INFO: 
+Process 16: Communication Round 57
+2025-09-10 15:40:14,362:INFO: Process 16: client_update has completed
+2025-09-10 15:40:14,481:INFO: Process 16: server_update has completed
+2025-09-10 15:40:32,006:INFO: 
+Process 16: Communication Round 58
+2025-09-10 15:40:38,916:INFO: Process 16: client_update has completed
+2025-09-10 15:40:40,103:INFO: Process 16: server_update has completed
+2025-09-10 15:40:57,678:INFO: 
+Process 16: Communication Round 59
+2025-09-10 15:41:04,675:INFO: Process 16: client_update has completed
+2025-09-10 15:41:05,887:INFO: Process 16: server_update has completed
+2025-09-10 15:41:23,554:INFO: 
+Process 16: Communication Round 60
+2025-09-10 15:41:31,129:INFO: Process 16: client_update has completed
+2025-09-10 15:41:31,521:INFO: Process 16: server_update has completed
+2025-09-10 15:41:49,402:INFO: 
+Process 16: Communication Round 61
+2025-09-10 15:41:57,077:INFO: Process 16: client_update has completed
+2025-09-10 15:41:57,180:INFO: Process 16: server_update has completed
+2025-09-10 15:42:14,866:INFO: 
+Process 16: Communication Round 62
+2025-09-10 15:42:21,838:INFO: Process 16: client_update has completed
+2025-09-10 15:42:22,766:INFO: Process 16: server_update has completed
+2025-09-10 15:42:40,386:INFO: 
+Process 16: Communication Round 63
+2025-09-10 15:42:47,747:INFO: Process 16: client_update has completed
+2025-09-10 15:42:48,427:INFO: Process 16: server_update has completed
+2025-09-10 15:43:05,372:INFO: 
+Process 16: Communication Round 64
+2025-09-10 15:43:12,298:INFO: Process 16: client_update has completed
+2025-09-10 15:43:13,588:INFO: Process 16: server_update has completed
+2025-09-10 15:43:31,418:INFO: 
+Process 16: Communication Round 65
+2025-09-10 15:43:38,579:INFO: Process 16: client_update has completed
+2025-09-10 15:43:39,687:INFO: Process 16: server_update has completed
+2025-09-10 15:43:57,326:INFO: 
+Process 16: Communication Round 66
+2025-09-10 15:44:05,660:INFO: Process 16: client_update has completed
+2025-09-10 15:44:05,827:INFO: Process 16: server_update has completed
+2025-09-10 15:44:23,462:INFO: 
+Process 16: Communication Round 67
+2025-09-10 15:44:31,083:INFO: Process 16: client_update has completed
+2025-09-10 15:44:31,599:INFO: Process 16: server_update has completed
+2025-09-10 15:44:49,108:INFO: 
+Process 16: Communication Round 68
+2025-09-10 15:44:56,085:INFO: Process 16: client_update has completed
+2025-09-10 15:44:57,356:INFO: Process 16: server_update has completed
+2025-09-10 15:45:14,914:INFO: 
+Process 16: Communication Round 69
+2025-09-10 15:45:22,909:INFO: Process 16: client_update has completed
+2025-09-10 15:45:23,255:INFO: Process 16: server_update has completed
+2025-09-10 15:45:41,066:INFO: 
+Process 16: Communication Round 70
+2025-09-10 15:45:49,466:INFO: Process 16: client_update has completed
+2025-09-10 15:45:49,475:INFO: Process 16: server_update has completed
+2025-09-10 15:46:06,994:INFO: 
+Process 16: Communication Round 71
+2025-09-10 15:46:14,295:INFO: Process 16: client_update has completed
+2025-09-10 15:46:15,591:INFO: Process 16: server_update has completed
+2025-09-10 15:46:33,103:INFO: 
+Process 16: Communication Round 72
+2025-09-10 15:46:41,212:INFO: Process 16: client_update has completed
+2025-09-10 15:46:41,575:INFO: Process 16: server_update has completed
+2025-09-10 15:46:59,266:INFO: 
+Process 16: Communication Round 73
+2025-09-10 15:47:07,472:INFO: Process 16: client_update has completed
+2025-09-10 15:47:07,835:INFO: Process 16: server_update has completed
+2025-09-10 15:47:25,492:INFO: 
+Process 16: Communication Round 74
+2025-09-10 15:47:33,514:INFO: Process 16: client_update has completed
+2025-09-10 15:47:34,039:INFO: Process 16: server_update has completed
+2025-09-10 15:47:53,207:INFO: 
+Process 16: Communication Round 75
+2025-09-10 15:48:00,088:INFO: Process 16: client_update has completed
+2025-09-10 15:48:01,802:INFO: Process 16: server_update has completed
+2025-09-10 15:48:19,590:INFO: 
+Process 16: Communication Round 76
+2025-09-10 15:48:27,562:INFO: Process 16: client_update has completed
+2025-09-10 15:48:28,055:INFO: Process 16: server_update has completed
+2025-09-10 15:48:45,822:INFO: 
+Process 16: Communication Round 77
+2025-09-10 15:48:53,847:INFO: Process 16: client_update has completed
+2025-09-10 15:48:54,131:INFO: Process 16: server_update has completed
+2025-09-10 15:49:11,530:INFO: 
+Process 16: Communication Round 78
+2025-09-10 15:49:19,740:INFO: Process 16: client_update has completed
+2025-09-10 15:49:20,031:INFO: Process 16: server_update has completed
+2025-09-10 15:49:37,922:INFO: 
+Process 16: Communication Round 79
+2025-09-10 15:49:45,194:INFO: Process 16: client_update has completed
+2025-09-10 15:49:46,318:INFO: Process 16: server_update has completed
+2025-09-10 15:50:04,562:INFO: 
+Process 16: Communication Round 80
+2025-09-10 15:50:12,637:INFO: Process 16: client_update has completed
+2025-09-10 15:50:12,879:INFO: Process 16: server_update has completed
+2025-09-10 15:50:30,813:INFO: 
+Process 16: Communication Round 81
+2025-09-10 15:50:39,158:INFO: Process 16: client_update has completed
+2025-09-10 15:50:39,207:INFO: Process 16: server_update has completed
+2025-09-10 15:50:56,919:INFO: 
+Process 16: Communication Round 82
+2025-09-10 15:51:04,393:INFO: Process 16: client_update has completed
+2025-09-10 15:51:04,939:INFO: Process 16: server_update has completed
+2025-09-10 15:51:22,742:INFO: 
+Process 16: Communication Round 83
+2025-09-10 15:51:29,812:INFO: Process 16: client_update has completed
+2025-09-10 15:51:30,931:INFO: Process 16: server_update has completed
+2025-09-10 15:51:49,088:INFO: 
+Process 16: Communication Round 84
+2025-09-10 15:51:57,489:INFO: Process 16: client_update has completed
+2025-09-10 15:51:58,299:INFO: Process 16: server_update has completed
+2025-09-10 15:52:16,196:INFO: 
+Process 16: Communication Round 85
+2025-09-10 15:52:24,212:INFO: Process 16: client_update has completed
+2025-09-10 15:52:24,735:INFO: Process 16: server_update has completed
+2025-09-10 15:52:42,150:INFO: 
+Process 16: Communication Round 86
+2025-09-10 15:52:49,175:INFO: Process 16: client_update has completed
+2025-09-10 15:52:50,340:INFO: Process 16: server_update has completed
+2025-09-10 15:53:07,938:INFO: 
+Process 16: Communication Round 87
+2025-09-10 15:53:15,528:INFO: Process 16: client_update has completed
+2025-09-10 15:53:16,307:INFO: Process 16: server_update has completed
+2025-09-10 15:53:34,089:INFO: 
+Process 16: Communication Round 88
+2025-09-10 15:53:42,355:INFO: Process 16: client_update has completed
+2025-09-10 15:53:42,371:INFO: Process 16: server_update has completed
+2025-09-10 15:54:00,445:INFO: 
+Process 16: Communication Round 89
+2025-09-10 15:54:08,580:INFO: Process 16: client_update has completed
+2025-09-10 15:54:08,964:INFO: Process 16: server_update has completed
+2025-09-10 15:54:26,858:INFO: 
+Process 16: Communication Round 90
+2025-09-10 15:54:33,839:INFO: Process 16: client_update has completed
+2025-09-10 15:54:34,962:INFO: Process 16: server_update has completed
+2025-09-10 15:54:52,586:INFO: 
+Process 16: Communication Round 91
+2025-09-10 15:54:59,651:INFO: Process 16: client_update has completed
+2025-09-10 15:55:00,763:INFO: Process 16: server_update has completed
+2025-09-10 15:55:18,517:INFO: 
+Process 16: Communication Round 92
+2025-09-10 15:55:25,566:INFO: Process 16: client_update has completed
+2025-09-10 15:55:26,806:INFO: Process 16: server_update has completed
+2025-09-10 15:55:44,127:INFO: 
+Process 16: Communication Round 93
+2025-09-10 15:55:51,025:INFO: Process 16: client_update has completed
+2025-09-10 15:55:52,595:INFO: Process 16: server_update has completed
+2025-09-10 15:56:10,203:INFO: 
+Process 16: Communication Round 94
+2025-09-10 15:56:17,987:INFO: Process 16: client_update has completed
+2025-09-10 15:56:18,381:INFO: Process 16: server_update has completed
+2025-09-10 15:56:36,156:INFO: 
+Process 16: Communication Round 95
+2025-09-10 15:56:44,237:INFO: Process 16: client_update has completed
+2025-09-10 15:56:44,250:INFO: Process 16: server_update has completed
+2025-09-10 15:57:01,861:INFO: 
+Process 16: Communication Round 96
+2025-09-10 15:57:09,742:INFO: Process 16: client_update has completed
+2025-09-10 15:57:10,115:INFO: Process 16: server_update has completed
+2025-09-10 15:57:28,070:INFO: 
+Process 16: Communication Round 97
+2025-09-10 15:57:35,704:INFO: Process 16: client_update has completed
+2025-09-10 15:57:36,167:INFO: Process 16: server_update has completed
+2025-09-10 15:57:55,706:INFO: 
+Process 16: Communication Round 98
+2025-09-10 15:58:03,537:INFO: Process 16: client_update has completed
+2025-09-10 15:58:03,747:INFO: Process 16: server_update has completed
+2025-09-10 15:58:21,158:INFO: 
+Process 16: Communication Round 99
+2025-09-10 15:58:28,905:INFO: Process 16: client_update has completed
+2025-09-10 15:58:29,582:INFO: Process 16: server_update has completed
+2025-09-10 15:58:47,110:INFO: 
+Process 16: Communication Round 100
+2025-09-10 15:58:54,730:INFO: Process 16: client_update has completed
+2025-09-10 15:58:54,991:INFO: Process 16: server_update has completed
+2025-09-10 15:59:12,461:INFO: Process 16: Execution has completed
