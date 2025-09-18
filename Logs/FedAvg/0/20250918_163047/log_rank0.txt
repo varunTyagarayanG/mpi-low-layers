@@ -1,0 +1,507 @@
+2025-09-18 16:30:47,735:INFO: Process 0 is initializing the server
+2025-09-18 16:30:47,739:INFO: Process 0: Server is successfully initialized
+2025-09-18 16:30:51,949:INFO: Process 0: Clients are successfully initialized
+2025-09-18 16:30:51,951:INFO: 
+Process 0: Communication Round 1
+2025-09-18 16:30:54,666:INFO: Process 0: client_update has completed
+2025-09-18 16:30:54,844:INFO: Process 0: server_update has completed
+2025-09-18 16:31:00,229:INFO: 	Loss: 2.3054   Accuracy: 10.33%
+2025-09-18 16:31:00,229:INFO: 
+Process 0: Communication Round 2
+2025-09-18 16:31:03,003:INFO: Process 0: client_update has completed
+2025-09-18 16:31:03,106:INFO: Process 0: server_update has completed
+2025-09-18 16:31:08,504:INFO: 	Loss: 2.3042   Accuracy: 10.49%
+2025-09-18 16:31:08,504:INFO: 
+Process 0: Communication Round 3
+2025-09-18 16:31:11,501:INFO: Process 0: client_update has completed
+2025-09-18 16:31:11,504:INFO: Process 0: server_update has completed
+2025-09-18 16:31:16,986:INFO: 	Loss: 2.3032   Accuracy: 10.47%
+2025-09-18 16:31:16,986:INFO: 
+Process 0: Communication Round 4
+2025-09-18 16:31:19,751:INFO: Process 0: client_update has completed
+2025-09-18 16:31:19,874:INFO: Process 0: server_update has completed
+2025-09-18 16:31:25,562:INFO: 	Loss: 2.3021   Accuracy: 10.60%
+2025-09-18 16:31:25,563:INFO: 
+Process 0: Communication Round 5
+2025-09-18 16:31:28,247:INFO: Process 0: client_update has completed
+2025-09-18 16:31:28,250:INFO: Process 0: server_update has completed
+2025-09-18 16:31:33,780:INFO: 	Loss: 2.3010   Accuracy: 10.85%
+2025-09-18 16:31:33,780:INFO: 
+Process 0: Communication Round 6
+2025-09-18 16:31:36,547:INFO: Process 0: client_update has completed
+2025-09-18 16:31:36,568:INFO: Process 0: server_update has completed
+2025-09-18 16:31:42,208:INFO: 	Loss: 2.2998   Accuracy: 11.30%
+2025-09-18 16:31:42,208:INFO: 
+Process 0: Communication Round 7
+2025-09-18 16:31:44,925:INFO: Process 0: client_update has completed
+2025-09-18 16:31:44,928:INFO: Process 0: server_update has completed
+2025-09-18 16:31:50,379:INFO: 	Loss: 2.2983   Accuracy: 11.72%
+2025-09-18 16:31:50,380:INFO: 
+Process 0: Communication Round 8
+2025-09-18 16:31:52,818:INFO: Process 0: client_update has completed
+2025-09-18 16:31:53,230:INFO: Process 0: server_update has completed
+2025-09-18 16:31:58,972:INFO: 	Loss: 2.2968   Accuracy: 12.06%
+2025-09-18 16:31:58,972:INFO: 
+Process 0: Communication Round 9
+2025-09-18 16:32:01,457:INFO: Process 0: client_update has completed
+2025-09-18 16:32:01,830:INFO: Process 0: server_update has completed
+2025-09-18 16:32:07,304:INFO: 	Loss: 2.2945   Accuracy: 13.00%
+2025-09-18 16:32:07,305:INFO: 
+Process 0: Communication Round 10
+2025-09-18 16:32:10,341:INFO: Process 0: client_update has completed
+2025-09-18 16:32:10,344:INFO: Process 0: server_update has completed
+2025-09-18 16:32:16,059:INFO: 	Loss: 2.2919   Accuracy: 14.22%
+2025-09-18 16:32:16,059:INFO: 
+Process 0: Communication Round 11
+2025-09-18 16:32:18,432:INFO: Process 0: client_update has completed
+2025-09-18 16:32:18,965:INFO: Process 0: server_update has completed
+2025-09-18 16:32:24,601:INFO: 	Loss: 2.2884   Accuracy: 16.53%
+2025-09-18 16:32:24,602:INFO: 
+Process 0: Communication Round 12
+2025-09-18 16:32:26,915:INFO: Process 0: client_update has completed
+2025-09-18 16:32:27,291:INFO: Process 0: server_update has completed
+2025-09-18 16:32:33,197:INFO: 	Loss: 2.2836   Accuracy: 18.96%
+2025-09-18 16:32:33,197:INFO: 
+Process 0: Communication Round 13
+2025-09-18 16:32:35,905:INFO: Process 0: client_update has completed
+2025-09-18 16:32:35,907:INFO: Process 0: server_update has completed
+2025-09-18 16:32:41,835:INFO: 	Loss: 2.2761   Accuracy: 20.52%
+2025-09-18 16:32:41,835:INFO: 
+Process 0: Communication Round 14
+2025-09-18 16:32:44,668:INFO: Process 0: client_update has completed
+2025-09-18 16:32:44,672:INFO: Process 0: server_update has completed
+2025-09-18 16:32:50,427:INFO: 	Loss: 2.2643   Accuracy: 20.02%
+2025-09-18 16:32:50,427:INFO: 
+Process 0: Communication Round 15
+2025-09-18 16:32:53,175:INFO: Process 0: client_update has completed
+2025-09-18 16:32:53,189:INFO: Process 0: server_update has completed
+2025-09-18 16:32:58,548:INFO: 	Loss: 2.2466   Accuracy: 21.75%
+2025-09-18 16:32:58,548:INFO: 
+Process 0: Communication Round 16
+2025-09-18 16:33:01,423:INFO: Process 0: client_update has completed
+2025-09-18 16:33:01,492:INFO: Process 0: server_update has completed
+2025-09-18 16:33:07,052:INFO: 	Loss: 2.2180   Accuracy: 21.68%
+2025-09-18 16:33:07,052:INFO: 
+Process 0: Communication Round 17
+2025-09-18 16:33:09,768:INFO: Process 0: client_update has completed
+2025-09-18 16:33:09,771:INFO: Process 0: server_update has completed
+2025-09-18 16:33:15,229:INFO: 	Loss: 2.1790   Accuracy: 23.06%
+2025-09-18 16:33:15,229:INFO: 
+Process 0: Communication Round 18
+2025-09-18 16:33:18,306:INFO: Process 0: client_update has completed
+2025-09-18 16:33:18,308:INFO: Process 0: server_update has completed
+2025-09-18 16:33:23,898:INFO: 	Loss: 2.1334   Accuracy: 23.84%
+2025-09-18 16:33:23,899:INFO: 
+Process 0: Communication Round 19
+2025-09-18 16:33:26,960:INFO: Process 0: client_update has completed
+2025-09-18 16:33:26,977:INFO: Process 0: server_update has completed
+2025-09-18 16:33:32,925:INFO: 	Loss: 2.0948   Accuracy: 24.84%
+2025-09-18 16:33:32,925:INFO: 
+Process 0: Communication Round 20
+2025-09-18 16:33:35,392:INFO: Process 0: client_update has completed
+2025-09-18 16:33:35,400:INFO: Process 0: server_update has completed
+2025-09-18 16:33:40,870:INFO: 	Loss: 2.0627   Accuracy: 26.78%
+2025-09-18 16:33:40,870:INFO: 
+Process 0: Communication Round 21
+2025-09-18 16:33:43,835:INFO: Process 0: client_update has completed
+2025-09-18 16:33:43,853:INFO: Process 0: server_update has completed
+2025-09-18 16:33:49,261:INFO: 	Loss: 2.0346   Accuracy: 28.30%
+2025-09-18 16:33:49,261:INFO: 
+Process 0: Communication Round 22
+2025-09-18 16:33:51,747:INFO: Process 0: client_update has completed
+2025-09-18 16:33:51,814:INFO: Process 0: server_update has completed
+2025-09-18 16:33:57,483:INFO: 	Loss: 2.0106   Accuracy: 28.98%
+2025-09-18 16:33:57,483:INFO: 
+Process 0: Communication Round 23
+2025-09-18 16:33:59,971:INFO: Process 0: client_update has completed
+2025-09-18 16:34:00,579:INFO: Process 0: server_update has completed
+2025-09-18 16:34:06,550:INFO: 	Loss: 2.0299   Accuracy: 28.88%
+2025-09-18 16:34:06,550:INFO: 
+Process 0: Communication Round 24
+2025-09-18 16:34:09,169:INFO: Process 0: client_update has completed
+2025-09-18 16:34:09,325:INFO: Process 0: server_update has completed
+2025-09-18 16:34:14,816:INFO: 	Loss: 2.0002   Accuracy: 30.06%
+2025-09-18 16:34:14,816:INFO: 
+Process 0: Communication Round 25
+2025-09-18 16:34:17,441:INFO: Process 0: client_update has completed
+2025-09-18 16:34:17,652:INFO: Process 0: server_update has completed
+2025-09-18 16:34:23,064:INFO: 	Loss: 1.9669   Accuracy: 30.49%
+2025-09-18 16:34:23,064:INFO: 
+Process 0: Communication Round 26
+2025-09-18 16:34:25,569:INFO: Process 0: client_update has completed
+2025-09-18 16:34:26,020:INFO: Process 0: server_update has completed
+2025-09-18 16:34:31,704:INFO: 	Loss: 1.9520   Accuracy: 31.53%
+2025-09-18 16:34:31,704:INFO: 
+Process 0: Communication Round 27
+2025-09-18 16:34:34,361:INFO: Process 0: client_update has completed
+2025-09-18 16:34:34,911:INFO: Process 0: server_update has completed
+2025-09-18 16:34:40,482:INFO: 	Loss: 1.9264   Accuracy: 32.11%
+2025-09-18 16:34:40,482:INFO: 
+Process 0: Communication Round 28
+2025-09-18 16:34:43,080:INFO: Process 0: client_update has completed
+2025-09-18 16:34:43,330:INFO: Process 0: server_update has completed
+2025-09-18 16:34:49,060:INFO: 	Loss: 1.9129   Accuracy: 32.70%
+2025-09-18 16:34:49,060:INFO: 
+Process 0: Communication Round 29
+2025-09-18 16:34:52,644:INFO: Process 0: client_update has completed
+2025-09-18 16:34:52,669:INFO: Process 0: server_update has completed
+2025-09-18 16:34:58,873:INFO: 	Loss: 1.8786   Accuracy: 33.83%
+2025-09-18 16:34:58,874:INFO: 
+Process 0: Communication Round 30
+2025-09-18 16:35:01,550:INFO: Process 0: client_update has completed
+2025-09-18 16:35:01,553:INFO: Process 0: server_update has completed
+2025-09-18 16:35:07,080:INFO: 	Loss: 1.8498   Accuracy: 34.55%
+2025-09-18 16:35:07,080:INFO: 
+Process 0: Communication Round 31
+2025-09-18 16:35:09,534:INFO: Process 0: client_update has completed
+2025-09-18 16:35:09,861:INFO: Process 0: server_update has completed
+2025-09-18 16:35:15,309:INFO: 	Loss: 1.8513   Accuracy: 34.20%
+2025-09-18 16:35:15,309:INFO: 
+Process 0: Communication Round 32
+2025-09-18 16:35:18,013:INFO: Process 0: client_update has completed
+2025-09-18 16:35:18,041:INFO: Process 0: server_update has completed
+2025-09-18 16:35:23,864:INFO: 	Loss: 1.8574   Accuracy: 34.93%
+2025-09-18 16:35:23,864:INFO: 
+Process 0: Communication Round 33
+2025-09-18 16:35:26,457:INFO: Process 0: client_update has completed
+2025-09-18 16:35:26,781:INFO: Process 0: server_update has completed
+2025-09-18 16:35:32,631:INFO: 	Loss: 1.8329   Accuracy: 35.40%
+2025-09-18 16:35:32,631:INFO: 
+Process 0: Communication Round 34
+2025-09-18 16:35:35,090:INFO: Process 0: client_update has completed
+2025-09-18 16:35:35,095:INFO: Process 0: server_update has completed
+2025-09-18 16:35:40,744:INFO: 	Loss: 1.8005   Accuracy: 36.54%
+2025-09-18 16:35:40,744:INFO: 
+Process 0: Communication Round 35
+2025-09-18 16:35:43,524:INFO: Process 0: client_update has completed
+2025-09-18 16:35:43,527:INFO: Process 0: server_update has completed
+2025-09-18 16:35:49,145:INFO: 	Loss: 1.7829   Accuracy: 36.71%
+2025-09-18 16:35:49,146:INFO: 
+Process 0: Communication Round 36
+2025-09-18 16:35:51,615:INFO: Process 0: client_update has completed
+2025-09-18 16:35:51,862:INFO: Process 0: server_update has completed
+2025-09-18 16:35:57,325:INFO: 	Loss: 1.7801   Accuracy: 37.15%
+2025-09-18 16:35:57,325:INFO: 
+Process 0: Communication Round 37
+2025-09-18 16:36:00,372:INFO: Process 0: client_update has completed
+2025-09-18 16:36:00,375:INFO: Process 0: server_update has completed
+2025-09-18 16:36:05,874:INFO: 	Loss: 1.7850   Accuracy: 37.25%
+2025-09-18 16:36:05,874:INFO: 
+Process 0: Communication Round 38
+2025-09-18 16:36:08,350:INFO: Process 0: client_update has completed
+2025-09-18 16:36:08,827:INFO: Process 0: server_update has completed
+2025-09-18 16:36:14,321:INFO: 	Loss: 1.7796   Accuracy: 36.37%
+2025-09-18 16:36:14,322:INFO: 
+Process 0: Communication Round 39
+2025-09-18 16:36:17,217:INFO: Process 0: client_update has completed
+2025-09-18 16:36:17,239:INFO: Process 0: server_update has completed
+2025-09-18 16:36:23,171:INFO: 	Loss: 1.7396   Accuracy: 37.94%
+2025-09-18 16:36:23,171:INFO: 
+Process 0: Communication Round 40
+2025-09-18 16:36:26,284:INFO: Process 0: client_update has completed
+2025-09-18 16:36:26,292:INFO: Process 0: server_update has completed
+2025-09-18 16:36:32,039:INFO: 	Loss: 1.7134   Accuracy: 39.80%
+2025-09-18 16:36:32,040:INFO: 
+Process 0: Communication Round 41
+2025-09-18 16:36:34,902:INFO: Process 0: client_update has completed
+2025-09-18 16:36:34,905:INFO: Process 0: server_update has completed
+2025-09-18 16:36:40,588:INFO: 	Loss: 1.7193   Accuracy: 39.11%
+2025-09-18 16:36:40,589:INFO: 
+Process 0: Communication Round 42
+2025-09-18 16:36:43,211:INFO: Process 0: client_update has completed
+2025-09-18 16:36:43,229:INFO: Process 0: server_update has completed
+2025-09-18 16:36:48,675:INFO: 	Loss: 1.7081   Accuracy: 39.25%
+2025-09-18 16:36:48,675:INFO: 
+Process 0: Communication Round 43
+2025-09-18 16:36:51,477:INFO: Process 0: client_update has completed
+2025-09-18 16:36:51,505:INFO: Process 0: server_update has completed
+2025-09-18 16:36:57,106:INFO: 	Loss: 1.7164   Accuracy: 39.40%
+2025-09-18 16:36:57,106:INFO: 
+Process 0: Communication Round 44
+2025-09-18 16:36:59,658:INFO: Process 0: client_update has completed
+2025-09-18 16:37:00,140:INFO: Process 0: server_update has completed
+2025-09-18 16:37:05,683:INFO: 	Loss: 1.6940   Accuracy: 39.76%
+2025-09-18 16:37:05,683:INFO: 
+Process 0: Communication Round 45
+2025-09-18 16:37:08,533:INFO: Process 0: client_update has completed
+2025-09-18 16:37:08,535:INFO: Process 0: server_update has completed
+2025-09-18 16:37:14,124:INFO: 	Loss: 1.6510   Accuracy: 41.46%
+2025-09-18 16:37:14,124:INFO: 
+Process 0: Communication Round 46
+2025-09-18 16:37:16,759:INFO: Process 0: client_update has completed
+2025-09-18 16:37:17,146:INFO: Process 0: server_update has completed
+2025-09-18 16:37:22,529:INFO: 	Loss: 1.6645   Accuracy: 40.58%
+2025-09-18 16:37:22,530:INFO: 
+Process 0: Communication Round 47
+2025-09-18 16:37:25,056:INFO: Process 0: client_update has completed
+2025-09-18 16:37:25,785:INFO: Process 0: server_update has completed
+2025-09-18 16:37:31,294:INFO: 	Loss: 1.6685   Accuracy: 41.07%
+2025-09-18 16:37:31,294:INFO: 
+Process 0: Communication Round 48
+2025-09-18 16:37:34,004:INFO: Process 0: client_update has completed
+2025-09-18 16:37:34,006:INFO: Process 0: server_update has completed
+2025-09-18 16:37:39,428:INFO: 	Loss: 1.6511   Accuracy: 41.29%
+2025-09-18 16:37:39,428:INFO: 
+Process 0: Communication Round 49
+2025-09-18 16:37:42,239:INFO: Process 0: client_update has completed
+2025-09-18 16:37:42,242:INFO: Process 0: server_update has completed
+2025-09-18 16:37:47,756:INFO: 	Loss: 1.6627   Accuracy: 40.96%
+2025-09-18 16:37:47,756:INFO: 
+Process 0: Communication Round 50
+2025-09-18 16:37:50,593:INFO: Process 0: client_update has completed
+2025-09-18 16:37:50,677:INFO: Process 0: server_update has completed
+2025-09-18 16:37:56,129:INFO: 	Loss: 1.6303   Accuracy: 42.29%
+2025-09-18 16:37:56,130:INFO: 
+Process 0: Communication Round 51
+2025-09-18 16:37:59,066:INFO: Process 0: client_update has completed
+2025-09-18 16:37:59,068:INFO: Process 0: server_update has completed
+2025-09-18 16:38:04,633:INFO: 	Loss: 1.6131   Accuracy: 42.88%
+2025-09-18 16:38:04,633:INFO: 
+Process 0: Communication Round 52
+2025-09-18 16:38:07,666:INFO: Process 0: client_update has completed
+2025-09-18 16:38:07,681:INFO: Process 0: server_update has completed
+2025-09-18 16:38:13,376:INFO: 	Loss: 1.6086   Accuracy: 43.09%
+2025-09-18 16:38:13,376:INFO: 
+Process 0: Communication Round 53
+2025-09-18 16:38:16,096:INFO: Process 0: client_update has completed
+2025-09-18 16:38:16,173:INFO: Process 0: server_update has completed
+2025-09-18 16:38:22,085:INFO: 	Loss: 1.6002   Accuracy: 43.11%
+2025-09-18 16:38:22,085:INFO: 
+Process 0: Communication Round 54
+2025-09-18 16:38:24,618:INFO: Process 0: client_update has completed
+2025-09-18 16:38:25,012:INFO: Process 0: server_update has completed
+2025-09-18 16:38:30,899:INFO: 	Loss: 1.5615   Accuracy: 44.59%
+2025-09-18 16:38:30,900:INFO: 
+Process 0: Communication Round 55
+2025-09-18 16:38:33,677:INFO: Process 0: client_update has completed
+2025-09-18 16:38:33,684:INFO: Process 0: server_update has completed
+2025-09-18 16:38:39,413:INFO: 	Loss: 1.5738   Accuracy: 44.25%
+2025-09-18 16:38:39,413:INFO: 
+Process 0: Communication Round 56
+2025-09-18 16:38:42,026:INFO: Process 0: client_update has completed
+2025-09-18 16:38:42,101:INFO: Process 0: server_update has completed
+2025-09-18 16:38:47,844:INFO: 	Loss: 1.5501   Accuracy: 45.32%
+2025-09-18 16:38:47,845:INFO: 
+Process 0: Communication Round 57
+2025-09-18 16:38:50,450:INFO: Process 0: client_update has completed
+2025-09-18 16:38:50,454:INFO: Process 0: server_update has completed
+2025-09-18 16:38:56,059:INFO: 	Loss: 1.5588   Accuracy: 45.15%
+2025-09-18 16:38:56,059:INFO: 
+Process 0: Communication Round 58
+2025-09-18 16:38:59,095:INFO: Process 0: client_update has completed
+2025-09-18 16:38:59,120:INFO: Process 0: server_update has completed
+2025-09-18 16:39:04,576:INFO: 	Loss: 1.5578   Accuracy: 45.28%
+2025-09-18 16:39:04,577:INFO: 
+Process 0: Communication Round 59
+2025-09-18 16:39:06,929:INFO: Process 0: client_update has completed
+2025-09-18 16:39:07,601:INFO: Process 0: server_update has completed
+2025-09-18 16:39:13,087:INFO: 	Loss: 1.5607   Accuracy: 45.18%
+2025-09-18 16:39:13,087:INFO: 
+Process 0: Communication Round 60
+2025-09-18 16:39:15,592:INFO: Process 0: client_update has completed
+2025-09-18 16:39:15,996:INFO: Process 0: server_update has completed
+2025-09-18 16:39:21,517:INFO: 	Loss: 1.5232   Accuracy: 46.30%
+2025-09-18 16:39:21,517:INFO: 
+Process 0: Communication Round 61
+2025-09-18 16:39:24,288:INFO: Process 0: client_update has completed
+2025-09-18 16:39:24,291:INFO: Process 0: server_update has completed
+2025-09-18 16:39:29,899:INFO: 	Loss: 1.5408   Accuracy: 45.36%
+2025-09-18 16:39:29,899:INFO: 
+Process 0: Communication Round 62
+2025-09-18 16:39:32,755:INFO: Process 0: client_update has completed
+2025-09-18 16:39:32,953:INFO: Process 0: server_update has completed
+2025-09-18 16:39:38,577:INFO: 	Loss: 1.5481   Accuracy: 45.72%
+2025-09-18 16:39:38,577:INFO: 
+Process 0: Communication Round 63
+2025-09-18 16:39:41,061:INFO: Process 0: client_update has completed
+2025-09-18 16:39:41,921:INFO: Process 0: server_update has completed
+2025-09-18 16:39:47,466:INFO: 	Loss: 1.5576   Accuracy: 44.92%
+2025-09-18 16:39:47,466:INFO: 
+Process 0: Communication Round 64
+2025-09-18 16:39:50,059:INFO: Process 0: client_update has completed
+2025-09-18 16:39:50,347:INFO: Process 0: server_update has completed
+2025-09-18 16:39:56,388:INFO: 	Loss: 1.5136   Accuracy: 46.80%
+2025-09-18 16:39:56,388:INFO: 
+Process 0: Communication Round 65
+2025-09-18 16:39:58,865:INFO: Process 0: client_update has completed
+2025-09-18 16:39:59,129:INFO: Process 0: server_update has completed
+2025-09-18 16:40:04,876:INFO: 	Loss: 1.5118   Accuracy: 46.59%
+2025-09-18 16:40:04,876:INFO: 
+Process 0: Communication Round 66
+2025-09-18 16:40:07,508:INFO: Process 0: client_update has completed
+2025-09-18 16:40:07,536:INFO: Process 0: server_update has completed
+2025-09-18 16:40:13,508:INFO: 	Loss: 1.5036   Accuracy: 46.71%
+2025-09-18 16:40:13,508:INFO: 
+Process 0: Communication Round 67
+2025-09-18 16:40:16,462:INFO: Process 0: client_update has completed
+2025-09-18 16:40:16,465:INFO: Process 0: server_update has completed
+2025-09-18 16:40:21,905:INFO: 	Loss: 1.5469   Accuracy: 45.91%
+2025-09-18 16:40:21,906:INFO: 
+Process 0: Communication Round 68
+2025-09-18 16:40:24,741:INFO: Process 0: client_update has completed
+2025-09-18 16:40:24,963:INFO: Process 0: server_update has completed
+2025-09-18 16:40:31,088:INFO: 	Loss: 1.4800   Accuracy: 47.44%
+2025-09-18 16:40:31,088:INFO: 
+Process 0: Communication Round 69
+2025-09-18 16:40:33,483:INFO: Process 0: client_update has completed
+2025-09-18 16:40:33,697:INFO: Process 0: server_update has completed
+2025-09-18 16:40:39,504:INFO: 	Loss: 1.4882   Accuracy: 47.40%
+2025-09-18 16:40:39,504:INFO: 
+Process 0: Communication Round 70
+2025-09-18 16:40:42,103:INFO: Process 0: client_update has completed
+2025-09-18 16:40:42,106:INFO: Process 0: server_update has completed
+2025-09-18 16:40:48,278:INFO: 	Loss: 1.4985   Accuracy: 47.24%
+2025-09-18 16:40:48,278:INFO: 
+Process 0: Communication Round 71
+2025-09-18 16:40:51,177:INFO: Process 0: client_update has completed
+2025-09-18 16:40:51,180:INFO: Process 0: server_update has completed
+2025-09-18 16:40:56,842:INFO: 	Loss: 1.4658   Accuracy: 48.58%
+2025-09-18 16:40:56,842:INFO: 
+Process 0: Communication Round 72
+2025-09-18 16:40:59,495:INFO: Process 0: client_update has completed
+2025-09-18 16:40:59,557:INFO: Process 0: server_update has completed
+2025-09-18 16:41:05,260:INFO: 	Loss: 1.4926   Accuracy: 47.70%
+2025-09-18 16:41:05,260:INFO: 
+Process 0: Communication Round 73
+2025-09-18 16:41:07,587:INFO: Process 0: client_update has completed
+2025-09-18 16:41:08,243:INFO: Process 0: server_update has completed
+2025-09-18 16:41:13,853:INFO: 	Loss: 1.4605   Accuracy: 48.68%
+2025-09-18 16:41:13,854:INFO: 
+Process 0: Communication Round 74
+2025-09-18 16:41:16,343:INFO: Process 0: client_update has completed
+2025-09-18 16:41:16,601:INFO: Process 0: server_update has completed
+2025-09-18 16:41:22,049:INFO: 	Loss: 1.4675   Accuracy: 48.64%
+2025-09-18 16:41:22,049:INFO: 
+Process 0: Communication Round 75
+2025-09-18 16:41:24,515:INFO: Process 0: client_update has completed
+2025-09-18 16:41:24,970:INFO: Process 0: server_update has completed
+2025-09-18 16:41:30,898:INFO: 	Loss: 1.4853   Accuracy: 47.99%
+2025-09-18 16:41:30,898:INFO: 
+Process 0: Communication Round 76
+2025-09-18 16:41:33,612:INFO: Process 0: client_update has completed
+2025-09-18 16:41:33,625:INFO: Process 0: server_update has completed
+2025-09-18 16:41:39,243:INFO: 	Loss: 1.4747   Accuracy: 48.07%
+2025-09-18 16:41:39,244:INFO: 
+Process 0: Communication Round 77
+2025-09-18 16:41:41,972:INFO: Process 0: client_update has completed
+2025-09-18 16:41:42,044:INFO: Process 0: server_update has completed
+2025-09-18 16:41:47,869:INFO: 	Loss: 1.4560   Accuracy: 48.63%
+2025-09-18 16:41:47,870:INFO: 
+Process 0: Communication Round 78
+2025-09-18 16:41:50,430:INFO: Process 0: client_update has completed
+2025-09-18 16:41:50,433:INFO: Process 0: server_update has completed
+2025-09-18 16:41:56,048:INFO: 	Loss: 1.4308   Accuracy: 49.58%
+2025-09-18 16:41:56,048:INFO: 
+Process 0: Communication Round 79
+2025-09-18 16:41:58,665:INFO: Process 0: client_update has completed
+2025-09-18 16:41:58,915:INFO: Process 0: server_update has completed
+2025-09-18 16:42:04,548:INFO: 	Loss: 1.4613   Accuracy: 48.89%
+2025-09-18 16:42:04,549:INFO: 
+Process 0: Communication Round 80
+2025-09-18 16:42:07,592:INFO: Process 0: client_update has completed
+2025-09-18 16:42:07,595:INFO: Process 0: server_update has completed
+2025-09-18 16:42:13,472:INFO: 	Loss: 1.4346   Accuracy: 49.71%
+2025-09-18 16:42:13,473:INFO: 
+Process 0: Communication Round 81
+2025-09-18 16:42:15,937:INFO: Process 0: client_update has completed
+2025-09-18 16:42:16,099:INFO: Process 0: server_update has completed
+2025-09-18 16:42:21,578:INFO: 	Loss: 1.4423   Accuracy: 49.58%
+2025-09-18 16:42:21,578:INFO: 
+Process 0: Communication Round 82
+2025-09-18 16:42:24,679:INFO: Process 0: client_update has completed
+2025-09-18 16:42:24,693:INFO: Process 0: server_update has completed
+2025-09-18 16:42:30,352:INFO: 	Loss: 1.4344   Accuracy: 49.38%
+2025-09-18 16:42:30,352:INFO: 
+Process 0: Communication Round 83
+2025-09-18 16:42:32,683:INFO: Process 0: client_update has completed
+2025-09-18 16:42:33,040:INFO: Process 0: server_update has completed
+2025-09-18 16:42:38,871:INFO: 	Loss: 1.4126   Accuracy: 50.36%
+2025-09-18 16:42:38,871:INFO: 
+Process 0: Communication Round 84
+2025-09-18 16:42:41,384:INFO: Process 0: client_update has completed
+2025-09-18 16:42:41,653:INFO: Process 0: server_update has completed
+2025-09-18 16:42:47,138:INFO: 	Loss: 1.4287   Accuracy: 49.55%
+2025-09-18 16:42:47,138:INFO: 
+Process 0: Communication Round 85
+2025-09-18 16:42:49,861:INFO: Process 0: client_update has completed
+2025-09-18 16:42:49,864:INFO: Process 0: server_update has completed
+2025-09-18 16:42:55,533:INFO: 	Loss: 1.4163   Accuracy: 50.13%
+2025-09-18 16:42:55,533:INFO: 
+Process 0: Communication Round 86
+2025-09-18 16:42:58,196:INFO: Process 0: client_update has completed
+2025-09-18 16:42:58,372:INFO: Process 0: server_update has completed
+2025-09-18 16:43:03,854:INFO: 	Loss: 1.4328   Accuracy: 49.48%
+2025-09-18 16:43:03,855:INFO: 
+Process 0: Communication Round 87
+2025-09-18 16:43:06,382:INFO: Process 0: client_update has completed
+2025-09-18 16:43:06,711:INFO: Process 0: server_update has completed
+2025-09-18 16:43:12,430:INFO: 	Loss: 1.4518   Accuracy: 49.27%
+2025-09-18 16:43:12,431:INFO: 
+Process 0: Communication Round 88
+2025-09-18 16:43:15,138:INFO: Process 0: client_update has completed
+2025-09-18 16:43:15,141:INFO: Process 0: server_update has completed
+2025-09-18 16:43:20,922:INFO: 	Loss: 1.4337   Accuracy: 49.58%
+2025-09-18 16:43:20,923:INFO: 
+Process 0: Communication Round 89
+2025-09-18 16:43:23,627:INFO: Process 0: client_update has completed
+2025-09-18 16:43:23,630:INFO: Process 0: server_update has completed
+2025-09-18 16:43:29,236:INFO: 	Loss: 1.3957   Accuracy: 50.73%
+2025-09-18 16:43:29,236:INFO: 
+Process 0: Communication Round 90
+2025-09-18 16:43:32,346:INFO: Process 0: client_update has completed
+2025-09-18 16:43:32,368:INFO: Process 0: server_update has completed
+2025-09-18 16:43:37,785:INFO: 	Loss: 1.3929   Accuracy: 50.83%
+2025-09-18 16:43:37,786:INFO: 
+Process 0: Communication Round 91
+2025-09-18 16:43:40,446:INFO: Process 0: client_update has completed
+2025-09-18 16:43:40,497:INFO: Process 0: server_update has completed
+2025-09-18 16:43:46,092:INFO: 	Loss: 1.3989   Accuracy: 50.61%
+2025-09-18 16:43:46,092:INFO: 
+Process 0: Communication Round 92
+2025-09-18 16:43:48,595:INFO: Process 0: client_update has completed
+2025-09-18 16:43:48,838:INFO: Process 0: server_update has completed
+2025-09-18 16:43:54,440:INFO: 	Loss: 1.3947   Accuracy: 50.73%
+2025-09-18 16:43:54,440:INFO: 
+Process 0: Communication Round 93
+2025-09-18 16:43:57,127:INFO: Process 0: client_update has completed
+2025-09-18 16:43:57,532:INFO: Process 0: server_update has completed
+2025-09-18 16:44:02,972:INFO: 	Loss: 1.4730   Accuracy: 48.19%
+2025-09-18 16:44:02,972:INFO: 
+Process 0: Communication Round 94
+2025-09-18 16:44:05,591:INFO: Process 0: client_update has completed
+2025-09-18 16:44:05,786:INFO: Process 0: server_update has completed
+2025-09-18 16:44:11,360:INFO: 	Loss: 1.4052   Accuracy: 50.49%
+2025-09-18 16:44:11,360:INFO: 
+Process 0: Communication Round 95
+2025-09-18 16:44:13,865:INFO: Process 0: client_update has completed
+2025-09-18 16:44:14,040:INFO: Process 0: server_update has completed
+2025-09-18 16:44:19,788:INFO: 	Loss: 1.3944   Accuracy: 51.25%
+2025-09-18 16:44:19,789:INFO: 
+Process 0: Communication Round 96
+2025-09-18 16:44:22,586:INFO: Process 0: client_update has completed
+2025-09-18 16:44:22,612:INFO: Process 0: server_update has completed
+2025-09-18 16:44:28,319:INFO: 	Loss: 1.3870   Accuracy: 50.74%
+2025-09-18 16:44:28,319:INFO: 
+Process 0: Communication Round 97
+2025-09-18 16:44:31,057:INFO: Process 0: client_update has completed
+2025-09-18 16:44:31,059:INFO: Process 0: server_update has completed
+2025-09-18 16:44:36,519:INFO: 	Loss: 1.3698   Accuracy: 51.75%
+2025-09-18 16:44:36,519:INFO: 
+Process 0: Communication Round 98
+2025-09-18 16:44:39,367:INFO: Process 0: client_update has completed
+2025-09-18 16:44:39,464:INFO: Process 0: server_update has completed
+2025-09-18 16:44:44,988:INFO: 	Loss: 1.3679   Accuracy: 51.48%
+2025-09-18 16:44:44,989:INFO: 
+Process 0: Communication Round 99
+2025-09-18 16:44:47,306:INFO: Process 0: client_update has completed
+2025-09-18 16:44:47,797:INFO: Process 0: server_update has completed
+2025-09-18 16:44:54,476:INFO: 	Loss: 1.3649   Accuracy: 52.05%
+2025-09-18 16:44:54,476:INFO: 
+Process 0: Communication Round 100
+2025-09-18 16:44:57,343:INFO: Process 0: client_update has completed
+2025-09-18 16:44:57,562:INFO: Process 0: server_update has completed
+2025-09-18 16:45:02,940:INFO: 	Loss: 1.3651   Accuracy: 51.67%
+2025-09-18 16:45:02,941:INFO: Total training time for FedAvg = 855.20 seconds (14m 15s)
+2025-09-18 16:45:02,941:INFO: Runtime details saved to ./Logs/FedAvg/0/20250918_163047/runtime.json
+2025-09-18 16:45:03,192:INFO: Plots saved successfully
+2025-09-18 16:45:03,192:INFO: Process 0: Execution has completed

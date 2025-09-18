@@ -1,0 +1,7 @@
+{
+    "algorithm": "FedAvgM",
+    "non_iid_per": 0,
+    "rounds": 100,
+    "total_time_sec": 851.4375021457672,
+    "formatted_time": "14m 11s"
+}

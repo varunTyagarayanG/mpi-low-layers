@@ -1,0 +1,23 @@
+2025-09-18 16:28:01,900:INFO: Process 9 is initializing the server
+2025-09-18 16:28:01,905:INFO: Process 9: Server is successfully initialized
+2025-09-18 16:28:06,441:INFO: Process 9: Clients are successfully initialized
+2025-09-18 16:28:06,441:INFO: 
+Process 9: Communication Round 1
+2025-09-18 16:28:09,002:INFO: Process 9: client_update has completed
+2025-09-18 16:28:09,468:INFO: Process 9: server_update has completed
+2025-09-18 16:28:14,295:INFO: 
+Process 9: Communication Round 2
+2025-09-18 16:28:17,096:INFO: Process 9: client_update has completed
+2025-09-18 16:28:18,063:INFO: Process 9: server_update has completed
+2025-09-18 16:28:23,036:INFO: 
+Process 9: Communication Round 3
+2025-09-18 16:28:25,904:INFO: Process 9: client_update has completed
+2025-09-18 16:28:26,938:INFO: Process 9: server_update has completed
+2025-09-18 16:28:32,112:INFO: 
+Process 9: Communication Round 4
+2025-09-18 16:28:34,863:INFO: Process 9: client_update has completed
+2025-09-18 16:28:35,084:INFO: Process 9: server_update has completed
+2025-09-18 16:28:40,086:INFO: 
+Process 9: Communication Round 5
+2025-09-18 16:28:42,888:INFO: Process 9: client_update has completed
+2025-09-18 16:28:43,634:INFO: Process 9: server_update has completed

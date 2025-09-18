@@ -1,0 +1,8 @@
+2025-09-18 17:17:25,894:INFO: Process 2 is initializing the server
+2025-09-18 17:17:25,901:INFO: Process 2: Server is successfully initialized
+2025-09-18 17:17:29,853:INFO: Rank 2: Initialized 10 clients
+2025-09-18 17:17:29,854:INFO: Rank 2: Starting round 1
+2025-09-18 17:17:58,583:INFO: Rank 2: Clients updated
+2025-09-18 17:17:58,594:INFO: Rank 2: Starting round 2
+2025-09-18 17:18:30,601:INFO: Rank 2: Clients updated
+2025-09-18 17:18:30,613:INFO: Rank 2: Starting round 3

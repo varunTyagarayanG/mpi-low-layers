@@ -1,0 +1,8 @@
+2025-09-18 17:17:25,900:INFO: Process 8 is initializing the server
+2025-09-18 17:17:25,905:INFO: Process 8: Server is successfully initialized
+2025-09-18 17:17:29,865:INFO: Rank 8: Initialized 10 clients
+2025-09-18 17:17:29,866:INFO: Rank 8: Starting round 1
+2025-09-18 17:17:56,380:INFO: Rank 8: Clients updated
+2025-09-18 17:17:58,595:INFO: Rank 8: Starting round 2
+2025-09-18 17:18:29,013:INFO: Rank 8: Clients updated
+2025-09-18 17:18:30,611:INFO: Rank 8: Starting round 3

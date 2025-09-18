@@ -1,0 +1,12 @@
+2025-09-18 17:17:25,900:INFO: Process 0 is initializing the server
+2025-09-18 17:17:25,907:INFO: Process 0: Server is successfully initialized
+2025-09-18 17:17:29,871:INFO: Rank 0: Initialized 10 clients
+2025-09-18 17:17:29,873:INFO: Rank 0: Starting round 1
+2025-09-18 17:17:57,471:INFO: Rank 0: Clients updated
+2025-09-18 17:17:58,595:INFO: Round 1 completed
+2025-09-18 17:18:02,895:INFO: Test Loss: 29365916.2780, Accuracy: 10.00%
+2025-09-18 17:18:02,896:INFO: Rank 0: Starting round 2
+2025-09-18 17:18:29,733:INFO: Rank 0: Clients updated
+2025-09-18 17:18:30,613:INFO: Round 2 completed
+2025-09-18 17:18:35,264:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:18:35,264:INFO: Rank 0: Starting round 3
