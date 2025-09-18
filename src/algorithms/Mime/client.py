@@ -63,7 +63,7 @@ class Client():
                 for param,grad,s in zip(self.y.parameters(), grads_y, self.state):
                     param.data = param.data - self.lr * ((1-self.beta) * grad.data + self.beta * s.data)
         
-            #if self.device == "cuda": torch.cuda.empty_cache()               
+        #if self.device == "cuda": torch.cuda.empty_cache()               
         #inputs,labels = iter(self.data).next()
         #inputs,labels = inputs.float().to(self.device), labels.long().to(self.device)
         #output = self.x(inputs)

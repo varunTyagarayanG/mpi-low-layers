@@ -4,6 +4,7 @@ import logging
 import matplotlib.pyplot as plt
 from mpi4py import MPI
 from datetime import datetime
+import argparse
 from src.util_functions import set_logger, save_plt
 import importlib
 import time  # 🔹 added for timing
@@ -14,6 +15,7 @@ def run_fl(Server, global_config, data_config, fed_config, model_config, comm, r
         log_dir = f"./Logs/{fed_config['algorithm']}/{data_config['non_iid_per']}/{run_id}/"
         os.makedirs(log_dir, exist_ok=True)
 
+    # Barrier to ensure directory exists before other ranks start logging
     comm.Barrier()
 
     # Set logger per rank with unique run ID
@@ -31,71 +33,71 @@ def run_fl(Server, global_config, data_config, fed_config, model_config, comm, r
     start_time = time.time()
     server.setup()
     server.train()
-    end_time = time.time()
+    total_time = time.time() - start_time
 
-    total_time = end_time - start_time
-    minutes, seconds = divmod(int(total_time), 60)
-
-    if rank == 0:  # log only once, from root process
-        logging.info(f"Total training time for {fed_config['algorithm']} = {total_time:.2f} seconds ({minutes}m {seconds}s)")
-
-        # 🔹 Save runtime to JSON
-        runtime_file = f"./Logs/{fed_config['algorithm']}/{data_config['non_iid_per']}/{run_id}/runtime.json"
-        with open(runtime_file, "w") as f:
-            json.dump({
-                "algorithm": fed_config['algorithm'],
-                "non_iid_per": data_config['non_iid_per'],
-                "rounds": server.num_rounds,
-                "total_time_sec": total_time,
-                "formatted_time": f"{minutes}m {seconds}s"
-            }, f, indent=4)
-
-        logging.info(f"Runtime details saved to {runtime_file}")
-
-    # Save plots on root only
+    # Gather timing on root for visibility
+    all_times = comm.gather(total_time, root=0)
     if rank == 0:
-        save_plt(list(range(1, server.num_rounds + 1)), server.results['accuracy'],
-                 "Communication Round", "Test Accuracy",
-                 f"./Logs/{fed_config['algorithm']}/{data_config['non_iid_per']}/{run_id}/accgraph.png")
-        save_plt(list(range(1, server.num_rounds + 1)), server.results['loss'],
-                 "Communication Round", "Test Loss",
-                 f"./Logs/{fed_config['algorithm']}/{data_config['non_iid_per']}/{run_id}/lossgraph.png")
-        logging.info("Plots saved successfully")
+        logging.info(f"Total wall time per rank (s): {all_times}")
 
-    logging.info(f"Process {rank}: Execution has completed")
-
+    # Evaluate on root only if your evaluate uses shared model; otherwise broadcast as needed
+    if rank == 0:
+        logging.info("Training complete on all ranks.")
 
 if __name__ == "__main__":
+    # Init MPI
     comm = MPI.COMM_WORLD
     rank = comm.Get_rank()
     size = comm.Get_size()
 
+    # Parse CLI only on root; broadcast to others
+    if rank == 0:
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--config", type=str, default="config.json",
+                            help="Path to config JSON")
+        parser.add_argument("--num-clients", type=int, required=True,
+                            help="Total number of FL clients (must equal MPI world size when using 1 client per process).")
+        args, _ = parser.parse_known_args()
+    else:
+        args = None
+    args = comm.bcast(args, root=0)
+
     # Load config on root
     if rank == 0:
-        with open('config.json', 'r') as f:
+        with open(args.config, "r") as f:
             config = json.load(f)
-    else:
-        config = None
+        global_config = config["global_config"]
+        data_config   = config["data_config"]
+        fed_config    = config["fed_config"]
+        model_config  = config["model_config"]
 
-    # Broadcast config to all ranks
-    config = comm.bcast(config, root=0)
+        # Enforce 1 client per process: num_clients == world size
+        if args.num_clients != size:
+            raise ValueError(f"--num-clients ({args.num_clients}) must equal MPI world size (-n == {size}) when running 1 client per process.")
+        fed_config['num_clients'] = args.num_clients
 
-    global_config = config["global_config"]
-    data_config = config["data_config"]
-    fed_config = config["fed_config"]
-    model_config = config["model_config"]
+        # Module/algorithm loader (expects e.g., src.algorithms.FedAvg.server:Server)
+        algo_name = fed_config["algorithm"]
+        server_module = importlib.import_module(f"src.algorithms.{algo_name}.server")
+        Server = getattr(server_module, "Server")
 
-    # Generate unique run ID using timestamp
-    if rank == 0:
+        # Generate unique run ID using timestamp
         run_id = datetime.now().strftime("%Y%m%d_%H%M%S")
     else:
+        global_config = None
+        data_config = None
+        fed_config = None
+        model_config = None
+        Server = None
         run_id = None
-    run_id = comm.bcast(run_id, root=0)
 
-    # Dynamically import Server
-    module_name = f"src.algorithms.{fed_config['algorithm']}.server"
-    server_module = importlib.import_module(module_name)
-    Server = server_module.Server
+    # Broadcast loaded objects
+    global_config = comm.bcast(global_config, root=0)
+    data_config   = comm.bcast(data_config, root=0)
+    fed_config    = comm.bcast(fed_config, root=0)
+    model_config  = comm.bcast(model_config, root=0)
+    Server        = comm.bcast(Server, root=0)
+    run_id        = comm.bcast(run_id, root=0)
 
-    # Run federated learning with the unique run ID
+    # Run
     run_fl(Server, global_config, data_config, fed_config, model_config, comm, rank, size, run_id)
