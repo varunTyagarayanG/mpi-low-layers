@@ -20,7 +20,9 @@ class Server:
         self.fed_config = fed_config
         self.optim_config = optim_config
 
-        self.data_path = data_config["data_path"]
+        self.data_path = data_config.get("data_path", data_config.get("dataset_path"))
+        if self.data_path is None:
+            raise KeyError("data_config must contain 'data_path' (or 'dataset_path').")
         self.dataset_name = data_config["dataset_name"]
         self.non_iid_per = data_config["non_iid_per"]
 
