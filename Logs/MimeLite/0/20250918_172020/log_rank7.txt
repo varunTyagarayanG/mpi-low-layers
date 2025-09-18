@@ -1,0 +1,5 @@
+2025-09-18 17:20:20,671:INFO: Process 7 is initializing the server
+2025-09-18 17:20:20,676:INFO: Process 7: Server is successfully initialized
+2025-09-18 17:20:27,609:INFO: Rank 7: Clients initialized
+2025-09-18 17:20:27,609:INFO: Rank 7: Communication Round 1
+2025-09-18 17:20:53,639:INFO: Rank 7: client_update completed

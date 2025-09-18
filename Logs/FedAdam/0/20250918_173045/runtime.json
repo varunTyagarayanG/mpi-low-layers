@@ -1,0 +1,7 @@
+{
+    "algorithm": "FedAdam",
+    "non_iid_per": 0,
+    "rounds": 100,
+    "total_time_sec": 3207.122442483902,
+    "formatted_time": "53m 27s"
+}

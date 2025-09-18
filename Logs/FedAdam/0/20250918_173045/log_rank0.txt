@@ -1,0 +1,405 @@
+2025-09-18 17:30:45,549:INFO: Process 0 is initializing the server
+2025-09-18 17:30:45,555:INFO: Process 0: Server is successfully initialized
+2025-09-18 17:30:49,623:INFO: Rank 0: Initialized 10 clients
+2025-09-18 17:30:49,624:INFO: Rank 0: Starting round 1
+2025-09-18 17:31:17,415:INFO: Rank 0: Clients updated
+2025-09-18 17:31:19,126:INFO: Round 1 completed
+2025-09-18 17:31:23,524:INFO: Test Loss: 29365916.2780, Accuracy: 10.00%
+2025-09-18 17:31:23,524:INFO: Rank 0: Starting round 2
+2025-09-18 17:31:50,466:INFO: Rank 0: Clients updated
+2025-09-18 17:31:52,556:INFO: Round 2 completed
+2025-09-18 17:31:56,956:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:31:56,956:INFO: Rank 0: Starting round 3
+2025-09-18 17:32:23,645:INFO: Rank 0: Clients updated
+2025-09-18 17:32:25,010:INFO: Round 3 completed
+2025-09-18 17:32:28,742:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:32:28,742:INFO: Rank 0: Starting round 4
+2025-09-18 17:32:55,646:INFO: Rank 0: Clients updated
+2025-09-18 17:32:56,515:INFO: Round 4 completed
+2025-09-18 17:33:00,856:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:33:00,856:INFO: Rank 0: Starting round 5
+2025-09-18 17:33:28,136:INFO: Rank 0: Clients updated
+2025-09-18 17:33:28,857:INFO: Round 5 completed
+2025-09-18 17:33:33,073:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:33:33,074:INFO: Rank 0: Starting round 6
+2025-09-18 17:33:58,761:INFO: Rank 0: Clients updated
+2025-09-18 17:34:01,351:INFO: Round 6 completed
+2025-09-18 17:34:05,787:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:34:05,787:INFO: Rank 0: Starting round 7
+2025-09-18 17:34:33,862:INFO: Rank 0: Clients updated
+2025-09-18 17:34:33,871:INFO: Round 7 completed
+2025-09-18 17:34:37,770:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:34:37,771:INFO: Rank 0: Starting round 8
+2025-09-18 17:35:06,334:INFO: Rank 0: Clients updated
+2025-09-18 17:35:07,132:INFO: Round 8 completed
+2025-09-18 17:35:11,500:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:35:11,500:INFO: Rank 0: Starting round 9
+2025-09-18 17:35:39,306:INFO: Rank 0: Clients updated
+2025-09-18 17:35:40,133:INFO: Round 9 completed
+2025-09-18 17:35:44,381:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:35:44,381:INFO: Rank 0: Starting round 10
+2025-09-18 17:36:12,021:INFO: Rank 0: Clients updated
+2025-09-18 17:36:12,032:INFO: Round 10 completed
+2025-09-18 17:36:16,065:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:36:16,065:INFO: Rank 0: Starting round 11
+2025-09-18 17:36:44,200:INFO: Rank 0: Clients updated
+2025-09-18 17:36:44,212:INFO: Round 11 completed
+2025-09-18 17:36:48,376:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:36:48,377:INFO: Rank 0: Starting round 12
+2025-09-18 17:37:16,220:INFO: Rank 0: Clients updated
+2025-09-18 17:37:16,229:INFO: Round 12 completed
+2025-09-18 17:37:20,352:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:37:20,352:INFO: Rank 0: Starting round 13
+2025-09-18 17:37:47,958:INFO: Rank 0: Clients updated
+2025-09-18 17:37:47,967:INFO: Round 13 completed
+2025-09-18 17:37:52,423:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:37:52,424:INFO: Rank 0: Starting round 14
+2025-09-18 17:38:19,898:INFO: Rank 0: Clients updated
+2025-09-18 17:38:19,906:INFO: Round 14 completed
+2025-09-18 17:38:24,019:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:38:24,019:INFO: Rank 0: Starting round 15
+2025-09-18 17:38:51,367:INFO: Rank 0: Clients updated
+2025-09-18 17:38:51,534:INFO: Round 15 completed
+2025-09-18 17:38:55,408:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:38:55,409:INFO: Rank 0: Starting round 16
+2025-09-18 17:39:22,305:INFO: Rank 0: Clients updated
+2025-09-18 17:39:22,606:INFO: Round 16 completed
+2025-09-18 17:39:26,176:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:39:26,177:INFO: Rank 0: Starting round 17
+2025-09-18 17:39:53,274:INFO: Rank 0: Clients updated
+2025-09-18 17:39:53,368:INFO: Round 17 completed
+2025-09-18 17:39:57,589:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:39:57,589:INFO: Rank 0: Starting round 18
+2025-09-18 17:40:25,128:INFO: Rank 0: Clients updated
+2025-09-18 17:40:25,851:INFO: Round 18 completed
+2025-09-18 17:40:30,385:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:40:30,386:INFO: Rank 0: Starting round 19
+2025-09-18 17:40:58,291:INFO: Rank 0: Clients updated
+2025-09-18 17:40:58,299:INFO: Round 19 completed
+2025-09-18 17:41:02,156:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:41:02,156:INFO: Rank 0: Starting round 20
+2025-09-18 17:41:29,209:INFO: Rank 0: Clients updated
+2025-09-18 17:41:29,420:INFO: Round 20 completed
+2025-09-18 17:41:34,058:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:41:34,058:INFO: Rank 0: Starting round 21
+2025-09-18 17:42:01,111:INFO: Rank 0: Clients updated
+2025-09-18 17:42:01,437:INFO: Round 21 completed
+2025-09-18 17:42:05,249:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:42:05,249:INFO: Rank 0: Starting round 22
+2025-09-18 17:42:31,320:INFO: Rank 0: Clients updated
+2025-09-18 17:42:32,985:INFO: Round 22 completed
+2025-09-18 17:42:37,003:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:42:37,004:INFO: Rank 0: Starting round 23
+2025-09-18 17:43:03,149:INFO: Rank 0: Clients updated
+2025-09-18 17:43:04,878:INFO: Round 23 completed
+2025-09-18 17:43:08,923:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:43:08,923:INFO: Rank 0: Starting round 24
+2025-09-18 17:43:35,077:INFO: Rank 0: Clients updated
+2025-09-18 17:43:36,798:INFO: Round 24 completed
+2025-09-18 17:43:41,611:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:43:41,612:INFO: Rank 0: Starting round 25
+2025-09-18 17:44:08,813:INFO: Rank 0: Clients updated
+2025-09-18 17:44:09,541:INFO: Round 25 completed
+2025-09-18 17:44:13,382:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:44:13,383:INFO: Rank 0: Starting round 26
+2025-09-18 17:44:41,167:INFO: Rank 0: Clients updated
+2025-09-18 17:44:42,324:INFO: Round 26 completed
+2025-09-18 17:44:46,912:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:44:46,913:INFO: Rank 0: Starting round 27
+2025-09-18 17:45:16,507:INFO: Rank 0: Clients updated
+2025-09-18 17:45:16,515:INFO: Round 27 completed
+2025-09-18 17:45:20,315:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:45:20,315:INFO: Rank 0: Starting round 28
+2025-09-18 17:45:46,310:INFO: Rank 0: Clients updated
+2025-09-18 17:45:47,998:INFO: Round 28 completed
+2025-09-18 17:45:52,239:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:45:52,240:INFO: Rank 0: Starting round 29
+2025-09-18 17:46:19,301:INFO: Rank 0: Clients updated
+2025-09-18 17:46:21,230:INFO: Round 29 completed
+2025-09-18 17:46:25,076:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:46:25,076:INFO: Rank 0: Starting round 30
+2025-09-18 17:46:52,872:INFO: Rank 0: Clients updated
+2025-09-18 17:46:53,789:INFO: Round 30 completed
+2025-09-18 17:46:58,069:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:46:58,070:INFO: Rank 0: Starting round 31
+2025-09-18 17:47:25,808:INFO: Rank 0: Clients updated
+2025-09-18 17:47:25,816:INFO: Round 31 completed
+2025-09-18 17:47:29,748:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:47:29,749:INFO: Rank 0: Starting round 32
+2025-09-18 17:47:56,888:INFO: Rank 0: Clients updated
+2025-09-18 17:47:57,935:INFO: Round 32 completed
+2025-09-18 17:48:02,310:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:48:02,311:INFO: Rank 0: Starting round 33
+2025-09-18 17:48:29,983:INFO: Rank 0: Clients updated
+2025-09-18 17:48:30,303:INFO: Round 33 completed
+2025-09-18 17:48:34,691:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:48:34,691:INFO: Rank 0: Starting round 34
+2025-09-18 17:49:01,866:INFO: Rank 0: Clients updated
+2025-09-18 17:49:02,315:INFO: Round 34 completed
+2025-09-18 17:49:06,378:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:49:06,378:INFO: Rank 0: Starting round 35
+2025-09-18 17:49:32,888:INFO: Rank 0: Clients updated
+2025-09-18 17:49:34,327:INFO: Round 35 completed
+2025-09-18 17:49:38,325:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:49:38,325:INFO: Rank 0: Starting round 36
+2025-09-18 17:50:05,239:INFO: Rank 0: Clients updated
+2025-09-18 17:50:05,970:INFO: Round 36 completed
+2025-09-18 17:50:09,928:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:50:09,928:INFO: Rank 0: Starting round 37
+2025-09-18 17:50:36,198:INFO: Rank 0: Clients updated
+2025-09-18 17:50:37,406:INFO: Round 37 completed
+2025-09-18 17:50:41,748:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:50:41,749:INFO: Rank 0: Starting round 38
+2025-09-18 17:51:09,023:INFO: Rank 0: Clients updated
+2025-09-18 17:51:09,482:INFO: Round 38 completed
+2025-09-18 17:51:13,719:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:51:13,719:INFO: Rank 0: Starting round 39
+2025-09-18 17:51:40,863:INFO: Rank 0: Clients updated
+2025-09-18 17:51:41,610:INFO: Round 39 completed
+2025-09-18 17:51:45,639:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:51:45,640:INFO: Rank 0: Starting round 40
+2025-09-18 17:52:12,154:INFO: Rank 0: Clients updated
+2025-09-18 17:52:14,070:INFO: Round 40 completed
+2025-09-18 17:52:17,894:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:52:17,894:INFO: Rank 0: Starting round 41
+2025-09-18 17:52:44,914:INFO: Rank 0: Clients updated
+2025-09-18 17:52:45,751:INFO: Round 41 completed
+2025-09-18 17:52:49,485:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:52:49,486:INFO: Rank 0: Starting round 42
+2025-09-18 17:53:14,467:INFO: Rank 0: Clients updated
+2025-09-18 17:53:17,376:INFO: Round 42 completed
+2025-09-18 17:53:21,160:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:53:21,160:INFO: Rank 0: Starting round 43
+2025-09-18 17:53:48,274:INFO: Rank 0: Clients updated
+2025-09-18 17:53:48,921:INFO: Round 43 completed
+2025-09-18 17:53:53,341:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:53:53,341:INFO: Rank 0: Starting round 44
+2025-09-18 17:54:20,426:INFO: Rank 0: Clients updated
+2025-09-18 17:54:21,142:INFO: Round 44 completed
+2025-09-18 17:54:25,048:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:54:25,048:INFO: Rank 0: Starting round 45
+2025-09-18 17:54:53,383:INFO: Rank 0: Clients updated
+2025-09-18 17:54:53,402:INFO: Round 45 completed
+2025-09-18 17:54:57,658:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:54:57,658:INFO: Rank 0: Starting round 46
+2025-09-18 17:55:24,051:INFO: Rank 0: Clients updated
+2025-09-18 17:55:25,282:INFO: Round 46 completed
+2025-09-18 17:55:29,081:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:55:29,081:INFO: Rank 0: Starting round 47
+2025-09-18 17:55:54,738:INFO: Rank 0: Clients updated
+2025-09-18 17:55:55,905:INFO: Round 47 completed
+2025-09-18 17:55:59,998:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:55:59,998:INFO: Rank 0: Starting round 48
+2025-09-18 17:56:27,634:INFO: Rank 0: Clients updated
+2025-09-18 17:56:27,933:INFO: Round 48 completed
+2025-09-18 17:56:32,344:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:56:32,344:INFO: Rank 0: Starting round 49
+2025-09-18 17:56:59,457:INFO: Rank 0: Clients updated
+2025-09-18 17:56:59,693:INFO: Round 49 completed
+2025-09-18 17:57:03,518:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:57:03,520:INFO: Rank 0: Starting round 50
+2025-09-18 17:57:29,729:INFO: Rank 0: Clients updated
+2025-09-18 17:57:30,861:INFO: Round 50 completed
+2025-09-18 17:57:34,648:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:57:34,648:INFO: Rank 0: Starting round 51
+2025-09-18 17:58:00,577:INFO: Rank 0: Clients updated
+2025-09-18 17:58:03,006:INFO: Round 51 completed
+2025-09-18 17:58:06,898:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:58:06,898:INFO: Rank 0: Starting round 52
+2025-09-18 17:58:34,306:INFO: Rank 0: Clients updated
+2025-09-18 17:58:35,418:INFO: Round 52 completed
+2025-09-18 17:58:39,094:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:58:39,094:INFO: Rank 0: Starting round 53
+2025-09-18 17:59:05,608:INFO: Rank 0: Clients updated
+2025-09-18 17:59:07,827:INFO: Round 53 completed
+2025-09-18 17:59:11,633:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:59:11,633:INFO: Rank 0: Starting round 54
+2025-09-18 17:59:37,648:INFO: Rank 0: Clients updated
+2025-09-18 17:59:39,785:INFO: Round 54 completed
+2025-09-18 17:59:43,857:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 17:59:43,858:INFO: Rank 0: Starting round 55
+2025-09-18 18:00:12,077:INFO: Rank 0: Clients updated
+2025-09-18 18:00:12,089:INFO: Round 55 completed
+2025-09-18 18:00:15,913:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:00:15,914:INFO: Rank 0: Starting round 56
+2025-09-18 18:00:43,933:INFO: Rank 0: Clients updated
+2025-09-18 18:00:43,944:INFO: Round 56 completed
+2025-09-18 18:00:47,908:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:00:47,909:INFO: Rank 0: Starting round 57
+2025-09-18 18:01:16,227:INFO: Rank 0: Clients updated
+2025-09-18 18:01:16,238:INFO: Round 57 completed
+2025-09-18 18:01:20,171:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:01:20,172:INFO: Rank 0: Starting round 58
+2025-09-18 18:01:46,859:INFO: Rank 0: Clients updated
+2025-09-18 18:01:48,989:INFO: Round 58 completed
+2025-09-18 18:01:53,067:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:01:53,071:INFO: Rank 0: Starting round 59
+2025-09-18 18:02:19,522:INFO: Rank 0: Clients updated
+2025-09-18 18:02:20,504:INFO: Round 59 completed
+2025-09-18 18:02:24,227:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:02:24,228:INFO: Rank 0: Starting round 60
+2025-09-18 18:02:52,199:INFO: Rank 0: Clients updated
+2025-09-18 18:02:52,219:INFO: Round 60 completed
+2025-09-18 18:02:56,284:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:02:56,284:INFO: Rank 0: Starting round 61
+2025-09-18 18:03:23,158:INFO: Rank 0: Clients updated
+2025-09-18 18:03:24,737:INFO: Round 61 completed
+2025-09-18 18:03:28,977:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:03:28,978:INFO: Rank 0: Starting round 62
+2025-09-18 18:03:55,815:INFO: Rank 0: Clients updated
+2025-09-18 18:03:57,290:INFO: Round 62 completed
+2025-09-18 18:04:01,272:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:04:01,272:INFO: Rank 0: Starting round 63
+2025-09-18 18:04:28,176:INFO: Rank 0: Clients updated
+2025-09-18 18:04:29,048:INFO: Round 63 completed
+2025-09-18 18:04:33,579:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:04:33,580:INFO: Rank 0: Starting round 64
+2025-09-18 18:05:02,763:INFO: Rank 0: Clients updated
+2025-09-18 18:05:03,027:INFO: Round 64 completed
+2025-09-18 18:05:06,956:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:05:06,956:INFO: Rank 0: Starting round 65
+2025-09-18 18:05:33,784:INFO: Rank 0: Clients updated
+2025-09-18 18:05:34,788:INFO: Round 65 completed
+2025-09-18 18:05:38,948:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:05:38,949:INFO: Rank 0: Starting round 66
+2025-09-18 18:06:05,428:INFO: Rank 0: Clients updated
+2025-09-18 18:06:06,208:INFO: Round 66 completed
+2025-09-18 18:06:10,150:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:06:10,150:INFO: Rank 0: Starting round 67
+2025-09-18 18:06:38,089:INFO: Rank 0: Clients updated
+2025-09-18 18:06:38,100:INFO: Round 67 completed
+2025-09-18 18:06:42,394:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:06:42,394:INFO: Rank 0: Starting round 68
+2025-09-18 18:07:10,291:INFO: Rank 0: Clients updated
+2025-09-18 18:07:10,530:INFO: Round 68 completed
+2025-09-18 18:07:14,205:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:07:14,206:INFO: Rank 0: Starting round 69
+2025-09-18 18:07:41,426:INFO: Rank 0: Clients updated
+2025-09-18 18:07:41,967:INFO: Round 69 completed
+2025-09-18 18:07:46,074:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:07:46,074:INFO: Rank 0: Starting round 70
+2025-09-18 18:08:13,852:INFO: Rank 0: Clients updated
+2025-09-18 18:08:13,867:INFO: Round 70 completed
+2025-09-18 18:08:17,950:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:08:17,951:INFO: Rank 0: Starting round 71
+2025-09-18 18:08:45,545:INFO: Rank 0: Clients updated
+2025-09-18 18:08:45,602:INFO: Round 71 completed
+2025-09-18 18:08:49,726:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:08:49,726:INFO: Rank 0: Starting round 72
+2025-09-18 18:09:16,944:INFO: Rank 0: Clients updated
+2025-09-18 18:09:17,511:INFO: Round 72 completed
+2025-09-18 18:09:21,327:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:09:21,327:INFO: Rank 0: Starting round 73
+2025-09-18 18:09:48,670:INFO: Rank 0: Clients updated
+2025-09-18 18:09:48,870:INFO: Round 73 completed
+2025-09-18 18:09:52,431:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:09:52,431:INFO: Rank 0: Starting round 74
+2025-09-18 18:10:18,971:INFO: Rank 0: Clients updated
+2025-09-18 18:10:20,536:INFO: Round 74 completed
+2025-09-18 18:10:24,174:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:10:24,174:INFO: Rank 0: Starting round 75
+2025-09-18 18:10:51,378:INFO: Rank 0: Clients updated
+2025-09-18 18:10:51,386:INFO: Round 75 completed
+2025-09-18 18:10:55,428:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:10:55,429:INFO: Rank 0: Starting round 76
+2025-09-18 18:11:22,180:INFO: Rank 0: Clients updated
+2025-09-18 18:11:24,200:INFO: Round 76 completed
+2025-09-18 18:11:28,588:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:11:28,588:INFO: Rank 0: Starting round 77
+2025-09-18 18:11:55,273:INFO: Rank 0: Clients updated
+2025-09-18 18:11:56,415:INFO: Round 77 completed
+2025-09-18 18:12:00,420:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:12:00,421:INFO: Rank 0: Starting round 78
+2025-09-18 18:12:26,730:INFO: Rank 0: Clients updated
+2025-09-18 18:12:28,403:INFO: Round 78 completed
+2025-09-18 18:12:33,077:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:12:33,082:INFO: Rank 0: Starting round 79
+2025-09-18 18:12:59,344:INFO: Rank 0: Clients updated
+2025-09-18 18:13:01,156:INFO: Round 79 completed
+2025-09-18 18:13:05,072:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:13:05,073:INFO: Rank 0: Starting round 80
+2025-09-18 18:13:31,503:INFO: Rank 0: Clients updated
+2025-09-18 18:13:31,995:INFO: Round 80 completed
+2025-09-18 18:13:35,828:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:13:35,828:INFO: Rank 0: Starting round 81
+2025-09-18 18:14:02,461:INFO: Rank 0: Clients updated
+2025-09-18 18:14:03,179:INFO: Round 81 completed
+2025-09-18 18:14:06,887:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:14:06,887:INFO: Rank 0: Starting round 82
+2025-09-18 18:14:34,008:INFO: Rank 0: Clients updated
+2025-09-18 18:14:34,752:INFO: Round 82 completed
+2025-09-18 18:14:39,063:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:14:39,063:INFO: Rank 0: Starting round 83
+2025-09-18 18:15:06,751:INFO: Rank 0: Clients updated
+2025-09-18 18:15:07,643:INFO: Round 83 completed
+2025-09-18 18:15:11,309:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:15:11,310:INFO: Rank 0: Starting round 84
+2025-09-18 18:15:38,526:INFO: Rank 0: Clients updated
+2025-09-18 18:15:38,566:INFO: Round 84 completed
+2025-09-18 18:15:42,221:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:15:42,221:INFO: Rank 0: Starting round 85
+2025-09-18 18:16:10,024:INFO: Rank 0: Clients updated
+2025-09-18 18:16:10,420:INFO: Round 85 completed
+2025-09-18 18:16:14,505:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:16:14,505:INFO: Rank 0: Starting round 86
+2025-09-18 18:16:42,388:INFO: Rank 0: Clients updated
+2025-09-18 18:16:42,405:INFO: Round 86 completed
+2025-09-18 18:16:46,482:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:16:46,488:INFO: Rank 0: Starting round 87
+2025-09-18 18:17:13,741:INFO: Rank 0: Clients updated
+2025-09-18 18:17:14,350:INFO: Round 87 completed
+2025-09-18 18:17:18,643:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:17:18,643:INFO: Rank 0: Starting round 88
+2025-09-18 18:17:45,327:INFO: Rank 0: Clients updated
+2025-09-18 18:17:46,480:INFO: Round 88 completed
+2025-09-18 18:17:51,083:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:17:51,083:INFO: Rank 0: Starting round 89
+2025-09-18 18:18:18,638:INFO: Rank 0: Clients updated
+2025-09-18 18:18:18,646:INFO: Round 89 completed
+2025-09-18 18:18:22,401:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:18:22,402:INFO: Rank 0: Starting round 90
+2025-09-18 18:18:50,187:INFO: Rank 0: Clients updated
+2025-09-18 18:18:50,198:INFO: Round 90 completed
+2025-09-18 18:18:54,461:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:18:54,461:INFO: Rank 0: Starting round 91
+2025-09-18 18:19:21,777:INFO: Rank 0: Clients updated
+2025-09-18 18:19:22,781:INFO: Round 91 completed
+2025-09-18 18:19:26,681:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:19:26,681:INFO: Rank 0: Starting round 92
+2025-09-18 18:19:53,612:INFO: Rank 0: Clients updated
+2025-09-18 18:19:53,971:INFO: Round 92 completed
+2025-09-18 18:19:57,825:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:19:57,826:INFO: Rank 0: Starting round 93
+2025-09-18 18:20:24,602:INFO: Rank 0: Clients updated
+2025-09-18 18:20:25,647:INFO: Round 93 completed
+2025-09-18 18:20:30,149:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:20:30,149:INFO: Rank 0: Starting round 94
+2025-09-18 18:20:57,205:INFO: Rank 0: Clients updated
+2025-09-18 18:20:58,054:INFO: Round 94 completed
+2025-09-18 18:21:02,103:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:21:02,104:INFO: Rank 0: Starting round 95
+2025-09-18 18:21:28,541:INFO: Rank 0: Clients updated
+2025-09-18 18:21:29,785:INFO: Round 95 completed
+2025-09-18 18:21:33,558:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:21:33,558:INFO: Rank 0: Starting round 96
+2025-09-18 18:22:00,316:INFO: Rank 0: Clients updated
+2025-09-18 18:22:01,269:INFO: Round 96 completed
+2025-09-18 18:22:05,255:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:22:05,256:INFO: Rank 0: Starting round 97
+2025-09-18 18:22:31,877:INFO: Rank 0: Clients updated
+2025-09-18 18:22:33,300:INFO: Round 97 completed
+2025-09-18 18:22:37,298:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:22:37,298:INFO: Rank 0: Starting round 98
+2025-09-18 18:23:04,627:INFO: Rank 0: Clients updated
+2025-09-18 18:23:04,885:INFO: Round 98 completed
+2025-09-18 18:23:09,168:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:23:09,168:INFO: Rank 0: Starting round 99
+2025-09-18 18:23:36,043:INFO: Rank 0: Clients updated
+2025-09-18 18:23:36,591:INFO: Round 99 completed
+2025-09-18 18:23:41,272:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:23:41,273:INFO: Rank 0: Starting round 100
+2025-09-18 18:24:08,973:INFO: Rank 0: Clients updated
+2025-09-18 18:24:08,982:INFO: Round 100 completed
+2025-09-18 18:24:12,677:INFO: Test Loss: nan, Accuracy: 10.00%
+2025-09-18 18:24:12,677:INFO: Total training time for FedAdam = 3207.12 seconds (53m 27s)
+2025-09-18 18:24:12,678:INFO: Runtime details saved to ./Logs/FedAdam/0/20250918_173045/runtime.json
