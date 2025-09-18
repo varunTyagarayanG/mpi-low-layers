@@ -1,135 +1,133 @@
-import numpy as np
-import logging
 import torch
-from torch.utils.data import DataLoader
 from copy import deepcopy
+import logging
+import numpy as np
+from mpi4py import MPI
 
 from .client import Client
 from src.models import *
 from src.load_data_for_clients import dist_data_per_client
 from src.util_functions import set_seed, evaluate_fn
 
-class Server():
+class Server:
     """
-    Server is initialized with set of hyperparameters, global model(x). Server then initializes a number of clients and 
-    splits the train dataset among them. Server has only access the test dataset which is useful for evaluating the global 
-    model's performance after each round. In each round, Server selects a fraction of clients and communicates x & server_c 
-    to the selected clients. Each client then trains model(x) on its local dataset and communicates updates back to the 
-    server. On receiving the updates from all the participating clients, server updates its x.
-    
-    Attributes:
-        device: Specifies which device (cpu or gpu) to use for training
-        data_path: Specifies the path for storing the dataset
-        dataset_name: Specifies which datset to use
-        fraction: Specifies what fraction of clients needs to be selected in each round
-        num_clients: Total number of clients
-        num_rounds: Number of rounds for training the global model
-        num_epochs: Number of epochs to train the model on each client
-        batch_size: Specifies the batch size for the test dataset
-        criterion: Loss function to optimize 
-        lr: Global stepsize which is used in server_update
-        lr_l: Local stepsize which is used in client_update
-        x: Global model which needs to be trained
-        clients: List of clients whose length is equal to num_clients
+    MPI-compatible FedAdam server
     """
-    
-    def __init__(self, model_config={}, global_config={}, data_config={}, fed_config={}, optim_config={}):
-      
+    def __init__(self, model_config={}, global_config={}, data_config={}, fed_config={}, comm=None, rank=None, size=None):
         set_seed(global_config["seed"])
+        
+        # MPI
+        self.comm = comm if comm else MPI.COMM_WORLD
+        self.rank = rank if rank is not None else self.comm.Get_rank()
+        self.size = size if size is not None else self.comm.Get_size()
+
         self.device = global_config["device"]
 
         self.data_path = data_config["dataset_path"]
         self.dataset_name = data_config["dataset_name"]
         self.non_iid_per = data_config["non_iid_per"]
 
-        self.fraction = fed_config["fraction_clients"]
         self.num_clients = fed_config["num_clients"]
         self.num_rounds = fed_config["num_rounds"]
         self.num_epochs = fed_config["num_epochs"]
         self.batch_size = fed_config["batch_size"]
+        self.fraction = fed_config["fraction_clients"]
         self.criterion = eval(fed_config["criterion"])()
         self.lr = fed_config["global_stepsize"]
         self.lr_l = fed_config["local_stepsize"]
-        
-        self.x = eval(model_config["name"])()   
-        self.m = [torch.zeros_like(param,device=self.device) for param in self.x.parameters()] #1st moment vector
-        self.v = [torch.zeros_like(param,device=self.device) for param in self.x.parameters()] #2nd moment vector 
-        
+
+        self.x = eval(model_config["name"])().to(self.device)
+        self.m = [torch.zeros_like(p, device=self.device) for p in self.x.parameters()]
+        self.v = [torch.zeros_like(p, device=self.device) for p in self.x.parameters()]
         self.beta1 = 0.9
         self.beta2 = 0.999
         self.epsilon = 1e-6
         self.timestep = 1
-        
-        self.clients = None       
-    
-    def create_clients(self, local_datasets):
-        clients = []
-        for id_num,dataset in enumerate(local_datasets):
-            client = Client(client_id=id_num, local_data=dataset, device=self.device, num_epochs = self.num_epochs, criterion = self.criterion, lr=self.lr_l)
-            clients.append(client)
-        return clients
-    
-    def setup(self, **init_kwargs):
-        """Initializes all the Clients and splits the train dataset among them""" 
-        local_datasets,test_dataset = dist_data_per_client(self.data_path, self.dataset_name, self.num_clients, self.batch_size, self.non_iid_per, self.device)
-        self.data = test_dataset
-      
-        self.clients = self.create_clients(local_datasets)
-        logging.info("\nClients are successfully initialized")
-      
-    def sample_clients(self):
-        """Selects a fraction of clients from all the available clients"""
-        num_sampled_clients = max(int(self.fraction * self.num_clients), 1)
-        sampled_client_ids = sorted(np.random.choice(a=[i for i in range(self.num_clients)], size=num_sampled_clients, 
-        replace=False).tolist())
-        return sampled_client_ids
 
-    def communicate(self, client_ids):
-        """Communicates global model(x) to the participating clients"""
-        for idx in client_ids:
-            self.clients[idx].x = deepcopy(self.x) 
-               
-    def update_clients(self, client_ids):
-        """Tells all the clients to perform client_update"""
-        for idx in client_ids:
-            self.clients[idx].client_update()
+        self.clients = []
+        self.test_data = None
 
-    def server_update(self, client_ids):
-        """Updates the global model(x)"""
-        self.x.to(self.device)
-        gradients = [torch.zeros_like(param,device=self.device) for param in self.x.parameters()] #gradients or delta_x
+    def setup(self):
+        """Split dataset across ranks and initialize clients"""
+        if self.rank == 0:
+            local_datasets, test_dataset = dist_data_per_client(
+                self.data_path, self.dataset_name, self.num_clients,
+                self.batch_size, self.non_iid_per, self.device
+            )
+            chunks = np.array_split(local_datasets, self.size)
+        else:
+            chunks = None
+            test_dataset = None
+
+        local_data = self.comm.scatter(chunks, root=0)
+        self.test_data = self.comm.bcast(test_dataset, root=0)
+
+        for idx, dataset in enumerate(local_data):
+            client_id = self.rank * len(local_data) + idx
+            self.clients.append(Client(
+                client_id=client_id,
+                local_data=dataset,
+                device=self.device,
+                num_epochs=self.num_epochs,
+                criterion=self.criterion,
+                lr=self.lr_l
+            ))
+
+        logging.info(f"Rank {self.rank}: Initialized {len(self.clients)} clients")
+
+    def communicate(self):
+        """Broadcast global model to all clients"""
+        x_params = [p.detach().cpu().numpy() for p in self.x.parameters()]
+        x_params = self.comm.bcast(x_params, root=0)
+
+        for param, new_param in zip(self.x.parameters(), x_params):
+            param.data = torch.tensor(new_param, device=self.device)
+
+        for client in self.clients:
+            client.x = deepcopy(self.x)
+
+    def update_clients(self):
+        """Local client updates"""
+        for client in self.clients:
+            client.client_update()
+
+    def server_update(self):
+        """Aggregate delta_y from all clients and perform Adam update"""
+        local_grads = [torch.zeros_like(p, device=self.device) for p in self.x.parameters()]
+
+        for client in self.clients:
+            for g, delta in zip(local_grads, client.delta_y):
+                g.data += delta.data / self.num_clients
+
+        # Aggregate across all ranks
+        global_grads = []
+        for g in local_grads:
+            total = np.zeros_like(g.cpu().numpy())
+            self.comm.Allreduce(g.detach().cpu().numpy(), total, op=MPI.SUM)
+            global_grads.append(torch.tensor(total, device=self.device))
+
         with torch.no_grad():
-            for idx in client_ids:
-                #Updates the x using the delta_y from all the clients
-                for grad, diff in zip(gradients, self.clients[idx].delta_y):
-                    grad.data.add_(diff.data / int(self.fraction * self.num_clients))  
-                    
-            for p,g,m,v in zip(self.x.parameters(), gradients, self.m, self.v):
+            for p, g, m, v in zip(self.x.parameters(), global_grads, self.m, self.v):
                 m.data = self.beta1 * m.data + (1 - self.beta1) * g.data
                 v.data = self.beta2 * v.data + (1 - self.beta2) * torch.square(g.data)
-                m_bias_corr = m / (1 - self.beta1**self.timestep)
-                v_bias_corr = v / (1 - self.beta2**self.timestep)
-                p.data += self.lr * m_bias_corr / (torch.sqrt(v_bias_corr) + self.epsilon)         
-        
+                m_hat = m / (1 - self.beta1**self.timestep)
+                v_hat = v / (1 - self.beta2**self.timestep)
+                p.data += self.lr * m_hat / (torch.sqrt(v_hat) + self.epsilon)
+
         self.timestep += 1
 
-    def step(self):
-        """Performs single round of training"""
-        sampled_client_ids = self.sample_clients()
-        self.communicate(sampled_client_ids)
-        self.update_clients(sampled_client_ids)
-        logging.info("\tclient_update has completed") 
-        self.server_update(sampled_client_ids)
-        logging.info("\tserver_update has completed")
+    def evaluate(self):
+        if self.rank == 0:
+            loss, acc = evaluate_fn(self.test_data, self.x, self.criterion, self.device)
+            logging.info(f"Test Loss: {loss:.4f}, Accuracy: {acc:.2f}%")
 
     def train(self):
-        """Performs multiple rounds of training using the 'step' method."""
-        self.results = {"loss": [], "accuracy": []}
         for round in range(self.num_rounds):
-            logging.info(f"\nCommunication Round:{round+1}")
-            self.step()
-            test_loss, test_acc = evaluate_fn(self.data,self.x,self.criterion,self.device) #Evaluates the global model's performance on the test datasat
-            self.results['loss'].append(test_loss)
-            self.results['accuracy'].append(test_acc)
-            logging.info(f"\tLoss:{test_loss:.4f}   Accuracy:{test_acc:.2f}%")
-            
+            logging.info(f"Rank {self.rank}: Starting round {round+1}")
+            self.communicate()
+            self.update_clients()
+            logging.info(f"Rank {self.rank}: Clients updated")
+            self.server_update()
+            if self.rank == 0:
+                logging.info(f"Round {round+1} completed")
+                self.evaluate()
