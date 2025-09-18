@@ -1,0 +1,204 @@
+2025-09-18 17:30:45,549:INFO: Process 4 is initializing the server
+2025-09-18 17:30:45,556:INFO: Process 4: Server is successfully initialized
+2025-09-18 17:30:49,616:INFO: Rank 4: Initialized 10 clients
+2025-09-18 17:30:49,616:INFO: Rank 4: Starting round 1
+2025-09-18 17:31:17,583:INFO: Rank 4: Clients updated
+2025-09-18 17:31:19,126:INFO: Rank 4: Starting round 2
+2025-09-18 17:31:50,498:INFO: Rank 4: Clients updated
+2025-09-18 17:31:52,557:INFO: Rank 4: Starting round 3
+2025-09-18 17:32:24,999:INFO: Rank 4: Clients updated
+2025-09-18 17:32:25,010:INFO: Rank 4: Starting round 4
+2025-09-18 17:32:55,207:INFO: Rank 4: Clients updated
+2025-09-18 17:32:56,518:INFO: Rank 4: Starting round 5
+2025-09-18 17:33:28,213:INFO: Rank 4: Clients updated
+2025-09-18 17:33:28,860:INFO: Rank 4: Starting round 6
+2025-09-18 17:34:01,335:INFO: Rank 4: Clients updated
+2025-09-18 17:34:01,351:INFO: Rank 4: Starting round 7
+2025-09-18 17:34:33,737:INFO: Rank 4: Clients updated
+2025-09-18 17:34:33,870:INFO: Rank 4: Starting round 8
+2025-09-18 17:35:04,346:INFO: Rank 4: Clients updated
+2025-09-18 17:35:07,131:INFO: Rank 4: Starting round 9
+2025-09-18 17:35:40,108:INFO: Rank 4: Clients updated
+2025-09-18 17:35:40,133:INFO: Rank 4: Starting round 10
+2025-09-18 17:36:11,623:INFO: Rank 4: Clients updated
+2025-09-18 17:36:12,029:INFO: Rank 4: Starting round 11
+2025-09-18 17:36:42,878:INFO: Rank 4: Clients updated
+2025-09-18 17:36:44,209:INFO: Rank 4: Starting round 12
+2025-09-18 17:37:15,325:INFO: Rank 4: Clients updated
+2025-09-18 17:37:16,232:INFO: Rank 4: Starting round 13
+2025-09-18 17:37:46,640:INFO: Rank 4: Clients updated
+2025-09-18 17:37:47,967:INFO: Rank 4: Starting round 14
+2025-09-18 17:38:19,330:INFO: Rank 4: Clients updated
+2025-09-18 17:38:19,906:INFO: Rank 4: Starting round 15
+2025-09-18 17:38:51,525:INFO: Rank 4: Clients updated
+2025-09-18 17:38:51,534:INFO: Rank 4: Starting round 16
+2025-09-18 17:39:21,838:INFO: Rank 4: Clients updated
+2025-09-18 17:39:22,606:INFO: Rank 4: Starting round 17
+2025-09-18 17:39:53,357:INFO: Rank 4: Clients updated
+2025-09-18 17:39:53,365:INFO: Rank 4: Starting round 18
+2025-09-18 17:40:24,260:INFO: Rank 4: Clients updated
+2025-09-18 17:40:25,851:INFO: Rank 4: Starting round 19
+2025-09-18 17:40:57,536:INFO: Rank 4: Clients updated
+2025-09-18 17:40:58,302:INFO: Rank 4: Starting round 20
+2025-09-18 17:41:29,310:INFO: Rank 4: Clients updated
+2025-09-18 17:41:29,417:INFO: Rank 4: Starting round 21
+2025-09-18 17:42:01,096:INFO: Rank 4: Clients updated
+2025-09-18 17:42:01,437:INFO: Rank 4: Starting round 22
+2025-09-18 17:42:32,977:INFO: Rank 4: Clients updated
+2025-09-18 17:42:32,987:INFO: Rank 4: Starting round 23
+2025-09-18 17:43:04,865:INFO: Rank 4: Clients updated
+2025-09-18 17:43:04,881:INFO: Rank 4: Starting round 24
+2025-09-18 17:43:36,027:INFO: Rank 4: Clients updated
+2025-09-18 17:43:36,795:INFO: Rank 4: Starting round 25
+2025-09-18 17:44:08,169:INFO: Rank 4: Clients updated
+2025-09-18 17:44:09,537:INFO: Rank 4: Starting round 26
+2025-09-18 17:44:41,816:INFO: Rank 4: Clients updated
+2025-09-18 17:44:42,322:INFO: Rank 4: Starting round 27
+2025-09-18 17:45:15,259:INFO: Rank 4: Clients updated
+2025-09-18 17:45:16,517:INFO: Rank 4: Starting round 28
+2025-09-18 17:45:47,990:INFO: Rank 4: Clients updated
+2025-09-18 17:45:47,998:INFO: Rank 4: Starting round 29
+2025-09-18 17:46:19,784:INFO: Rank 4: Clients updated
+2025-09-18 17:46:21,230:INFO: Rank 4: Starting round 30
+2025-09-18 17:46:53,040:INFO: Rank 4: Clients updated
+2025-09-18 17:46:53,789:INFO: Rank 4: Starting round 31
+2025-09-18 17:47:24,528:INFO: Rank 4: Clients updated
+2025-09-18 17:47:25,817:INFO: Rank 4: Starting round 32
+2025-09-18 17:47:56,890:INFO: Rank 4: Clients updated
+2025-09-18 17:47:57,935:INFO: Rank 4: Starting round 33
+2025-09-18 17:48:29,394:INFO: Rank 4: Clients updated
+2025-09-18 17:48:30,303:INFO: Rank 4: Starting round 34
+2025-09-18 17:49:01,289:INFO: Rank 4: Clients updated
+2025-09-18 17:49:02,314:INFO: Rank 4: Starting round 35
+2025-09-18 17:49:33,727:INFO: Rank 4: Clients updated
+2025-09-18 17:49:34,327:INFO: Rank 4: Starting round 36
+2025-09-18 17:50:04,305:INFO: Rank 4: Clients updated
+2025-09-18 17:50:05,967:INFO: Rank 4: Starting round 37
+2025-09-18 17:50:36,987:INFO: Rank 4: Clients updated
+2025-09-18 17:50:37,403:INFO: Rank 4: Starting round 38
+2025-09-18 17:51:09,468:INFO: Rank 4: Clients updated
+2025-09-18 17:51:09,483:INFO: Rank 4: Starting round 39
+2025-09-18 17:51:40,308:INFO: Rank 4: Clients updated
+2025-09-18 17:51:41,610:INFO: Rank 4: Starting round 40
+2025-09-18 17:52:14,058:INFO: Rank 4: Clients updated
+2025-09-18 17:52:14,067:INFO: Rank 4: Starting round 41
+2025-09-18 17:52:43,902:INFO: Rank 4: Clients updated
+2025-09-18 17:52:45,747:INFO: Rank 4: Starting round 42
+2025-09-18 17:53:15,324:INFO: Rank 4: Clients updated
+2025-09-18 17:53:17,377:INFO: Rank 4: Starting round 43
+2025-09-18 17:53:48,416:INFO: Rank 4: Clients updated
+2025-09-18 17:53:48,918:INFO: Rank 4: Starting round 44
+2025-09-18 17:54:19,545:INFO: Rank 4: Clients updated
+2025-09-18 17:54:21,145:INFO: Rank 4: Starting round 45
+2025-09-18 17:54:52,494:INFO: Rank 4: Clients updated
+2025-09-18 17:54:53,402:INFO: Rank 4: Starting round 46
+2025-09-18 17:55:25,270:INFO: Rank 4: Clients updated
+2025-09-18 17:55:25,285:INFO: Rank 4: Starting round 47
+2025-09-18 17:55:54,828:INFO: Rank 4: Clients updated
+2025-09-18 17:55:55,906:INFO: Rank 4: Starting round 48
+2025-09-18 17:56:27,551:INFO: Rank 4: Clients updated
+2025-09-18 17:56:27,933:INFO: Rank 4: Starting round 49
+2025-09-18 17:56:59,622:INFO: Rank 4: Clients updated
+2025-09-18 17:56:59,692:INFO: Rank 4: Starting round 50
+2025-09-18 17:57:30,329:INFO: Rank 4: Clients updated
+2025-09-18 17:57:30,861:INFO: Rank 4: Starting round 51
+2025-09-18 17:58:02,335:INFO: Rank 4: Clients updated
+2025-09-18 17:58:03,006:INFO: Rank 4: Starting round 52
+2025-09-18 17:58:33,513:INFO: Rank 4: Clients updated
+2025-09-18 17:58:35,420:INFO: Rank 4: Starting round 53
+2025-09-18 17:59:06,154:INFO: Rank 4: Clients updated
+2025-09-18 17:59:07,827:INFO: Rank 4: Starting round 54
+2025-09-18 17:59:39,775:INFO: Rank 4: Clients updated
+2025-09-18 17:59:39,789:INFO: Rank 4: Starting round 55
+2025-09-18 18:00:11,957:INFO: Rank 4: Clients updated
+2025-09-18 18:00:12,089:INFO: Rank 4: Starting round 56
+2025-09-18 18:00:42,329:INFO: Rank 4: Clients updated
+2025-09-18 18:00:43,943:INFO: Rank 4: Starting round 57
+2025-09-18 18:01:14,738:INFO: Rank 4: Clients updated
+2025-09-18 18:01:16,235:INFO: Rank 4: Starting round 58
+2025-09-18 18:01:46,206:INFO: Rank 4: Clients updated
+2025-09-18 18:01:48,991:INFO: Rank 4: Starting round 59
+2025-09-18 18:02:20,345:INFO: Rank 4: Clients updated
+2025-09-18 18:02:20,501:INFO: Rank 4: Starting round 60
+2025-09-18 18:02:50,994:INFO: Rank 4: Clients updated
+2025-09-18 18:02:52,216:INFO: Rank 4: Starting round 61
+2025-09-18 18:03:24,725:INFO: Rank 4: Clients updated
+2025-09-18 18:03:24,734:INFO: Rank 4: Starting round 62
+2025-09-18 18:03:56,681:INFO: Rank 4: Clients updated
+2025-09-18 18:03:57,290:INFO: Rank 4: Starting round 63
+2025-09-18 18:04:29,037:INFO: Rank 4: Clients updated
+2025-09-18 18:04:29,049:INFO: Rank 4: Starting round 64
+2025-09-18 18:05:03,018:INFO: Rank 4: Clients updated
+2025-09-18 18:05:03,027:INFO: Rank 4: Starting round 65
+2025-09-18 18:05:32,630:INFO: Rank 4: Clients updated
+2025-09-18 18:05:34,789:INFO: Rank 4: Starting round 66
+2025-09-18 18:06:06,198:INFO: Rank 4: Clients updated
+2025-09-18 18:06:06,208:INFO: Rank 4: Starting round 67
+2025-09-18 18:06:37,883:INFO: Rank 4: Clients updated
+2025-09-18 18:06:38,098:INFO: Rank 4: Starting round 68
+2025-09-18 18:07:09,700:INFO: Rank 4: Clients updated
+2025-09-18 18:07:10,529:INFO: Rank 4: Starting round 69
+2025-09-18 18:07:41,953:INFO: Rank 4: Clients updated
+2025-09-18 18:07:41,968:INFO: Rank 4: Starting round 70
+2025-09-18 18:08:13,390:INFO: Rank 4: Clients updated
+2025-09-18 18:08:13,865:INFO: Rank 4: Starting round 71
+2025-09-18 18:08:44,438:INFO: Rank 4: Clients updated
+2025-09-18 18:08:45,605:INFO: Rank 4: Starting round 72
+2025-09-18 18:09:17,499:INFO: Rank 4: Clients updated
+2025-09-18 18:09:17,509:INFO: Rank 4: Starting round 73
+2025-09-18 18:09:47,718:INFO: Rank 4: Clients updated
+2025-09-18 18:09:48,868:INFO: Rank 4: Starting round 74
+2025-09-18 18:10:19,657:INFO: Rank 4: Clients updated
+2025-09-18 18:10:20,535:INFO: Rank 4: Starting round 75
+2025-09-18 18:10:50,933:INFO: Rank 4: Clients updated
+2025-09-18 18:10:51,386:INFO: Rank 4: Starting round 76
+2025-09-18 18:11:21,892:INFO: Rank 4: Clients updated
+2025-09-18 18:11:24,196:INFO: Rank 4: Starting round 77
+2025-09-18 18:11:54,071:INFO: Rank 4: Clients updated
+2025-09-18 18:11:56,423:INFO: Rank 4: Starting round 78
+2025-09-18 18:12:25,552:INFO: Rank 4: Clients updated
+2025-09-18 18:12:28,411:INFO: Rank 4: Starting round 79
+2025-09-18 18:12:59,126:INFO: Rank 4: Clients updated
+2025-09-18 18:13:01,159:INFO: Rank 4: Starting round 80
+2025-09-18 18:13:30,847:INFO: Rank 4: Clients updated
+2025-09-18 18:13:31,996:INFO: Rank 4: Starting round 81
+2025-09-18 18:14:00,810:INFO: Rank 4: Clients updated
+2025-09-18 18:14:03,182:INFO: Rank 4: Starting round 82
+2025-09-18 18:14:32,910:INFO: Rank 4: Clients updated
+2025-09-18 18:14:34,755:INFO: Rank 4: Starting round 83
+2025-09-18 18:15:04,857:INFO: Rank 4: Clients updated
+2025-09-18 18:15:07,640:INFO: Rank 4: Starting round 84
+2025-09-18 18:15:36,801:INFO: Rank 4: Clients updated
+2025-09-18 18:15:38,566:INFO: Rank 4: Starting round 85
+2025-09-18 18:16:08,544:INFO: Rank 4: Clients updated
+2025-09-18 18:16:10,417:INFO: Rank 4: Starting round 86
+2025-09-18 18:16:40,156:INFO: Rank 4: Clients updated
+2025-09-18 18:16:42,405:INFO: Rank 4: Starting round 87
+2025-09-18 18:17:14,281:INFO: Rank 4: Clients updated
+2025-09-18 18:17:14,350:INFO: Rank 4: Starting round 88
+2025-09-18 18:17:44,673:INFO: Rank 4: Clients updated
+2025-09-18 18:17:46,480:INFO: Rank 4: Starting round 89
+2025-09-18 18:18:17,254:INFO: Rank 4: Clients updated
+2025-09-18 18:18:18,647:INFO: Rank 4: Starting round 90
+2025-09-18 18:18:48,138:INFO: Rank 4: Clients updated
+2025-09-18 18:18:50,197:INFO: Rank 4: Starting round 91
+2025-09-18 18:19:20,547:INFO: Rank 4: Clients updated
+2025-09-18 18:19:22,782:INFO: Rank 4: Starting round 92
+2025-09-18 18:19:51,928:INFO: Rank 4: Clients updated
+2025-09-18 18:19:53,972:INFO: Rank 4: Starting round 93
+2025-09-18 18:20:22,917:INFO: Rank 4: Clients updated
+2025-09-18 18:20:25,645:INFO: Rank 4: Starting round 94
+2025-09-18 18:20:56,211:INFO: Rank 4: Clients updated
+2025-09-18 18:20:58,051:INFO: Rank 4: Starting round 95
+2025-09-18 18:21:27,062:INFO: Rank 4: Clients updated
+2025-09-18 18:21:29,783:INFO: Rank 4: Starting round 96
+2025-09-18 18:21:59,998:INFO: Rank 4: Clients updated
+2025-09-18 18:22:01,267:INFO: Rank 4: Starting round 97
+2025-09-18 18:22:30,729:INFO: Rank 4: Clients updated
+2025-09-18 18:22:33,300:INFO: Rank 4: Starting round 98
+2025-09-18 18:23:02,878:INFO: Rank 4: Clients updated
+2025-09-18 18:23:04,882:INFO: Rank 4: Starting round 99
+2025-09-18 18:23:35,119:INFO: Rank 4: Clients updated
+2025-09-18 18:23:36,589:INFO: Rank 4: Starting round 100
+2025-09-18 18:24:06,643:INFO: Rank 4: Clients updated
+2025-09-18 18:24:08,982:INFO: Process 4: Execution has completed
