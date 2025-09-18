@@ -58,15 +58,22 @@ def dist_data_per_client(data_path,dataset_name,num_clients, batch_size, non_iid
     val = Counter(tmp)[classes[0]]
 
     total_clients = num_clients
-    clients_per_chunk = list()
-    # Randomly assign number of clients to each chunk (all chunks get different number of clients)
-    # Current chunk gets number of clients samples from a uniform random distribution with
-    # low = minimum_clients_per_chunk
-    # high = current_total_clients - minimum_clients_per_chunk * total_number_of_chunks - (current_chunk_index + 1)
-    # Then reduce current_total_clients by the number of clients selected for current chunk
-    for i in range(len(class_chunks)):        
-        clients_per_chunk.append(random.randint(min_client_in_chunk, total_clients - min_client_in_chunk*(len(class_chunks)-i-1)))
-        total_clients-= clients_per_chunk[-1]
+    num_chunks = len(class_chunks)
+    clients_per_chunk = []
+    for i in range(num_chunks):
+        remaining_chunks = num_chunks - i
+        # at least 1 client per remaining chunk
+        min_here = 1
+        max_here = total_clients - (remaining_chunks - 1) * 1
+        # guard if max_here < min_here (can happen if num_clients < num_chunks)
+        if max_here < min_here:
+            # give 0 to this chunk and continue (and handle zero later), or just force 1 and break.
+            # For safety, force 1 only if possible; otherwise 0.
+            chosen = 0
+        else:
+            chosen = random.randint(min_here, max_here)
+        clients_per_chunk.append(chosen)
+        total_clients -= chosen
     print(clients_per_chunk)
     # This variable is required for indexing purposes
     cumulative_clients_per_chunk = [sum(clients_per_chunk[:i+1]) for i in range(len(clients_per_chunk))]
