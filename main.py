@@ -6,7 +6,7 @@ from mpi4py import MPI
 from datetime import datetime
 from src.util_functions import set_logger, save_plt
 import importlib
-
+import time  # 🔹 added for timing
 
 def run_fl(Server, global_config, data_config, fed_config, model_config, comm, rank, size, run_id):
     # Create log directories only on root
@@ -22,12 +22,35 @@ def run_fl(Server, global_config, data_config, fed_config, model_config, comm, r
     logging.info(f"Process {rank} is initializing the server")
 
     # Initialize server
-    server = Server(model_config, global_config, data_config, fed_config, comm=comm, rank=rank, size=size)
+    server = Server(model_config=model_config, global_config=global_config,
+                    data_config=data_config, fed_config=fed_config,
+                    comm=comm, rank=rank, size=size)
     logging.info(f"Process {rank}: Server is successfully initialized")
 
-    # Setup clients and start training
+    # 🔹 Measure total training time
+    start_time = time.time()
     server.setup()
     server.train()
+    end_time = time.time()
+
+    total_time = end_time - start_time
+    minutes, seconds = divmod(int(total_time), 60)
+
+    if rank == 0:  # log only once, from root process
+        logging.info(f"Total training time for {fed_config['algorithm']} = {total_time:.2f} seconds ({minutes}m {seconds}s)")
+
+        # 🔹 Save runtime to JSON
+        runtime_file = f"./Logs/{fed_config['algorithm']}/{data_config['non_iid_per']}/{run_id}/runtime.json"
+        with open(runtime_file, "w") as f:
+            json.dump({
+                "algorithm": fed_config['algorithm'],
+                "non_iid_per": data_config['non_iid_per'],
+                "rounds": server.num_rounds,
+                "total_time_sec": total_time,
+                "formatted_time": f"{minutes}m {seconds}s"
+            }, f, indent=4)
+
+        logging.info(f"Runtime details saved to {runtime_file}")
 
     # Save plots on root only
     if rank == 0:
