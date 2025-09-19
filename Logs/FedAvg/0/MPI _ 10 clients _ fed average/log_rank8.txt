@@ -1,0 +1,4 @@
+2025-09-19 08:58:35,641:INFO: Process 8 is initializing the server
+2025-09-19 08:58:35,646:INFO: Server init on rank 8/9 | device=cpu
+2025-09-19 08:58:35,646:INFO: Process 8: Server is successfully initialized
+2025-09-19 08:58:39,482:INFO: Process 8: Initialized a single client with its own dataset.
