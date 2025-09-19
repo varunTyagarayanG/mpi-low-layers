@@ -4,81 +4,80 @@ from math import ceil
 
 class Client():
     """
-    Server uses Client class to create multiple client objects.
-    Client trains the model with the help of server_c & client_c on its local data. Then the client updates its client_c 
-    and communicates updates for both the x (delta_y) & server_c (delta_c) back to the server.
-    
-    Attributes:
-        id: Acts as an identifier for a particular client
-        data: Local dataset which resides on the client
-        device: Specifies which device (cpu or gpu) to use for training
-        num_epochs: Number of epochs to train the local model
-        lr: Local stepsize
-        criterion: Measures the disagreement between model's prediction and ground truth
-        x: Global model sent by server
-        server_c: Server's Control variate
-        client_c: Client's Control variate
-        y: Local model initialized using x
-        delta_y: Used to update the x
-        delta_c: Used to update the server_c
+    SCAFFOLD-style client with control variates.
+    Changes vs your original:
+      - device normalized to torch.device
+      - deltas kept as CPU tensors (contiguous) for MPI Allreduce
+      - no algorithmic change to update rules
     """
 
     def __init__(self, client_id, local_data, device, num_epochs, criterion, lr, client_c):
         self.id = client_id
         self.data = local_data
-        self.device = device
+        self.device = torch.device(device) if not isinstance(device, torch.device) else device
         self.num_epochs = num_epochs
         self.lr = lr
         self.criterion = criterion
-        self.x = None
-        self.server_c = None
-        self.client_c = client_c  # Each client has its own control variate named client_c
+
+        self.x = None               # set by server each round
+        self.server_c = None        # set by server each round
+        self.client_c = client_c    # persistent per-client control variate
+
         self.y = None
         self.delta_y = None
         self.delta_c = None
 
     def client_update(self):
         """
-        Trains the model on its local data. Then calculates delta_y and delta_c which are communicated back to the server.
-        At last, updates the client_c.
+        Train local model 'y' from global 'x' with control variates, then compute:
+            delta_y = y - x
+            new_client_c = client_c - server_c - delta_y / a
+            delta_c = new_client_c - client_c
         """
-        self.y = deepcopy(self.x)  # Initialize local model [Algorithm line no:7]
+        if self.x is None or self.server_c is None:
+            raise RuntimeError(f"Client {self.id}: x/server_c not initialized by server.")
 
-        for epoch in range(self.num_epochs):
-            # Corrected: Use next(iter(self.data)) for Python 3
+        self.y = deepcopy(self.x).to(self.device)
+
+        for _ in range(self.num_epochs):
+            # Your original code used one mini-batch per epoch via next(iter(self.data))
+            # Preserving that behavior to keep the algorithm intact.
             inputs, labels = next(iter(self.data))
-            inputs, labels = inputs.float().to(self.device), labels.long().to(self.device)
+            inputs = inputs.float().to(self.device)
+            labels = labels.long().to(self.device)
 
             output = self.y(inputs)
-            loss = self.criterion(output, labels)  # Calculate the loss with respect to y's output and labels
+            loss = self.criterion(output, labels)
 
-            # Compute (mini-batch) gradient of loss with respect to y's parameters [Algorithm line no:9]
             grads = torch.autograd.grad(loss, self.y.parameters())
 
-            # Update y's parameters using gradients, client_c and server_c [Algorithm line no:10]
             with torch.no_grad():
                 for param, grad, s_c, c_c in zip(self.y.parameters(), grads, self.server_c, self.client_c):
                     s_c, c_c = s_c.to(self.device), c_c.to(self.device)
                     param.data = param.data - self.lr * (grad.data + (s_c.data - c_c.data))
 
+        # Compute deltas on CPU (contiguous) so server can Allreduce numpy buffers
         with torch.no_grad():
-            delta_y = [torch.zeros_like(param) for param in self.y.parameters()]
-            delta_c = deepcopy(delta_y)
-            new_client_c = deepcopy(delta_y)
+            delta_y = [torch.zeros_like(p, device="cpu") for p in self.y.parameters()]
+            new_client_c = [torch.zeros_like(c, device=self.device) for c in self.client_c]
+            delta_c = [torch.zeros_like(c, device="cpu") for c in self.client_c]
 
-            # Calculate delta_y which equals to y - x [Algorithm line no:13]
-            for del_y, param_y, param_x in zip(delta_y, self.y.parameters(), self.x.parameters()):
-                del_y.data += param_y.data.detach() - param_x.data.detach()
+            # delta_y = y - x
+            for d, p_y, p_x in zip(delta_y, self.y.parameters(), self.x.parameters()):
+                d.copy_((p_y.detach() - p_x.detach()).float().cpu().contiguous())
 
-            # Calculate new_client_c using client_c, server_c and delta_y [Algorithm line no:12]
+            # a = (#mini-batches per epoch) * num_epochs * lr
             a = (ceil(len(self.data.dataset) / self.data.batch_size) * self.num_epochs * self.lr)
-            for n_c, c_l, c_g, diff in zip(new_client_c, self.client_c, self.server_c, delta_y):
-                n_c.data += c_l.data - c_g.data - diff.data / a
 
-            # Calculate delta_c which equals to new_client_c - client_c [Algorithm line no:13]
+            # new_client_c = client_c - server_c - delta_y / a
+            for n_c, c_l, c_g, d in zip(new_client_c, self.client_c, self.server_c, delta_y):
+                n_c.data = c_l.to(self.device).data - c_g.to(self.device).data - (d.to(self.device) / a)
+
+            # delta_c = new_client_c - client_c
             for d_c, n_c_l, c_l in zip(delta_c, new_client_c, self.client_c):
-                d_c.data.add_(n_c_l.data - c_l.data)
+                d_c.copy_((n_c_l.detach() - c_l.detach()).float().cpu().contiguous())
 
-        self.client_c = deepcopy(new_client_c)  # Update client_c with new_client_c
-        self.delta_y = delta_y
-        self.delta_c = delta_c
+        # Persist updates
+        self.client_c = [t.detach().to(self.device) for t in new_client_c]
+        self.delta_y = delta_y               # list of CPU tensors
+        self.delta_c = delta_c               # list of CPU tensors
