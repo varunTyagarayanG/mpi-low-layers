@@ -9,25 +9,25 @@ class Client:
     """
 
     def __init__(self, x, batch_size, num_epochs, criterion, device, lr, data):
-        self.x = deepcopy(x)              # Global model copy
-        self.y = None                     # Local model after training
+        self.x = deepcopy(x)              # Global model received from server (refreshed each round)
+        self.y = None                     # Local trained model after training
         self.batch_size = batch_size
         self.num_epochs = num_epochs
         self.criterion = criterion
         self.device = device
         self.lr = lr
-        self.data = data                  # Local dataset (already DataLoader)
+        self.data = data                  # Local dataset (DataLoader)
 
     def train(self):
         """
-        Train the local copy (y) starting from global model (x).
+        Train the local copy (y) starting from the current global model (x).
         """
         self.y = deepcopy(self.x).to(self.device)
         self.y.train()
 
         optimizer = torch.optim.SGD(self.y.parameters(), lr=self.lr)
 
-        for epoch in range(self.num_epochs):
+        for _ in range(self.num_epochs):
             for inputs, labels in self.data:
                 inputs, labels = inputs.float().to(self.device), labels.long().to(self.device)
                 optimizer.zero_grad()
@@ -36,5 +36,4 @@ class Client:
                 loss.backward()
                 optimizer.step()
 
-        # Return local model (optional, not used because server pulls params directly)
         return self.y
