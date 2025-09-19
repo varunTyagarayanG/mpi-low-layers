@@ -1,0 +1,406 @@
+2025-09-19 11:04:04,662:INFO: Process 0 is initializing the server
+2025-09-19 11:04:04,667:INFO: Server init on rank 0/9 | device=cpu
+2025-09-19 11:04:04,668:INFO: Process 0: Server is successfully initialized
+2025-09-19 11:04:08,556:INFO: Process 0: Initialized a single client with its own dataset.
+2025-09-19 11:04:08,557:INFO: Rank 0: Communication Round 1
+2025-09-19 11:04:36,167:INFO: Rank 0: client_update completed
+2025-09-19 11:04:37,043:INFO: Rank 0: server_update completed
+2025-09-19 11:04:43,310:INFO: Round 1: Loss=2.3064, Accuracy=10.29%
+2025-09-19 11:04:43,310:INFO: Rank 0: Communication Round 2
+2025-09-19 11:05:10,841:INFO: Rank 0: client_update completed
+2025-09-19 11:05:11,281:INFO: Rank 0: server_update completed
+2025-09-19 11:05:17,164:INFO: Round 2: Loss=2.3062, Accuracy=10.35%
+2025-09-19 11:05:17,165:INFO: Rank 0: Communication Round 3
+2025-09-19 11:05:44,105:INFO: Rank 0: client_update completed
+2025-09-19 11:05:44,111:INFO: Rank 0: server_update completed
+2025-09-19 11:05:50,173:INFO: Round 3: Loss=2.3060, Accuracy=10.29%
+2025-09-19 11:05:50,174:INFO: Rank 0: Communication Round 4
+2025-09-19 11:06:16,750:INFO: Rank 0: client_update completed
+2025-09-19 11:06:16,758:INFO: Rank 0: server_update completed
+2025-09-19 11:06:22,796:INFO: Round 4: Loss=2.3056, Accuracy=10.38%
+2025-09-19 11:06:22,796:INFO: Rank 0: Communication Round 5
+2025-09-19 11:06:49,590:INFO: Rank 0: client_update completed
+2025-09-19 11:06:49,595:INFO: Rank 0: server_update completed
+2025-09-19 11:06:56,021:INFO: Round 5: Loss=2.3052, Accuracy=10.39%
+2025-09-19 11:06:56,022:INFO: Rank 0: Communication Round 6
+2025-09-19 11:07:22,954:INFO: Rank 0: client_update completed
+2025-09-19 11:07:22,958:INFO: Rank 0: server_update completed
+2025-09-19 11:07:28,886:INFO: Round 6: Loss=2.3048, Accuracy=10.55%
+2025-09-19 11:07:28,887:INFO: Rank 0: Communication Round 7
+2025-09-19 11:07:54,475:INFO: Rank 0: client_update completed
+2025-09-19 11:07:55,196:INFO: Rank 0: server_update completed
+2025-09-19 11:08:01,679:INFO: Round 7: Loss=2.3043, Accuracy=10.48%
+2025-09-19 11:08:01,689:INFO: Rank 0: Communication Round 8
+2025-09-19 11:08:28,073:INFO: Rank 0: client_update completed
+2025-09-19 11:08:28,078:INFO: Rank 0: server_update completed
+2025-09-19 11:08:34,069:INFO: Round 8: Loss=2.3038, Accuracy=10.51%
+2025-09-19 11:08:34,069:INFO: Rank 0: Communication Round 9
+2025-09-19 11:09:00,150:INFO: Rank 0: client_update completed
+2025-09-19 11:09:00,651:INFO: Rank 0: server_update completed
+2025-09-19 11:09:06,492:INFO: Round 9: Loss=2.3033, Accuracy=10.31%
+2025-09-19 11:09:06,492:INFO: Rank 0: Communication Round 10
+2025-09-19 11:09:31,133:INFO: Rank 0: client_update completed
+2025-09-19 11:09:33,048:INFO: Rank 0: server_update completed
+2025-09-19 11:09:38,948:INFO: Round 10: Loss=2.3027, Accuracy=10.36%
+2025-09-19 11:09:38,948:INFO: Rank 0: Communication Round 11
+2025-09-19 11:10:04,598:INFO: Rank 0: client_update completed
+2025-09-19 11:10:05,748:INFO: Rank 0: server_update completed
+2025-09-19 11:10:11,932:INFO: Round 11: Loss=2.3022, Accuracy=10.36%
+2025-09-19 11:10:11,932:INFO: Rank 0: Communication Round 12
+2025-09-19 11:10:37,164:INFO: Rank 0: client_update completed
+2025-09-19 11:10:37,926:INFO: Rank 0: server_update completed
+2025-09-19 11:10:44,403:INFO: Round 12: Loss=2.3017, Accuracy=10.46%
+2025-09-19 11:10:44,403:INFO: Rank 0: Communication Round 13
+2025-09-19 11:11:10,532:INFO: Rank 0: client_update completed
+2025-09-19 11:11:10,549:INFO: Rank 0: server_update completed
+2025-09-19 11:11:16,529:INFO: Round 13: Loss=2.3011, Accuracy=10.57%
+2025-09-19 11:11:16,529:INFO: Rank 0: Communication Round 14
+2025-09-19 11:11:42,797:INFO: Rank 0: client_update completed
+2025-09-19 11:11:43,288:INFO: Rank 0: server_update completed
+2025-09-19 11:11:49,559:INFO: Round 14: Loss=2.3005, Accuracy=10.68%
+2025-09-19 11:11:49,559:INFO: Rank 0: Communication Round 15
+2025-09-19 11:12:15,130:INFO: Rank 0: client_update completed
+2025-09-19 11:12:15,295:INFO: Rank 0: server_update completed
+2025-09-19 11:12:21,491:INFO: Round 15: Loss=2.2999, Accuracy=10.54%
+2025-09-19 11:12:21,491:INFO: Rank 0: Communication Round 16
+2025-09-19 11:12:46,785:INFO: Rank 0: client_update completed
+2025-09-19 11:12:47,061:INFO: Rank 0: server_update completed
+2025-09-19 11:12:53,031:INFO: Round 16: Loss=2.2993, Accuracy=10.40%
+2025-09-19 11:12:53,031:INFO: Rank 0: Communication Round 17
+2025-09-19 11:13:18,537:INFO: Rank 0: client_update completed
+2025-09-19 11:13:19,535:INFO: Rank 0: server_update completed
+2025-09-19 11:13:25,244:INFO: Round 17: Loss=2.2986, Accuracy=10.37%
+2025-09-19 11:13:25,245:INFO: Rank 0: Communication Round 18
+2025-09-19 11:13:51,013:INFO: Rank 0: client_update completed
+2025-09-19 11:13:51,305:INFO: Rank 0: server_update completed
+2025-09-19 11:13:57,232:INFO: Round 18: Loss=2.2980, Accuracy=10.41%
+2025-09-19 11:13:57,232:INFO: Rank 0: Communication Round 19
+2025-09-19 11:14:22,047:INFO: Rank 0: client_update completed
+2025-09-19 11:14:23,684:INFO: Rank 0: server_update completed
+2025-09-19 11:14:29,630:INFO: Round 19: Loss=2.2973, Accuracy=10.56%
+2025-09-19 11:14:29,630:INFO: Rank 0: Communication Round 20
+2025-09-19 11:14:56,859:INFO: Rank 0: client_update completed
+2025-09-19 11:14:56,863:INFO: Rank 0: server_update completed
+2025-09-19 11:15:02,716:INFO: Round 20: Loss=2.2965, Accuracy=10.94%
+2025-09-19 11:15:02,716:INFO: Rank 0: Communication Round 21
+2025-09-19 11:15:28,435:INFO: Rank 0: client_update completed
+2025-09-19 11:15:29,362:INFO: Rank 0: server_update completed
+2025-09-19 11:15:35,160:INFO: Round 21: Loss=2.2956, Accuracy=11.80%
+2025-09-19 11:15:35,160:INFO: Rank 0: Communication Round 22
+2025-09-19 11:15:59,835:INFO: Rank 0: client_update completed
+2025-09-19 11:16:01,267:INFO: Rank 0: server_update completed
+2025-09-19 11:16:07,052:INFO: Round 22: Loss=2.2947, Accuracy=12.97%
+2025-09-19 11:16:07,052:INFO: Rank 0: Communication Round 23
+2025-09-19 11:16:32,256:INFO: Rank 0: client_update completed
+2025-09-19 11:16:33,505:INFO: Rank 0: server_update completed
+2025-09-19 11:16:39,643:INFO: Round 23: Loss=2.2936, Accuracy=14.41%
+2025-09-19 11:16:39,644:INFO: Rank 0: Communication Round 24
+2025-09-19 11:17:05,370:INFO: Rank 0: client_update completed
+2025-09-19 11:17:05,656:INFO: Rank 0: server_update completed
+2025-09-19 11:17:11,704:INFO: Round 24: Loss=2.2923, Accuracy=16.17%
+2025-09-19 11:17:11,704:INFO: Rank 0: Communication Round 25
+2025-09-19 11:17:37,420:INFO: Rank 0: client_update completed
+2025-09-19 11:17:38,132:INFO: Rank 0: server_update completed
+2025-09-19 11:17:44,504:INFO: Round 25: Loss=2.2909, Accuracy=17.04%
+2025-09-19 11:17:44,504:INFO: Rank 0: Communication Round 26
+2025-09-19 11:18:11,136:INFO: Rank 0: client_update completed
+2025-09-19 11:18:11,144:INFO: Rank 0: server_update completed
+2025-09-19 11:18:17,689:INFO: Round 26: Loss=2.2892, Accuracy=17.25%
+2025-09-19 11:18:17,690:INFO: Rank 0: Communication Round 27
+2025-09-19 11:18:42,644:INFO: Rank 0: client_update completed
+2025-09-19 11:18:44,058:INFO: Rank 0: server_update completed
+2025-09-19 11:18:49,591:INFO: Round 27: Loss=2.2873, Accuracy=17.59%
+2025-09-19 11:18:49,592:INFO: Rank 0: Communication Round 28
+2025-09-19 11:19:13,647:INFO: Rank 0: client_update completed
+2025-09-19 11:19:15,035:INFO: Rank 0: server_update completed
+2025-09-19 11:19:20,887:INFO: Round 28: Loss=2.2850, Accuracy=18.04%
+2025-09-19 11:19:20,888:INFO: Rank 0: Communication Round 29
+2025-09-19 11:19:44,514:INFO: Rank 0: client_update completed
+2025-09-19 11:19:45,406:INFO: Rank 0: server_update completed
+2025-09-19 11:19:50,916:INFO: Round 29: Loss=2.2824, Accuracy=18.04%
+2025-09-19 11:19:50,916:INFO: Rank 0: Communication Round 30
+2025-09-19 11:20:15,555:INFO: Rank 0: client_update completed
+2025-09-19 11:20:16,454:INFO: Rank 0: server_update completed
+2025-09-19 11:20:22,048:INFO: Round 30: Loss=2.2793, Accuracy=18.28%
+2025-09-19 11:20:22,048:INFO: Rank 0: Communication Round 31
+2025-09-19 11:20:46,032:INFO: Rank 0: client_update completed
+2025-09-19 11:20:46,629:INFO: Rank 0: server_update completed
+2025-09-19 11:20:52,332:INFO: Round 31: Loss=2.2755, Accuracy=18.33%
+2025-09-19 11:20:52,332:INFO: Rank 0: Communication Round 32
+2025-09-19 11:21:15,421:INFO: Rank 0: client_update completed
+2025-09-19 11:21:16,945:INFO: Rank 0: server_update completed
+2025-09-19 11:21:22,552:INFO: Round 32: Loss=2.2710, Accuracy=18.30%
+2025-09-19 11:21:22,553:INFO: Rank 0: Communication Round 33
+2025-09-19 11:21:46,860:INFO: Rank 0: client_update completed
+2025-09-19 11:21:47,693:INFO: Rank 0: server_update completed
+2025-09-19 11:21:53,423:INFO: Round 33: Loss=2.2657, Accuracy=18.45%
+2025-09-19 11:21:53,423:INFO: Rank 0: Communication Round 34
+2025-09-19 11:22:17,569:INFO: Rank 0: client_update completed
+2025-09-19 11:22:18,520:INFO: Rank 0: server_update completed
+2025-09-19 11:22:24,045:INFO: Round 34: Loss=2.2591, Accuracy=18.50%
+2025-09-19 11:22:24,046:INFO: Rank 0: Communication Round 35
+2025-09-19 11:22:47,018:INFO: Rank 0: client_update completed
+2025-09-19 11:22:48,937:INFO: Rank 0: server_update completed
+2025-09-19 11:22:54,613:INFO: Round 35: Loss=2.2514, Accuracy=18.73%
+2025-09-19 11:22:54,613:INFO: Rank 0: Communication Round 36
+2025-09-19 11:23:17,321:INFO: Rank 0: client_update completed
+2025-09-19 11:23:19,716:INFO: Rank 0: server_update completed
+2025-09-19 11:23:25,233:INFO: Round 36: Loss=2.2422, Accuracy=18.98%
+2025-09-19 11:23:25,233:INFO: Rank 0: Communication Round 37
+2025-09-19 11:23:49,187:INFO: Rank 0: client_update completed
+2025-09-19 11:23:50,239:INFO: Rank 0: server_update completed
+2025-09-19 11:23:55,892:INFO: Round 37: Loss=2.2312, Accuracy=19.55%
+2025-09-19 11:23:55,892:INFO: Rank 0: Communication Round 38
+2025-09-19 11:24:18,155:INFO: Rank 0: client_update completed
+2025-09-19 11:24:20,934:INFO: Rank 0: server_update completed
+2025-09-19 11:24:26,464:INFO: Round 38: Loss=2.2182, Accuracy=20.87%
+2025-09-19 11:24:26,464:INFO: Rank 0: Communication Round 39
+2025-09-19 11:24:50,813:INFO: Rank 0: client_update completed
+2025-09-19 11:24:51,220:INFO: Rank 0: server_update completed
+2025-09-19 11:24:57,702:INFO: Round 39: Loss=2.2031, Accuracy=21.92%
+2025-09-19 11:24:57,702:INFO: Rank 0: Communication Round 40
+2025-09-19 11:25:20,182:INFO: Rank 0: client_update completed
+2025-09-19 11:25:22,817:INFO: Rank 0: server_update completed
+2025-09-19 11:25:28,506:INFO: Round 40: Loss=2.1861, Accuracy=22.64%
+2025-09-19 11:25:28,506:INFO: Rank 0: Communication Round 41
+2025-09-19 11:25:51,468:INFO: Rank 0: client_update completed
+2025-09-19 11:25:53,670:INFO: Rank 0: server_update completed
+2025-09-19 11:25:59,252:INFO: Round 41: Loss=2.1670, Accuracy=23.06%
+2025-09-19 11:25:59,252:INFO: Rank 0: Communication Round 42
+2025-09-19 11:26:23,268:INFO: Rank 0: client_update completed
+2025-09-19 11:26:23,937:INFO: Rank 0: server_update completed
+2025-09-19 11:26:29,393:INFO: Round 42: Loss=2.1472, Accuracy=23.10%
+2025-09-19 11:26:29,393:INFO: Rank 0: Communication Round 43
+2025-09-19 11:26:52,594:INFO: Rank 0: client_update completed
+2025-09-19 11:26:54,124:INFO: Rank 0: server_update completed
+2025-09-19 11:26:59,709:INFO: Round 43: Loss=2.1290, Accuracy=23.27%
+2025-09-19 11:26:59,709:INFO: Rank 0: Communication Round 44
+2025-09-19 11:27:22,149:INFO: Rank 0: client_update completed
+2025-09-19 11:27:24,590:INFO: Rank 0: server_update completed
+2025-09-19 11:27:30,331:INFO: Round 44: Loss=2.1145, Accuracy=23.13%
+2025-09-19 11:27:30,331:INFO: Rank 0: Communication Round 45
+2025-09-19 11:27:54,061:INFO: Rank 0: client_update completed
+2025-09-19 11:27:55,028:INFO: Rank 0: server_update completed
+2025-09-19 11:28:00,677:INFO: Round 45: Loss=2.1055, Accuracy=23.64%
+2025-09-19 11:28:00,677:INFO: Rank 0: Communication Round 46
+2025-09-19 11:28:23,731:INFO: Rank 0: client_update completed
+2025-09-19 11:28:26,048:INFO: Rank 0: server_update completed
+2025-09-19 11:28:31,753:INFO: Round 46: Loss=2.1015, Accuracy=24.53%
+2025-09-19 11:28:31,753:INFO: Rank 0: Communication Round 47
+2025-09-19 11:28:54,873:INFO: Rank 0: client_update completed
+2025-09-19 11:28:56,747:INFO: Rank 0: server_update completed
+2025-09-19 11:29:02,157:INFO: Round 47: Loss=2.0988, Accuracy=25.49%
+2025-09-19 11:29:02,158:INFO: Rank 0: Communication Round 48
+2025-09-19 11:29:24,894:INFO: Rank 0: client_update completed
+2025-09-19 11:29:27,226:INFO: Rank 0: server_update completed
+2025-09-19 11:29:32,716:INFO: Round 48: Loss=2.0943, Accuracy=26.08%
+2025-09-19 11:29:32,717:INFO: Rank 0: Communication Round 49
+2025-09-19 11:29:55,194:INFO: Rank 0: client_update completed
+2025-09-19 11:29:57,733:INFO: Rank 0: server_update completed
+2025-09-19 11:30:03,696:INFO: Round 49: Loss=2.0866, Accuracy=26.62%
+2025-09-19 11:30:03,696:INFO: Rank 0: Communication Round 50
+2025-09-19 11:30:26,611:INFO: Rank 0: client_update completed
+2025-09-19 11:30:29,684:INFO: Rank 0: server_update completed
+2025-09-19 11:30:35,206:INFO: Round 50: Loss=2.0706, Accuracy=27.51%
+2025-09-19 11:30:35,206:INFO: Rank 0: Communication Round 51
+2025-09-19 11:30:58,594:INFO: Rank 0: client_update completed
+2025-09-19 11:31:00,065:INFO: Rank 0: server_update completed
+2025-09-19 11:31:05,972:INFO: Round 51: Loss=2.0488, Accuracy=28.21%
+2025-09-19 11:31:05,972:INFO: Rank 0: Communication Round 52
+2025-09-19 11:31:29,060:INFO: Rank 0: client_update completed
+2025-09-19 11:31:30,401:INFO: Rank 0: server_update completed
+2025-09-19 11:31:35,892:INFO: Round 52: Loss=2.0231, Accuracy=28.97%
+2025-09-19 11:31:35,892:INFO: Rank 0: Communication Round 53
+2025-09-19 11:32:00,811:INFO: Rank 0: client_update completed
+2025-09-19 11:32:01,103:INFO: Rank 0: server_update completed
+2025-09-19 11:32:06,588:INFO: Round 53: Loss=2.0015, Accuracy=29.43%
+2025-09-19 11:32:06,588:INFO: Rank 0: Communication Round 54
+2025-09-19 11:32:31,527:INFO: Rank 0: client_update completed
+2025-09-19 11:32:31,560:INFO: Rank 0: server_update completed
+2025-09-19 11:32:37,103:INFO: Round 54: Loss=1.9851, Accuracy=29.97%
+2025-09-19 11:32:37,103:INFO: Rank 0: Communication Round 55
+2025-09-19 11:33:00,782:INFO: Rank 0: client_update completed
+2025-09-19 11:33:02,509:INFO: Rank 0: server_update completed
+2025-09-19 11:33:07,996:INFO: Round 55: Loss=1.9758, Accuracy=30.19%
+2025-09-19 11:33:07,996:INFO: Rank 0: Communication Round 56
+2025-09-19 11:33:31,580:INFO: Rank 0: client_update completed
+2025-09-19 11:33:33,610:INFO: Rank 0: server_update completed
+2025-09-19 11:33:39,479:INFO: Round 56: Loss=1.9700, Accuracy=30.56%
+2025-09-19 11:33:39,480:INFO: Rank 0: Communication Round 57
+2025-09-19 11:34:02,192:INFO: Rank 0: client_update completed
+2025-09-19 11:34:05,087:INFO: Rank 0: server_update completed
+2025-09-19 11:34:10,784:INFO: Round 57: Loss=1.9658, Accuracy=30.44%
+2025-09-19 11:34:10,784:INFO: Rank 0: Communication Round 58
+2025-09-19 11:34:34,595:INFO: Rank 0: client_update completed
+2025-09-19 11:34:35,755:INFO: Rank 0: server_update completed
+2025-09-19 11:34:41,260:INFO: Round 58: Loss=1.9598, Accuracy=30.55%
+2025-09-19 11:34:41,260:INFO: Rank 0: Communication Round 59
+2025-09-19 11:35:07,394:INFO: Rank 0: client_update completed
+2025-09-19 11:35:07,688:INFO: Rank 0: server_update completed
+2025-09-19 11:35:13,362:INFO: Round 59: Loss=1.9519, Accuracy=30.84%
+2025-09-19 11:35:13,363:INFO: Rank 0: Communication Round 60
+2025-09-19 11:35:36,250:INFO: Rank 0: client_update completed
+2025-09-19 11:35:38,865:INFO: Rank 0: server_update completed
+2025-09-19 11:35:44,456:INFO: Round 60: Loss=1.9391, Accuracy=31.20%
+2025-09-19 11:35:44,456:INFO: Rank 0: Communication Round 61
+2025-09-19 11:36:08,544:INFO: Rank 0: client_update completed
+2025-09-19 11:36:09,656:INFO: Rank 0: server_update completed
+2025-09-19 11:36:15,281:INFO: Round 61: Loss=1.9256, Accuracy=31.39%
+2025-09-19 11:36:15,281:INFO: Rank 0: Communication Round 62
+2025-09-19 11:36:38,556:INFO: Rank 0: client_update completed
+2025-09-19 11:36:40,551:INFO: Rank 0: server_update completed
+2025-09-19 11:36:45,988:INFO: Round 62: Loss=1.9107, Accuracy=32.01%
+2025-09-19 11:36:45,988:INFO: Rank 0: Communication Round 63
+2025-09-19 11:37:09,873:INFO: Rank 0: client_update completed
+2025-09-19 11:37:11,155:INFO: Rank 0: server_update completed
+2025-09-19 11:37:16,984:INFO: Round 63: Loss=1.8984, Accuracy=32.50%
+2025-09-19 11:37:16,984:INFO: Rank 0: Communication Round 64
+2025-09-19 11:37:40,132:INFO: Rank 0: client_update completed
+2025-09-19 11:37:42,642:INFO: Rank 0: server_update completed
+2025-09-19 11:37:48,410:INFO: Round 64: Loss=1.8875, Accuracy=32.95%
+2025-09-19 11:37:48,410:INFO: Rank 0: Communication Round 65
+2025-09-19 11:38:11,175:INFO: Rank 0: client_update completed
+2025-09-19 11:38:13,797:INFO: Rank 0: server_update completed
+2025-09-19 11:38:19,570:INFO: Round 65: Loss=1.8789, Accuracy=33.26%
+2025-09-19 11:38:19,570:INFO: Rank 0: Communication Round 66
+2025-09-19 11:38:42,634:INFO: Rank 0: client_update completed
+2025-09-19 11:38:44,947:INFO: Rank 0: server_update completed
+2025-09-19 11:38:50,608:INFO: Round 66: Loss=1.8709, Accuracy=33.48%
+2025-09-19 11:38:50,608:INFO: Rank 0: Communication Round 67
+2025-09-19 11:39:13,862:INFO: Rank 0: client_update completed
+2025-09-19 11:39:15,973:INFO: Rank 0: server_update completed
+2025-09-19 11:39:21,671:INFO: Round 67: Loss=1.8626, Accuracy=34.02%
+2025-09-19 11:39:21,671:INFO: Rank 0: Communication Round 68
+2025-09-19 11:39:45,201:INFO: Rank 0: client_update completed
+2025-09-19 11:39:46,647:INFO: Rank 0: server_update completed
+2025-09-19 11:39:52,294:INFO: Round 68: Loss=1.8533, Accuracy=34.40%
+2025-09-19 11:39:52,294:INFO: Rank 0: Communication Round 69
+2025-09-19 11:40:16,606:INFO: Rank 0: client_update completed
+2025-09-19 11:40:17,328:INFO: Rank 0: server_update completed
+2025-09-19 11:40:23,355:INFO: Round 69: Loss=1.8425, Accuracy=34.75%
+2025-09-19 11:40:23,355:INFO: Rank 0: Communication Round 70
+2025-09-19 11:40:46,519:INFO: Rank 0: client_update completed
+2025-09-19 11:40:48,392:INFO: Rank 0: server_update completed
+2025-09-19 11:40:54,099:INFO: Round 70: Loss=1.8322, Accuracy=35.01%
+2025-09-19 11:40:54,099:INFO: Rank 0: Communication Round 71
+2025-09-19 11:41:16,906:INFO: Rank 0: client_update completed
+2025-09-19 11:41:19,871:INFO: Rank 0: server_update completed
+2025-09-19 11:41:25,332:INFO: Round 71: Loss=1.8229, Accuracy=35.59%
+2025-09-19 11:41:25,332:INFO: Rank 0: Communication Round 72
+2025-09-19 11:41:47,857:INFO: Rank 0: client_update completed
+2025-09-19 11:41:49,875:INFO: Rank 0: server_update completed
+2025-09-19 11:41:55,601:INFO: Round 72: Loss=1.8144, Accuracy=35.98%
+2025-09-19 11:41:55,602:INFO: Rank 0: Communication Round 73
+2025-09-19 11:42:18,829:INFO: Rank 0: client_update completed
+2025-09-19 11:42:20,232:INFO: Rank 0: server_update completed
+2025-09-19 11:42:25,800:INFO: Round 73: Loss=1.8094, Accuracy=35.97%
+2025-09-19 11:42:25,800:INFO: Rank 0: Communication Round 74
+2025-09-19 11:42:49,668:INFO: Rank 0: client_update completed
+2025-09-19 11:42:50,799:INFO: Rank 0: server_update completed
+2025-09-19 11:42:56,376:INFO: Round 74: Loss=1.8088, Accuracy=36.21%
+2025-09-19 11:42:56,376:INFO: Rank 0: Communication Round 75
+2025-09-19 11:43:20,052:INFO: Rank 0: client_update completed
+2025-09-19 11:43:21,783:INFO: Rank 0: server_update completed
+2025-09-19 11:43:27,594:INFO: Round 75: Loss=1.8102, Accuracy=35.97%
+2025-09-19 11:43:27,594:INFO: Rank 0: Communication Round 76
+2025-09-19 11:43:50,626:INFO: Rank 0: client_update completed
+2025-09-19 11:43:53,192:INFO: Rank 0: server_update completed
+2025-09-19 11:43:58,957:INFO: Round 76: Loss=1.8118, Accuracy=35.50%
+2025-09-19 11:43:58,957:INFO: Rank 0: Communication Round 77
+2025-09-19 11:44:22,304:INFO: Rank 0: client_update completed
+2025-09-19 11:44:23,691:INFO: Rank 0: server_update completed
+2025-09-19 11:44:29,123:INFO: Round 77: Loss=1.8097, Accuracy=35.42%
+2025-09-19 11:44:29,123:INFO: Rank 0: Communication Round 78
+2025-09-19 11:44:53,468:INFO: Rank 0: client_update completed
+2025-09-19 11:44:55,859:INFO: Rank 0: server_update completed
+2025-09-19 11:45:02,132:INFO: Round 78: Loss=1.8013, Accuracy=35.82%
+2025-09-19 11:45:02,132:INFO: Rank 0: Communication Round 79
+2025-09-19 11:45:25,930:INFO: Rank 0: client_update completed
+2025-09-19 11:45:26,612:INFO: Rank 0: server_update completed
+2025-09-19 11:45:32,048:INFO: Round 79: Loss=1.7864, Accuracy=36.16%
+2025-09-19 11:45:32,048:INFO: Rank 0: Communication Round 80
+2025-09-19 11:45:56,350:INFO: Rank 0: client_update completed
+2025-09-19 11:45:56,982:INFO: Rank 0: server_update completed
+2025-09-19 11:46:02,465:INFO: Round 80: Loss=1.7673, Accuracy=37.08%
+2025-09-19 11:46:02,465:INFO: Rank 0: Communication Round 81
+2025-09-19 11:46:25,569:INFO: Rank 0: client_update completed
+2025-09-19 11:46:27,765:INFO: Rank 0: server_update completed
+2025-09-19 11:46:33,352:INFO: Round 81: Loss=1.7461, Accuracy=37.91%
+2025-09-19 11:46:33,352:INFO: Rank 0: Communication Round 82
+2025-09-19 11:46:56,267:INFO: Rank 0: client_update completed
+2025-09-19 11:46:58,154:INFO: Rank 0: server_update completed
+2025-09-19 11:47:03,556:INFO: Round 82: Loss=1.7283, Accuracy=38.58%
+2025-09-19 11:47:03,556:INFO: Rank 0: Communication Round 83
+2025-09-19 11:47:26,818:INFO: Rank 0: client_update completed
+2025-09-19 11:47:28,567:INFO: Rank 0: server_update completed
+2025-09-19 11:47:34,489:INFO: Round 83: Loss=1.7186, Accuracy=38.85%
+2025-09-19 11:47:34,489:INFO: Rank 0: Communication Round 84
+2025-09-19 11:47:57,744:INFO: Rank 0: client_update completed
+2025-09-19 11:47:58,855:INFO: Rank 0: server_update completed
+2025-09-19 11:48:04,355:INFO: Round 84: Loss=1.7159, Accuracy=39.21%
+2025-09-19 11:48:04,356:INFO: Rank 0: Communication Round 85
+2025-09-19 11:48:27,425:INFO: Rank 0: client_update completed
+2025-09-19 11:48:29,440:INFO: Rank 0: server_update completed
+2025-09-19 11:48:35,800:INFO: Round 85: Loss=1.7191, Accuracy=39.02%
+2025-09-19 11:48:35,800:INFO: Rank 0: Communication Round 86
+2025-09-19 11:48:58,902:INFO: Rank 0: client_update completed
+2025-09-19 11:49:01,215:INFO: Rank 0: server_update completed
+2025-09-19 11:49:06,939:INFO: Round 86: Loss=1.7209, Accuracy=39.01%
+2025-09-19 11:49:06,939:INFO: Rank 0: Communication Round 87
+2025-09-19 11:49:29,307:INFO: Rank 0: client_update completed
+2025-09-19 11:49:32,559:INFO: Rank 0: server_update completed
+2025-09-19 11:49:38,372:INFO: Round 87: Loss=1.7182, Accuracy=38.80%
+2025-09-19 11:49:38,372:INFO: Rank 0: Communication Round 88
+2025-09-19 11:50:02,124:INFO: Rank 0: client_update completed
+2025-09-19 11:50:03,129:INFO: Rank 0: server_update completed
+2025-09-19 11:50:08,892:INFO: Round 88: Loss=1.7082, Accuracy=38.96%
+2025-09-19 11:50:08,893:INFO: Rank 0: Communication Round 89
+2025-09-19 11:50:33,089:INFO: Rank 0: client_update completed
+2025-09-19 11:50:33,484:INFO: Rank 0: server_update completed
+2025-09-19 11:50:39,149:INFO: Round 89: Loss=1.6947, Accuracy=39.40%
+2025-09-19 11:50:39,149:INFO: Rank 0: Communication Round 90
+2025-09-19 11:51:02,392:INFO: Rank 0: client_update completed
+2025-09-19 11:51:04,235:INFO: Rank 0: server_update completed
+2025-09-19 11:51:10,341:INFO: Round 90: Loss=1.6829, Accuracy=39.83%
+2025-09-19 11:51:10,341:INFO: Rank 0: Communication Round 91
+2025-09-19 11:51:33,222:INFO: Rank 0: client_update completed
+2025-09-19 11:51:34,914:INFO: Rank 0: server_update completed
+2025-09-19 11:51:41,000:INFO: Round 91: Loss=1.6771, Accuracy=40.42%
+2025-09-19 11:51:41,001:INFO: Rank 0: Communication Round 92
+2025-09-19 11:52:05,044:INFO: Rank 0: client_update completed
+2025-09-19 11:52:05,669:INFO: Rank 0: server_update completed
+2025-09-19 11:52:11,190:INFO: Round 92: Loss=1.6778, Accuracy=40.52%
+2025-09-19 11:52:11,190:INFO: Rank 0: Communication Round 93
+2025-09-19 11:52:33,163:INFO: Rank 0: client_update completed
+2025-09-19 11:52:36,029:INFO: Rank 0: server_update completed
+2025-09-19 11:52:41,790:INFO: Round 93: Loss=1.6804, Accuracy=40.25%
+2025-09-19 11:52:41,790:INFO: Rank 0: Communication Round 94
+2025-09-19 11:53:05,468:INFO: Rank 0: client_update completed
+2025-09-19 11:53:06,528:INFO: Rank 0: server_update completed
+2025-09-19 11:53:12,419:INFO: Round 94: Loss=1.6820, Accuracy=40.29%
+2025-09-19 11:53:12,420:INFO: Rank 0: Communication Round 95
+2025-09-19 11:53:37,082:INFO: Rank 0: client_update completed
+2025-09-19 11:53:37,434:INFO: Rank 0: server_update completed
+2025-09-19 11:53:43,206:INFO: Round 95: Loss=1.6775, Accuracy=40.55%
+2025-09-19 11:53:43,206:INFO: Rank 0: Communication Round 96
+2025-09-19 11:54:06,611:INFO: Rank 0: client_update completed
+2025-09-19 11:54:08,468:INFO: Rank 0: server_update completed
+2025-09-19 11:54:14,026:INFO: Round 96: Loss=1.6670, Accuracy=40.56%
+2025-09-19 11:54:14,026:INFO: Rank 0: Communication Round 97
+2025-09-19 11:54:38,613:INFO: Rank 0: client_update completed
+2025-09-19 11:54:38,624:INFO: Rank 0: server_update completed
+2025-09-19 11:54:44,300:INFO: Round 97: Loss=1.6505, Accuracy=41.20%
+2025-09-19 11:54:44,300:INFO: Rank 0: Communication Round 98
+2025-09-19 11:55:10,220:INFO: Rank 0: client_update completed
+2025-09-19 11:55:10,611:INFO: Rank 0: server_update completed
+2025-09-19 11:55:16,212:INFO: Round 98: Loss=1.6301, Accuracy=41.74%
+2025-09-19 11:55:16,212:INFO: Rank 0: Communication Round 99
+2025-09-19 11:55:39,727:INFO: Rank 0: client_update completed
+2025-09-19 11:55:41,411:INFO: Rank 0: server_update completed
+2025-09-19 11:55:47,079:INFO: Round 99: Loss=1.6091, Accuracy=42.23%
+2025-09-19 11:55:47,080:INFO: Rank 0: Communication Round 100
+2025-09-19 11:56:10,778:INFO: Rank 0: client_update completed
+2025-09-19 11:56:12,594:INFO: Rank 0: server_update completed
+2025-09-19 11:56:18,106:INFO: Round 100: Loss=1.5898, Accuracy=42.91%
+2025-09-19 11:56:18,107:INFO: Total wall time per rank (s): [3133.438950777054, 3132.714366912842, 3133.430326938629, 3133.429411649704, 3133.446599006653, 3132.9042041301727, 3132.8928520679474, 3132.7605724334717, 3133.066881418228, 3132.9705154895782]
+2025-09-19 11:56:18,107:INFO: Training complete on all ranks.

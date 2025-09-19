@@ -1,0 +1,304 @@
+2025-09-19 11:04:04,653:INFO: Process 7 is initializing the server
+2025-09-19 11:04:04,661:INFO: Server init on rank 7/9 | device=cpu
+2025-09-19 11:04:04,661:INFO: Process 7: Server is successfully initialized
+2025-09-19 11:04:08,481:INFO: Process 7: Initialized a single client with its own dataset.
+2025-09-19 11:04:08,481:INFO: Rank 7: Communication Round 1
+2025-09-19 11:04:35,463:INFO: Rank 7: client_update completed
+2025-09-19 11:04:37,060:INFO: Rank 7: server_update completed
+2025-09-19 11:04:42,402:INFO: Rank 7: Communication Round 2
+2025-09-19 11:05:09,778:INFO: Rank 7: client_update completed
+2025-09-19 11:05:11,281:INFO: Rank 7: server_update completed
+2025-09-19 11:05:17,045:INFO: Rank 7: Communication Round 3
+2025-09-19 11:05:43,922:INFO: Rank 7: client_update completed
+2025-09-19 11:05:44,120:INFO: Rank 7: server_update completed
+2025-09-19 11:05:49,544:INFO: Rank 7: Communication Round 4
+2025-09-19 11:06:16,614:INFO: Rank 7: client_update completed
+2025-09-19 11:06:16,771:INFO: Rank 7: server_update completed
+2025-09-19 11:06:22,294:INFO: Rank 7: Communication Round 5
+2025-09-19 11:06:48,529:INFO: Rank 7: client_update completed
+2025-09-19 11:06:49,597:INFO: Rank 7: server_update completed
+2025-09-19 11:06:54,968:INFO: Rank 7: Communication Round 6
+2025-09-19 11:07:19,736:INFO: Rank 7: client_update completed
+2025-09-19 11:07:22,958:INFO: Rank 7: server_update completed
+2025-09-19 11:07:27,701:INFO: Rank 7: Communication Round 7
+2025-09-19 11:07:53,650:INFO: Rank 7: client_update completed
+2025-09-19 11:07:55,196:INFO: Rank 7: server_update completed
+2025-09-19 11:08:00,762:INFO: Rank 7: Communication Round 8
+2025-09-19 11:08:27,386:INFO: Rank 7: client_update completed
+2025-09-19 11:08:28,089:INFO: Rank 7: server_update completed
+2025-09-19 11:08:33,661:INFO: Rank 7: Communication Round 9
+2025-09-19 11:08:59,457:INFO: Rank 7: client_update completed
+2025-09-19 11:09:00,670:INFO: Rank 7: server_update completed
+2025-09-19 11:09:06,492:INFO: Rank 7: Communication Round 10
+2025-09-19 11:09:32,136:INFO: Rank 7: client_update completed
+2025-09-19 11:09:33,062:INFO: Rank 7: server_update completed
+2025-09-19 11:09:38,441:INFO: Rank 7: Communication Round 11
+2025-09-19 11:10:04,658:INFO: Rank 7: client_update completed
+2025-09-19 11:10:05,755:INFO: Rank 7: server_update completed
+2025-09-19 11:10:11,334:INFO: Rank 7: Communication Round 12
+2025-09-19 11:10:37,603:INFO: Rank 7: client_update completed
+2025-09-19 11:10:37,926:INFO: Rank 7: server_update completed
+2025-09-19 11:10:43,474:INFO: Rank 7: Communication Round 13
+2025-09-19 11:11:09,765:INFO: Rank 7: client_update completed
+2025-09-19 11:11:10,553:INFO: Rank 7: server_update completed
+2025-09-19 11:11:16,483:INFO: Rank 7: Communication Round 14
+2025-09-19 11:11:41,708:INFO: Rank 7: client_update completed
+2025-09-19 11:11:43,301:INFO: Rank 7: server_update completed
+2025-09-19 11:11:48,993:INFO: Rank 7: Communication Round 15
+2025-09-19 11:12:15,202:INFO: Rank 7: client_update completed
+2025-09-19 11:12:15,301:INFO: Rank 7: server_update completed
+2025-09-19 11:12:20,434:INFO: Rank 7: Communication Round 16
+2025-09-19 11:12:46,385:INFO: Rank 7: client_update completed
+2025-09-19 11:12:47,070:INFO: Rank 7: server_update completed
+2025-09-19 11:12:52,425:INFO: Rank 7: Communication Round 17
+2025-09-19 11:13:18,087:INFO: Rank 7: client_update completed
+2025-09-19 11:13:19,540:INFO: Rank 7: server_update completed
+2025-09-19 11:13:24,379:INFO: Rank 7: Communication Round 18
+2025-09-19 11:13:50,836:INFO: Rank 7: client_update completed
+2025-09-19 11:13:51,305:INFO: Rank 7: server_update completed
+2025-09-19 11:13:56,809:INFO: Rank 7: Communication Round 19
+2025-09-19 11:14:21,393:INFO: Rank 7: client_update completed
+2025-09-19 11:14:23,691:INFO: Rank 7: server_update completed
+2025-09-19 11:14:29,439:INFO: Rank 7: Communication Round 20
+2025-09-19 11:14:55,543:INFO: Rank 7: client_update completed
+2025-09-19 11:14:56,870:INFO: Rank 7: server_update completed
+2025-09-19 11:15:02,566:INFO: Rank 7: Communication Round 21
+2025-09-19 11:15:29,071:INFO: Rank 7: client_update completed
+2025-09-19 11:15:29,373:INFO: Rank 7: server_update completed
+2025-09-19 11:15:34,536:INFO: Rank 7: Communication Round 22
+2025-09-19 11:16:00,794:INFO: Rank 7: client_update completed
+2025-09-19 11:16:01,266:INFO: Rank 7: server_update completed
+2025-09-19 11:16:07,052:INFO: Rank 7: Communication Round 23
+2025-09-19 11:16:32,722:INFO: Rank 7: client_update completed
+2025-09-19 11:16:33,511:INFO: Rank 7: server_update completed
+2025-09-19 11:16:38,859:INFO: Rank 7: Communication Round 24
+2025-09-19 11:17:03,421:INFO: Rank 7: client_update completed
+2025-09-19 11:17:05,661:INFO: Rank 7: server_update completed
+2025-09-19 11:17:11,688:INFO: Rank 7: Communication Round 25
+2025-09-19 11:17:36,952:INFO: Rank 7: client_update completed
+2025-09-19 11:17:38,133:INFO: Rank 7: server_update completed
+2025-09-19 11:17:43,162:INFO: Rank 7: Communication Round 26
+2025-09-19 11:18:08,735:INFO: Rank 7: client_update completed
+2025-09-19 11:18:11,146:INFO: Rank 7: server_update completed
+2025-09-19 11:18:16,500:INFO: Rank 7: Communication Round 27
+2025-09-19 11:18:41,968:INFO: Rank 7: client_update completed
+2025-09-19 11:18:44,070:INFO: Rank 7: server_update completed
+2025-09-19 11:18:48,980:INFO: Rank 7: Communication Round 28
+2025-09-19 11:19:13,384:INFO: Rank 7: client_update completed
+2025-09-19 11:19:15,041:INFO: Rank 7: server_update completed
+2025-09-19 11:19:20,175:INFO: Rank 7: Communication Round 29
+2025-09-19 11:19:45,398:INFO: Rank 7: client_update completed
+2025-09-19 11:19:45,417:INFO: Rank 7: server_update completed
+2025-09-19 11:19:50,697:INFO: Rank 7: Communication Round 30
+2025-09-19 11:20:15,337:INFO: Rank 7: client_update completed
+2025-09-19 11:20:16,470:INFO: Rank 7: server_update completed
+2025-09-19 11:20:22,037:INFO: Rank 7: Communication Round 31
+2025-09-19 11:20:46,304:INFO: Rank 7: client_update completed
+2025-09-19 11:20:46,642:INFO: Rank 7: server_update completed
+2025-09-19 11:20:52,137:INFO: Rank 7: Communication Round 32
+2025-09-19 11:21:16,941:INFO: Rank 7: client_update completed
+2025-09-19 11:21:16,957:INFO: Rank 7: server_update completed
+2025-09-19 11:21:22,210:INFO: Rank 7: Communication Round 33
+2025-09-19 11:21:47,031:INFO: Rank 7: client_update completed
+2025-09-19 11:21:47,692:INFO: Rank 7: server_update completed
+2025-09-19 11:21:53,423:INFO: Rank 7: Communication Round 34
+2025-09-19 11:22:18,302:INFO: Rank 7: client_update completed
+2025-09-19 11:22:18,520:INFO: Rank 7: server_update completed
+2025-09-19 11:22:23,629:INFO: Rank 7: Communication Round 35
+2025-09-19 11:22:48,772:INFO: Rank 7: client_update completed
+2025-09-19 11:22:48,950:INFO: Rank 7: server_update completed
+2025-09-19 11:22:54,056:INFO: Rank 7: Communication Round 36
+2025-09-19 11:23:18,633:INFO: Rank 7: client_update completed
+2025-09-19 11:23:19,729:INFO: Rank 7: server_update completed
+2025-09-19 11:23:25,099:INFO: Rank 7: Communication Round 37
+2025-09-19 11:23:48,119:INFO: Rank 7: client_update completed
+2025-09-19 11:23:50,265:INFO: Rank 7: server_update completed
+2025-09-19 11:23:55,883:INFO: Rank 7: Communication Round 38
+2025-09-19 11:24:20,129:INFO: Rank 7: client_update completed
+2025-09-19 11:24:20,941:INFO: Rank 7: server_update completed
+2025-09-19 11:24:26,361:INFO: Rank 7: Communication Round 39
+2025-09-19 11:24:50,698:INFO: Rank 7: client_update completed
+2025-09-19 11:24:51,227:INFO: Rank 7: server_update completed
+2025-09-19 11:24:56,849:INFO: Rank 7: Communication Round 40
+2025-09-19 11:25:20,369:INFO: Rank 7: client_update completed
+2025-09-19 11:25:22,821:INFO: Rank 7: server_update completed
+2025-09-19 11:25:27,912:INFO: Rank 7: Communication Round 41
+2025-09-19 11:25:52,470:INFO: Rank 7: client_update completed
+2025-09-19 11:25:53,679:INFO: Rank 7: server_update completed
+2025-09-19 11:25:58,734:INFO: Rank 7: Communication Round 42
+2025-09-19 11:26:23,689:INFO: Rank 7: client_update completed
+2025-09-19 11:26:23,949:INFO: Rank 7: server_update completed
+2025-09-19 11:26:29,036:INFO: Rank 7: Communication Round 43
+2025-09-19 11:26:54,119:INFO: Rank 7: client_update completed
+2025-09-19 11:26:54,137:INFO: Rank 7: server_update completed
+2025-09-19 11:26:59,494:INFO: Rank 7: Communication Round 44
+2025-09-19 11:27:24,104:INFO: Rank 7: client_update completed
+2025-09-19 11:27:24,601:INFO: Rank 7: server_update completed
+2025-09-19 11:27:29,437:INFO: Rank 7: Communication Round 45
+2025-09-19 11:27:54,931:INFO: Rank 7: client_update completed
+2025-09-19 11:27:55,036:INFO: Rank 7: server_update completed
+2025-09-19 11:28:00,535:INFO: Rank 7: Communication Round 46
+2025-09-19 11:28:25,652:INFO: Rank 7: client_update completed
+2025-09-19 11:28:26,061:INFO: Rank 7: server_update completed
+2025-09-19 11:28:31,220:INFO: Rank 7: Communication Round 47
+2025-09-19 11:28:56,479:INFO: Rank 7: client_update completed
+2025-09-19 11:28:56,747:INFO: Rank 7: server_update completed
+2025-09-19 11:29:01,785:INFO: Rank 7: Communication Round 48
+2025-09-19 11:29:26,995:INFO: Rank 7: client_update completed
+2025-09-19 11:29:27,242:INFO: Rank 7: server_update completed
+2025-09-19 11:29:32,482:INFO: Rank 7: Communication Round 49
+2025-09-19 11:29:57,729:INFO: Rank 7: client_update completed
+2025-09-19 11:29:57,745:INFO: Rank 7: server_update completed
+2025-09-19 11:30:02,773:INFO: Rank 7: Communication Round 50
+2025-09-19 11:30:26,941:INFO: Rank 7: client_update completed
+2025-09-19 11:30:29,684:INFO: Rank 7: server_update completed
+2025-09-19 11:30:34,592:INFO: Rank 7: Communication Round 51
+2025-09-19 11:31:00,004:INFO: Rank 7: client_update completed
+2025-09-19 11:31:00,077:INFO: Rank 7: server_update completed
+2025-09-19 11:31:05,276:INFO: Rank 7: Communication Round 52
+2025-09-19 11:31:29,877:INFO: Rank 7: client_update completed
+2025-09-19 11:31:30,413:INFO: Rank 7: server_update completed
+2025-09-19 11:31:35,577:INFO: Rank 7: Communication Round 53
+2025-09-19 11:32:00,016:INFO: Rank 7: client_update completed
+2025-09-19 11:32:01,117:INFO: Rank 7: server_update completed
+2025-09-19 11:32:06,150:INFO: Rank 7: Communication Round 54
+2025-09-19 11:32:31,001:INFO: Rank 7: client_update completed
+2025-09-19 11:32:31,559:INFO: Rank 7: server_update completed
+2025-09-19 11:32:36,300:INFO: Rank 7: Communication Round 55
+2025-09-19 11:33:02,106:INFO: Rank 7: client_update completed
+2025-09-19 11:33:02,528:INFO: Rank 7: server_update completed
+2025-09-19 11:33:07,676:INFO: Rank 7: Communication Round 56
+2025-09-19 11:33:32,501:INFO: Rank 7: client_update completed
+2025-09-19 11:33:33,610:INFO: Rank 7: server_update completed
+2025-09-19 11:33:38,541:INFO: Rank 7: Communication Round 57
+2025-09-19 11:34:02,838:INFO: Rank 7: client_update completed
+2025-09-19 11:34:05,105:INFO: Rank 7: server_update completed
+2025-09-19 11:34:10,784:INFO: Rank 7: Communication Round 58
+2025-09-19 11:34:35,751:INFO: Rank 7: client_update completed
+2025-09-19 11:34:35,761:INFO: Rank 7: server_update completed
+2025-09-19 11:34:41,251:INFO: Rank 7: Communication Round 59
+2025-09-19 11:35:07,684:INFO: Rank 7: client_update completed
+2025-09-19 11:35:07,688:INFO: Rank 7: server_update completed
+2025-09-19 11:35:12,687:INFO: Rank 7: Communication Round 60
+2025-09-19 11:35:37,593:INFO: Rank 7: client_update completed
+2025-09-19 11:35:38,871:INFO: Rank 7: server_update completed
+2025-09-19 11:35:44,110:INFO: Rank 7: Communication Round 61
+2025-09-19 11:36:09,411:INFO: Rank 7: client_update completed
+2025-09-19 11:36:09,669:INFO: Rank 7: server_update completed
+2025-09-19 11:36:15,025:INFO: Rank 7: Communication Round 62
+2025-09-19 11:36:39,494:INFO: Rank 7: client_update completed
+2025-09-19 11:36:40,566:INFO: Rank 7: server_update completed
+2025-09-19 11:36:45,983:INFO: Rank 7: Communication Round 63
+2025-09-19 11:37:11,141:INFO: Rank 7: client_update completed
+2025-09-19 11:37:11,169:INFO: Rank 7: server_update completed
+2025-09-19 11:37:16,984:INFO: Rank 7: Communication Round 64
+2025-09-19 11:37:42,639:INFO: Rank 7: client_update completed
+2025-09-19 11:37:42,661:INFO: Rank 7: server_update completed
+2025-09-19 11:37:47,949:INFO: Rank 7: Communication Round 65
+2025-09-19 11:38:13,486:INFO: Rank 7: client_update completed
+2025-09-19 11:38:13,801:INFO: Rank 7: server_update completed
+2025-09-19 11:38:19,275:INFO: Rank 7: Communication Round 66
+2025-09-19 11:38:44,944:INFO: Rank 7: client_update completed
+2025-09-19 11:38:44,961:INFO: Rank 7: server_update completed
+2025-09-19 11:38:50,174:INFO: Rank 7: Communication Round 67
+2025-09-19 11:39:15,637:INFO: Rank 7: client_update completed
+2025-09-19 11:39:15,973:INFO: Rank 7: server_update completed
+2025-09-19 11:39:21,391:INFO: Rank 7: Communication Round 68
+2025-09-19 11:39:46,638:INFO: Rank 7: client_update completed
+2025-09-19 11:39:46,660:INFO: Rank 7: server_update completed
+2025-09-19 11:39:51,858:INFO: Rank 7: Communication Round 69
+2025-09-19 11:40:17,007:INFO: Rank 7: client_update completed
+2025-09-19 11:40:17,329:INFO: Rank 7: server_update completed
+2025-09-19 11:40:22,202:INFO: Rank 7: Communication Round 70
+2025-09-19 11:40:47,558:INFO: Rank 7: client_update completed
+2025-09-19 11:40:48,400:INFO: Rank 7: server_update completed
+2025-09-19 11:40:53,857:INFO: Rank 7: Communication Round 71
+2025-09-19 11:41:19,866:INFO: Rank 7: client_update completed
+2025-09-19 11:41:19,886:INFO: Rank 7: server_update completed
+2025-09-19 11:41:24,965:INFO: Rank 7: Communication Round 72
+2025-09-19 11:41:49,249:INFO: Rank 7: client_update completed
+2025-09-19 11:41:49,875:INFO: Rank 7: server_update completed
+2025-09-19 11:41:54,993:INFO: Rank 7: Communication Round 73
+2025-09-19 11:42:19,822:INFO: Rank 7: client_update completed
+2025-09-19 11:42:20,241:INFO: Rank 7: server_update completed
+2025-09-19 11:42:25,578:INFO: Rank 7: Communication Round 74
+2025-09-19 11:42:49,747:INFO: Rank 7: client_update completed
+2025-09-19 11:42:50,799:INFO: Rank 7: server_update completed
+2025-09-19 11:42:55,972:INFO: Rank 7: Communication Round 75
+2025-09-19 11:43:21,779:INFO: Rank 7: client_update completed
+2025-09-19 11:43:21,783:INFO: Rank 7: server_update completed
+2025-09-19 11:43:27,594:INFO: Rank 7: Communication Round 76
+2025-09-19 11:43:51,310:INFO: Rank 7: client_update completed
+2025-09-19 11:43:53,192:INFO: Rank 7: server_update completed
+2025-09-19 11:43:58,517:INFO: Rank 7: Communication Round 77
+2025-09-19 11:44:22,388:INFO: Rank 7: client_update completed
+2025-09-19 11:44:23,706:INFO: Rank 7: server_update completed
+2025-09-19 11:44:28,756:INFO: Rank 7: Communication Round 78
+2025-09-19 11:44:53,598:INFO: Rank 7: client_update completed
+2025-09-19 11:44:55,860:INFO: Rank 7: server_update completed
+2025-09-19 11:45:01,605:INFO: Rank 7: Communication Round 79
+2025-09-19 11:45:25,569:INFO: Rank 7: client_update completed
+2025-09-19 11:45:26,620:INFO: Rank 7: server_update completed
+2025-09-19 11:45:31,781:INFO: Rank 7: Communication Round 80
+2025-09-19 11:45:55,994:INFO: Rank 7: client_update completed
+2025-09-19 11:45:56,983:INFO: Rank 7: server_update completed
+2025-09-19 11:46:02,348:INFO: Rank 7: Communication Round 81
+2025-09-19 11:46:26,372:INFO: Rank 7: client_update completed
+2025-09-19 11:46:27,765:INFO: Rank 7: server_update completed
+2025-09-19 11:46:32,384:INFO: Rank 7: Communication Round 82
+2025-09-19 11:46:55,741:INFO: Rank 7: client_update completed
+2025-09-19 11:46:58,161:INFO: Rank 7: server_update completed
+2025-09-19 11:47:03,229:INFO: Rank 7: Communication Round 83
+2025-09-19 11:47:26,501:INFO: Rank 7: client_update completed
+2025-09-19 11:47:28,570:INFO: Rank 7: server_update completed
+2025-09-19 11:47:33,495:INFO: Rank 7: Communication Round 84
+2025-09-19 11:47:57,033:INFO: Rank 7: client_update completed
+2025-09-19 11:47:58,869:INFO: Rank 7: server_update completed
+2025-09-19 11:48:04,046:INFO: Rank 7: Communication Round 85
+2025-09-19 11:48:29,437:INFO: Rank 7: client_update completed
+2025-09-19 11:48:29,453:INFO: Rank 7: server_update completed
+2025-09-19 11:48:34,056:INFO: Rank 7: Communication Round 86
+2025-09-19 11:48:56,602:INFO: Rank 7: client_update completed
+2025-09-19 11:49:01,229:INFO: Rank 7: server_update completed
+2025-09-19 11:49:06,094:INFO: Rank 7: Communication Round 87
+2025-09-19 11:49:29,099:INFO: Rank 7: client_update completed
+2025-09-19 11:49:32,559:INFO: Rank 7: server_update completed
+2025-09-19 11:49:37,347:INFO: Rank 7: Communication Round 88
+2025-09-19 11:50:01,198:INFO: Rank 7: client_update completed
+2025-09-19 11:50:03,140:INFO: Rank 7: server_update completed
+2025-09-19 11:50:07,642:INFO: Rank 7: Communication Round 89
+2025-09-19 11:50:30,978:INFO: Rank 7: client_update completed
+2025-09-19 11:50:33,505:INFO: Rank 7: server_update completed
+2025-09-19 11:50:38,506:INFO: Rank 7: Communication Round 90
+2025-09-19 11:51:01,961:INFO: Rank 7: client_update completed
+2025-09-19 11:51:04,249:INFO: Rank 7: server_update completed
+2025-09-19 11:51:09,206:INFO: Rank 7: Communication Round 91
+2025-09-19 11:51:32,140:INFO: Rank 7: client_update completed
+2025-09-19 11:51:34,914:INFO: Rank 7: server_update completed
+2025-09-19 11:51:40,075:INFO: Rank 7: Communication Round 92
+2025-09-19 11:52:02,994:INFO: Rank 7: client_update completed
+2025-09-19 11:52:05,679:INFO: Rank 7: server_update completed
+2025-09-19 11:52:10,216:INFO: Rank 7: Communication Round 93
+2025-09-19 11:52:33,780:INFO: Rank 7: client_update completed
+2025-09-19 11:52:36,029:INFO: Rank 7: server_update completed
+2025-09-19 11:52:40,755:INFO: Rank 7: Communication Round 94
+2025-09-19 11:53:04,127:INFO: Rank 7: client_update completed
+2025-09-19 11:53:06,541:INFO: Rank 7: server_update completed
+2025-09-19 11:53:11,405:INFO: Rank 7: Communication Round 95
+2025-09-19 11:53:34,585:INFO: Rank 7: client_update completed
+2025-09-19 11:53:37,441:INFO: Rank 7: server_update completed
+2025-09-19 11:53:42,343:INFO: Rank 7: Communication Round 96
+2025-09-19 11:54:05,239:INFO: Rank 7: client_update completed
+2025-09-19 11:54:08,480:INFO: Rank 7: server_update completed
+2025-09-19 11:54:13,398:INFO: Rank 7: Communication Round 97
+2025-09-19 11:54:38,023:INFO: Rank 7: client_update completed
+2025-09-19 11:54:38,630:INFO: Rank 7: server_update completed
+2025-09-19 11:54:43,563:INFO: Rank 7: Communication Round 98
+2025-09-19 11:55:07,832:INFO: Rank 7: client_update completed
+2025-09-19 11:55:10,610:INFO: Rank 7: server_update completed
+2025-09-19 11:55:15,235:INFO: Rank 7: Communication Round 99
+2025-09-19 11:55:38,411:INFO: Rank 7: client_update completed
+2025-09-19 11:55:41,420:INFO: Rank 7: server_update completed
+2025-09-19 11:55:46,199:INFO: Rank 7: Communication Round 100
+2025-09-19 11:56:10,507:INFO: Rank 7: client_update completed
+2025-09-19 11:56:12,600:INFO: Rank 7: server_update completed
