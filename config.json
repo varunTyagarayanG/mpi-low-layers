@@ -7,9 +7,9 @@
    "fed_config": {
       "algorithm": "FedAvg",
       "fraction_clients": 0.1,
-      "num_clients": 100,
+      "num_clients": 10,
       "num_rounds": 100,
-      "num_epochs": 12,
+      "num_epochs": 10,
       "batch_size": 32,
       "global_stepsize": 1,
       "local_stepsize": 0.05,
