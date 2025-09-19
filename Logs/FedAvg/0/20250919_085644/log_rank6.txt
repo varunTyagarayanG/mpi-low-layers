@@ -1,0 +1,4 @@
+2025-09-19 08:56:44,974:INFO: Process 6 is initializing the server
+2025-09-19 08:56:44,980:INFO: Server init on rank 6/9 | device=cpu
+2025-09-19 08:56:44,980:INFO: Process 6: Server is successfully initialized
+2025-09-19 08:56:48,510:INFO: Process 6: Initialized a single client with its own dataset.
