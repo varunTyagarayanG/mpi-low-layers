@@ -1,53 +1,40 @@
 import torch
 from copy import deepcopy
 
-class Client():
+class Client:
     """
-    Server uses Client class to create multiple client objects.
-    Client trains the model on its local data. Then the client updates its local model (y)
-    and sends updates back to the server.
-    
-    Attributes:
-        id: Acts as an identifier for a particular client
-        data: Local dataset which resides on the client (as a DataLoader)
-        device: Specifies which device (cpu or gpu) to use for training
-        num_epochs: Number of epochs to train the local model
-        lr: Local stepsize
-        criterion: Measures the disagreement between model's prediction and ground truth
-        x: Global model sent by server
-        y: Local model initialized using x
+    Each process holds exactly one Client object.
+    The client trains the global model (x) on its local dataset (data),
+    and keeps a local copy (y) to send updates back to the server.
     """
-    def __init__(self, client_id, local_data, device, num_epochs, criterion, lr):
-        self.id = client_id
-        self.data = local_data
-        self.device = device
-        self.num_epochs = num_epochs
-        self.lr = lr
-        self.criterion = criterion
-        self.x = None
-        self.y = None
 
-    def client_update(self):
+    def __init__(self, x, batch_size, num_epochs, criterion, device, lr, data):
+        self.x = deepcopy(x)              # Global model copy
+        self.y = None                     # Local model after training
+        self.batch_size = batch_size
+        self.num_epochs = num_epochs
+        self.criterion = criterion
+        self.device = device
+        self.lr = lr
+        self.data = data                  # Local dataset (already DataLoader)
+
+    def train(self):
         """
-        Trains the model on its local data. Updates the local copy (y) using the gradients
-        and stores it for sending back to the server.
+        Train the local copy (y) starting from global model (x).
         """
-        self.y = deepcopy(self.x)  # Initialize local model from global model
+        self.y = deepcopy(self.x).to(self.device)
+        self.y.train()
+
+        optimizer = torch.optim.SGD(self.y.parameters(), lr=self.lr)
 
         for epoch in range(self.num_epochs):
-            for inputs, labels in self.data:  # Iterate over all batches in local dataset
+            for inputs, labels in self.data:
                 inputs, labels = inputs.float().to(self.device), labels.long().to(self.device)
-                output = self.y(inputs)
-                loss = self.criterion(output, labels)
+                optimizer.zero_grad()
+                outputs = self.y(inputs)
+                loss = self.criterion(outputs, labels)
+                loss.backward()
+                optimizer.step()
 
-                # Compute gradients of the loss w.r.t. model parameters
-                grads = torch.autograd.grad(loss, self.y.parameters())
-
-                # Update local model parameters using gradient descent
-                with torch.no_grad():
-                    for param, grad in zip(self.y.parameters(), grads):
-                        param.data -= self.lr * grad.data
-
-        # Optional: Clear cache if using GPU
-        # if self.device == "cuda":
-        #     torch.cuda.empty_cache()
+        # Return local model (optional, not used because server pulls params directly)
+        return self.y
